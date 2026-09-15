@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI認證練習系統 - 三題庫整合版</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft JhengHei', 'Arial', sans-serif;
+            background: linear-gradient(135deg, #CD853F 0%, #8B4513 100%);
+            min-height: 100vh;
+            padding: 15px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #FFF8DC;
+            border-radius: 12px;
+            box-shadow: 0 15px 40px rgba(139, 69, 19, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #CD853F 0%, #8B4513 100%);
+            color: #FFF8DC;
+            padding: 35px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 14px;
+            opacity: 0.95;
+        }
+
+        .tabs-container {
+            display: flex;
+            gap: 10px;
+            padding: 20px 30px;
+            background: #F5DEB3;
+            border-bottom: 2px solid #DEB887;
+            flex-wrap: wrap;
+        }
+
+        .tab-button {
+            padding: 12px 20px;
+            border: 2px solid #D2B48C;
+            background: #FFF8DC;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+            transition: all 0.3s;
+            color: #8B4513;
+        }
+
+        .tab-button:hover {
+            border-color: #CD853F;
+            color: #CD853F;
+        }
+
+        .tab-button.active {
+            background: linear-gradient(135deg, #CD853F 0%, #8B4513 100%);
+            color: #FFF8DC;
+            border-color: #CD853F;
+        }
+
+        .tab-info {
+            display: inline-block;
+            margin-left: 10px;
+            font-size: 12px;
+            opacity: 0.7;
+        }
+
+        .content {
+            display: none;
+            padding: 30px;
+        }
+
+        .content.active {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            align-items: center;
+        }
+
+        .controls label {
+            font-weight: bold;
+            color: #333;
+            font-size: 14px;
+        }
+
+        select, input, button {
+            padding: 10px 15px;
+            border: 2px solid #D2B48C;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            background: #FFF8DC;
+            color: #8B4513;
+            transition: all 0.3s;
+        }
+
+        button {
+            background: linear-gradient(135deg, #CD853F 0%, #8B4513 100%);
+            color: #FFF8DC;
+            border: none;
+            font-weight: bold;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(205, 133, 63, 0.4);
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .progress-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .info-item {
+            background: #FFE4B5;
+            padding: 12px;
+            border-radius: 6px;
+            border-left: 4px solid #CD853F;
+        }
+
+        .info-item strong {
+            color: #8B4513;
+            font-size: 18px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #DEB887;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #CD853F 0%, #8B4513 100%);
+            transition: width 0.3s;
+        }
+
+        .question-box {
+            background: #FFECD1;
+            padding: 30px;
+            border-radius: 8px;
+            border: 2px solid #DEB887;
+            margin: 25px 0;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #D2B48C;
+        }
+
+        .question-number {
+            color: #8B4513;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .difficulty-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            background: #FFE4B5;
+            color: #8B4513;
+        }
+
+        .question-text {
+            font-size: 18px;
+            color: #333;
+            margin: 20px 0;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 25px 0;
+        }
+
+        .option-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 15px;
+            border: 2px solid #DEB887;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: #FFF8DC;
+        }
+
+        .option-item:hover {
+            border-color: #CD853F;
+            background: #FFE4B5;
+        }
+
+        .option-item input[type="radio"] {
+            margin-right: 15px;
+            margin-top: 3px;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: #CD853F;
+        }
+
+        .option-item.selected {
+            border-color: #CD853F;
+            background: #FFE4B5;
+        }
+
+        .option-item.correct {
+            border-color: #8BC34A;
+            background: #E8F5E9;
+        }
+
+        .option-item.incorrect {
+            border-color: #E53935;
+            background: #FFEBEE;
+        }
+
+        .answer-reveal {
+            margin-top: 25px;
+            padding: 20px;
+            background: #FFE4B5;
+            border-left: 4px solid #CD853F;
+            border-radius: 6px;
+            display: none;
+        }
+
+        .answer-reveal.show {
+            display: block;
+        }
+
+        .answer-label {
+            font-weight: bold;
+            color: #8B4513;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .explanation {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+            padding-top: 25px;
+            border-top: 2px solid #eee;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            padding: 12px 25px;
+            font-size: 14px;
+        }
+
+        .results-panel {
+            display: none;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .results-panel.show {
+            display: block;
+        }
+
+        .score-circle {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #CD853F 0%, #8B4513 100%);
+            color: #FFF8DC;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 30px auto;
+            font-size: 56px;
+            font-weight: bold;
+        }
+
+        .results-title {
+            font-size: 28px;
+            color: #8B4513;
+            margin-bottom: 20px;
+        }
+
+        .results-text {
+            font-size: 16px;
+            color: #8B4513;
+            margin: 15px 0;
+        }
+
+        .results-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .results-buttons button {
+            padding: 12px 30px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #CD853F;
+        }
+
+        .exam-summary {
+            background: #FFE4B5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #CD853F;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .tabs-container {
+                flex-direction: column;
+            }
+
+            .tab-button {
+                width: 100%;
+                text-align: left;
+            }
+
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            select, button {
+                width: 100%;
+            }
+
+            .question-box {
+                padding: 20px;
+            }
+
+            .question-text {
+                font-size: 16px;
+            }
+
+            .score-circle {
+                width: 140px;
+                height: 140px;
+                font-size: 42px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🐕 AI 認證練習系統</h1>
+            <p>柴犬版 🦴 | 支援切換不同認證考試</p>
+        </div>
+
+        <!-- 頁籤切換 -->
+        <div class="tabs-container">
+            <button class="tab-button active" onclick="switchExam('ai_engineer')" data-exam="ai_engineer">
+                🐕 AI工程素養認證
+                <span class="tab-info">200題</span>
+            </button>
+            <button class="tab-button" onclick="switchExam('genai_100')" data-exam="genai_100">
+                🐕 生成式AI能力
+                <span class="tab-info">100題</span>
+            </button>
+            <button class="tab-button" onclick="switchExam('genai_200')" data-exam="genai_200">
+                🐕 生成式AI能力
+                <span class="tab-info">200題</span>
+            </button>
+        </div>
+
+        <!-- AI工程素養認證 -->
+        <div id="ai_engineer" class="content active">
+            <div class="exam-summary">
+                <strong>🦴 人工智慧工程素養認證 200題</strong><br>
+                依資訊工業策進會公開樣題編製 | 四大主題：倫理、Python、理論、應用
+            </div>
+
+            <div class="controls">
+                <label>選擇部分：</label>
+                <select id="section_ai_engineer" onchange="changeSection('ai_engineer')">
+                    <option value="all">全部 (200題)</option>
+                    <option value="1">第1部分：倫理與社會 (40題)</option>
+                    <option value="2">第2部分：Python基礎 (40題)</option>
+                    <option value="3">第3部分：理論知識 (40題)</option>
+                    <option value="4">第4部分：技術應用 (80題)</option>
+                </select>
+                <button onclick="shuffleQuestions('ai_engineer')">🐕 隨機順序</button>
+                <button onclick="resetTest('ai_engineer')">🐶 重置</button>
+            </div>
+
+            <div class="progress-info">
+                <div class="info-item">題目：<strong id="current_ai_engineer">1</strong> / <strong id="total_ai_engineer">200</strong></div>
+                <div class="info-item">已答：<strong id="answered_ai_engineer">0</strong></div>
+                <div class="info-item">正確率：<strong id="accuracy_ai_engineer">-</strong></div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress_ai_engineer" style="width: 0%"></div>
+            </div>
+
+            <div id="question_ai_engineer" class="question-box"></div>
+
+            <div class="navigation">
+                <button class="nav-btn" id="prev_ai_engineer" onclick="prevQuestion('ai_engineer')">⬅️ 上一題</button>
+                <button class="nav-btn" style="background: #8B4513;" onclick="revealAnswer('ai_engineer')">🦴 顯示答案</button>
+                <button class="nav-btn" id="next_ai_engineer" onclick="nextQuestion('ai_engineer')">下一題 ➡️</button>
+            </div>
+        </div>
+
+        <!-- 生成式AI 100題 -->
+        <div id="genai_100" class="content">
+            <div class="exam-summary">
+                <strong>🦴 生成式AI能力考試 100題</strong><br>
+                四大主題：基礎知識、能力強化、應用技能、倫理法律
+            </div>
+
+            <div class="controls">
+                <label>選擇部分：</label>
+                <select id="section_genai_100" onchange="changeSection('genai_100')">
+                    <option value="all">全部 (100題)</option>
+                    <option value="1">第1部分：基礎知識 (25題)</option>
+                    <option value="2">第2部分：能力強化 (25題)</option>
+                    <option value="3">第3部分：應用技能 (25題)</option>
+                    <option value="4">第4部分：倫理法律 (25題)</option>
+                </select>
+                <button onclick="shuffleQuestions('genai_100')">🐕 隨機順序</button>
+                <button onclick="resetTest('genai_100')">🐶 重置</button>
+            </div>
+
+            <div class="progress-info">
+                <div class="info-item">題目：<strong id="current_genai_100">1</strong> / <strong id="total_genai_100">100</strong></div>
+                <div class="info-item">已答：<strong id="answered_genai_100">0</strong></div>
+                <div class="info-item">正確率：<strong id="accuracy_genai_100">-</strong></div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress_genai_100" style="width: 0%"></div>
+            </div>
+
+            <div id="question_genai_100" class="question-box"></div>
+
+            <div class="navigation">
+                <button class="nav-btn" id="prev_genai_100" onclick="prevQuestion('genai_100')">⬅️ 上一題</button>
+                <button class="nav-btn" style="background: #8B4513;" onclick="revealAnswer('genai_100')">🦴 顯示答案</button>
+                <button class="nav-btn" id="next_genai_100" onclick="nextQuestion('genai_100')">下一題 ➡️</button>
+            </div>
+        </div>
+
+        <!-- 生成式AI 200題 -->
+        <div id="genai_200" class="content">
+            <div class="exam-summary">
+                <strong>🦴 生成式AI能力考試 200題</strong><br>
+                四大主題：基礎知識、能力強化、應用技能、倫理法律
+            </div>
+
+            <div class="controls">
+                <label>選擇部分：</label>
+                <select id="section_genai_200" onchange="changeSection('genai_200')">
+                    <option value="all">全部 (200題)</option>
+                    <option value="1">第1部分：基礎知識 (50題)</option>
+                    <option value="2">第2部分：能力強化 (50題)</option>
+                    <option value="3">第3部分：應用技能 (50題)</option>
+                    <option value="4">第4部分：倫理法律 (50題)</option>
+                </select>
+                <button onclick="shuffleQuestions('genai_200')">🐕 隨機順序</button>
+                <button onclick="resetTest('genai_200')">🐶 重置</button>
+            </div>
+
+            <div class="progress-info">
+                <div class="info-item">題目：<strong id="current_genai_200">1</strong> / <strong id="total_genai_200">200</strong></div>
+                <div class="info-item">已答：<strong id="answered_genai_200">0</strong></div>
+                <div class="info-item">正確率：<strong id="accuracy_genai_200">-</strong></div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress_genai_200" style="width: 0%"></div>
+            </div>
+
+            <div id="question_genai_200" class="question-box"></div>
+
+            <div class="navigation">
+                <button class="nav-btn" id="prev_genai_200" onclick="prevQuestion('genai_200')">⬅️ 上一題</button>
+                <button class="nav-btn" style="background: #8B4513;" onclick="revealAnswer('genai_200')">🦴 顯示答案</button>
+                <button class="nav-btn" id="next_genai_200" onclick="nextQuestion('genai_200')">下一題 ➡️</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 全域狀態管理
+        const state = {
+            'ai_engineer': {
+                allQuestions: [],
+                filtered: [],
+                current: 0,
+                answers: {},
+                revealed: {}
+            },
+            'genai_100': {
+                allQuestions: [],
+                filtered: [],
+                current: 0,
+                answers: {},
+                revealed: {}
+            },
+            'genai_200': {
+                allQuestions: [],
+                filtered: [],
+                current: 0,
+                answers: {},
+                revealed: {}
+            }
+        };
+
+        // 初始化
+        window.addEventListener('load', async () => {
+            await loadAllExams();
+        });
+
+        async function loadAllExams() {
+            // 加載三個題庫
+            await loadExam('ai_engineer', 'all_questions.json');
+            await loadExam('genai_100', 'genai_100.json');
+            await loadExam('genai_200', 'genai_200.json');
+        }
+
+        async function loadExam(examId, filename) {
+            try {
+                const response = await fetch(`./${filename}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    state[examId].allQuestions = data;
+                    state[examId].filtered = [...data];
+                    updateDisplay(examId);
+                    renderQuestion(examId);
+                }
+            } catch (error) {
+                console.log(`無法加載 ${filename}`);
+            }
+        }
+
+        function switchExam(examId) {
+            // 切換頁籤
+            document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+            document.getElementById(examId).classList.add('active');
+
+            document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`[data-exam="${examId}"]`).classList.add('active');
+
+            updateDisplay(examId);
+            renderQuestion(examId);
+            window.scrollTo(0, 0);
+        }
+
+        function renderQuestion(examId) {
+            const s = state[examId];
+            if (s.filtered.length === 0) return;
+
+            const q = s.filtered[s.current];
+            const html = `
+                <div class="question-header">
+                    <div class="question-number">第 ${q.id} 題 (${s.current + 1}/${s.filtered.length})</div>
+                    <div class="difficulty-badge">練習中</div>
+                </div>
+                
+                <div class="question-text">${q.text}</div>
+                
+                <div class="options">
+            `;
+
+            let optionsHtml = '';
+            Object.entries(q.options).forEach(([key, value]) => {
+                const isSelected = s.answers[q.id] === key;
+                const selectedClass = isSelected ? 'selected' : '';
+                const isCorrect = key === q.correct_answer;
+                const isWrong = isSelected && !isCorrect;
+
+                if (s.revealed[q.id]) {
+                    const correctClass = isCorrect ? 'correct' : (isWrong ? 'incorrect' : '');
+                    optionsHtml += `
+                        <div class="option-item ${selectedClass} ${correctClass}">
+                            <input type="radio" name="answer" value="${key}" ${isSelected ? 'checked' : ''} disabled>
+                            <div><strong>${key}.</strong> ${value}</div>
+                        </div>
+                    `;
+                } else {
+                    optionsHtml += `
+                        <label class="option-item ${selectedClass}" onclick="selectAnswer('${examId}', '${key}')">
+                            <input type="radio" name="answer" value="${key}" ${isSelected ? 'checked' : ''}>
+                            <div><strong>${key}.</strong> ${value}</div>
+                        </label>
+                    `;
+                }
+            });
+
+            document.getElementById(`question_${examId}`).innerHTML = html + optionsHtml + '</div>' + 
+                (s.revealed[q.id] ? `
+                <div class="answer-reveal show">
+                    <div class="answer-label">✓ 正確答案：${q.correct_answer}</div>
+                    <div class="explanation">${q.explanation.replace(/^\*\*/, '')}</div>
+                </div>
+                ` : '');
+        }
+
+        function selectAnswer(examId, value) {
+            const s = state[examId];
+            const q = s.filtered[s.current];
+            s.answers[q.id] = value;
+            updateDisplay(examId);
+            renderQuestion(examId);
+        }
+
+        function nextQuestion(examId) {
+            const s = state[examId];
+            if (s.current < s.filtered.length - 1) {
+                s.current++;
+                renderQuestion(examId);
+                updateDisplay(examId);
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function prevQuestion(examId) {
+            const s = state[examId];
+            if (s.current > 0) {
+                s.current--;
+                renderQuestion(examId);
+                updateDisplay(examId);
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function revealAnswer(examId) {
+            const s = state[examId];
+            const q = s.filtered[s.current];
+            s.revealed[q.id] = true;
+            renderQuestion(examId);
+        }
+
+        function changeSection(examId) {
+            const section = document.getElementById(`section_${examId}`).value;
+            const s = state[examId];
+
+            if (section === 'all') {
+                s.filtered = [...s.allQuestions];
+            } else {
+                const sectionNum = parseInt(section);
+                s.filtered = s.allQuestions.filter(q => {
+                    if (examId === 'ai_engineer') return q.section === sectionNum;
+                    // 其他題庫的section計算方式
+                    return q.id <= sectionNum * 25;
+                });
+            }
+
+            s.current = 0;
+            updateDisplay(examId);
+            renderQuestion(examId);
+        }
+
+        function shuffleQuestions(examId) {
+            const s = state[examId];
+            s.filtered.sort(() => Math.random() - 0.5);
+            s.current = 0;
+            renderQuestion(examId);
+            updateDisplay(examId);
+        }
+
+        function resetTest(examId) {
+            if (confirm('確定要清空所有答案嗎？')) {
+                const s = state[examId];
+                s.answers = {};
+                s.revealed = {};
+                s.current = 0;
+                renderQuestion(examId);
+                updateDisplay(examId);
+            }
+        }
+
+        function updateDisplay(examId) {
+            const s = state[examId];
+            const total = s.filtered.length;
+            const answered = Object.keys(s.answers).length;
+            const progress = ((s.current + 1) / total) * 100;
+
+            document.getElementById(`current_${examId}`).textContent = s.current + 1;
+            document.getElementById(`total_${examId}`).textContent = total;
+            document.getElementById(`answered_${examId}`).textContent = answered;
+            document.getElementById(`progress_${examId}`).style.width = progress + '%';
+
+            // 計算正確率
+            if (answered > 0) {
+                let correct = 0;
+                for (let qId in s.answers) {
+                    const q = s.allQuestions.find(q => q.id == qId);
+                    if (q && q.correct_answer === s.answers[qId]) {
+                        correct++;
+                    }
+                }
+                const rate = Math.round((correct / answered) * 100);
+                document.getElementById(`accuracy_${examId}`).textContent = rate + '%';
+            }
+
+            // 更新按鈕狀態
+            document.getElementById(`prev_${examId}`).disabled = s.current === 0;
+            document.getElementById(`next_${examId}`).disabled = s.current === total - 1;
+        }
+    </script>
+</body>
+</html>
