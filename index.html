@@ -392,36 +392,156 @@
                 font-size: 24px;
             }
 
+            .header {
+                padding: 25px 20px;
+            }
+
             .tabs-container {
                 flex-direction: column;
+                padding: 15px 20px;
+                gap: 8px;
             }
 
             .tab-button {
                 width: 100%;
-                text-align: left;
+                text-align: center;
+                padding: 14px 15px;
+                font-size: 14px;
+                border-radius: 8px;
             }
 
             .controls {
                 flex-direction: column;
                 align-items: stretch;
+                gap: 12px;
+                padding: 0 20px;
             }
 
-            select, button {
+            .controls label {
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+
+            select, input, button {
                 width: 100%;
+                padding: 14px 15px;
+                font-size: 15px;
+                border-radius: 8px;
+                min-height: 44px;
+            }
+
+            button {
+                font-weight: 600;
+                letter-spacing: 0.5px;
+            }
+
+            .progress-info {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 8px;
+                padding: 0 20px;
+            }
+
+            .info-item {
+                padding: 12px 10px;
+                font-size: 13px;
+                text-align: center;
+                border-radius: 6px;
             }
 
             .question-box {
                 padding: 20px;
+                margin: 20px 0;
+                border-radius: 10px;
+            }
+
+            .question-header {
+                flex-direction: column;
+                gap: 10px;
             }
 
             .question-text {
                 font-size: 16px;
+                line-height: 1.8;
+                margin: 15px 0;
+            }
+
+            .options {
+                gap: 12px;
+            }
+
+            .option-item {
+                padding: 16px;
+                border-radius: 8px;
+                min-height: 50px;
+                align-items: center;
+            }
+
+            .option-item input[type="radio"] {
+                width: 20px;
+                height: 20px;
+                margin-right: 12px;
+                flex-shrink: 0;
+            }
+
+            .option-item label {
+                font-size: 15px;
+                line-height: 1.6;
+                margin: 0;
+                cursor: pointer;
+            }
+
+            .answer-reveal {
+                margin-top: 20px;
+                padding: 16px;
+                border-radius: 8px;
+            }
+
+            .answer-label {
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+
+            .answer-reveal p {
+                font-size: 14px;
+                line-height: 1.6;
+            }
+
+            .navigation {
+                flex-wrap: wrap;
+                gap: 10px;
+                padding: 0 20px 20px;
+            }
+
+            .nav-btn {
+                flex: 1;
+                min-width: 100px;
+                padding: 16px 12px;
+                font-size: 14px;
+                border-radius: 8px;
+                min-height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             .score-circle {
                 width: 140px;
                 height: 140px;
                 font-size: 42px;
+            }
+
+            .results-text {
+                font-size: 15px;
+            }
+
+            .container {
+                margin: 10px auto;
+                border-radius: 12px;
+            }
+
+            .content {
+                padding: 20px 0;
             }
         }
     </style>
@@ -627,7 +747,15 @@
 
             updateDisplay(examId);
             renderQuestion(examId);
-            window.scrollTo(0, 0);
+            // 手機友好的滾動 - 只滾動到頁籤區域
+            setTimeout(() => {
+                const tabsContainer = document.querySelector('.tabs-container');
+                if (tabsContainer && window.innerWidth <= 600) {
+                    tabsContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                } else {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            }, 100);
         }
 
         function renderQuestion(examId) {
@@ -694,7 +822,13 @@
                 s.current++;
                 renderQuestion(examId);
                 updateDisplay(examId);
-                window.scrollTo(0, 0);
+                // 滾動到題目框而不是頁面頂部（手機友好）
+                setTimeout(() => {
+                    const questionBox = document.getElementById('question_' + examId);
+                    if (questionBox) {
+                        questionBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                }, 100);
             }
         }
 
@@ -704,7 +838,13 @@
                 s.current--;
                 renderQuestion(examId);
                 updateDisplay(examId);
-                window.scrollTo(0, 0);
+                // 滾動到題目框而不是頁面頂部（手機友好）
+                setTimeout(() => {
+                    const questionBox = document.getElementById('question_' + examId);
+                    if (questionBox) {
+                        questionBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                }, 100);
             }
         }
 
