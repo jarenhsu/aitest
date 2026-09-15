@@ -2,7 +2,8 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#f47b20">
     <title>AI認證練習系統 - 三題庫整合版</title>
     <style>
 
@@ -961,6 +962,288 @@
         .navigation .nav-btn:last-child {
             grid-column: 2;
             grid-row: 2;
+        }
+    }
+
+
+
+    /* ===== Mobile-first refinement v2 ===== */
+    @media (max-width: 600px) {
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        body {
+            padding-bottom: calc(86px + env(safe-area-inset-bottom));
+        }
+
+        .header {
+            padding: 20px 16px 16px;
+        }
+
+        .header-badge {
+            display: none;
+        }
+
+        .header h1 {
+            font-size: 26px;
+            padding-right: 50px;
+            margin-bottom: 6px;
+        }
+
+        .header p {
+            font-size: 13px;
+            line-height: 1.6;
+            padding-right: 32px;
+        }
+
+        .header::before {
+            width: 180px;
+            height: 180px;
+            right: -70px;
+            top: -90px;
+        }
+
+        .header::after {
+            right: 14px;
+            top: 12px;
+            bottom: auto;
+            font-size: 40px;
+            opacity: .22;
+        }
+
+        .header-subline {
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            margin-top: 10px;
+            padding-bottom: 2px;
+            scrollbar-width: none;
+        }
+
+        .header-subline::-webkit-scrollbar {
+            display: none;
+        }
+
+        .header-chip {
+            white-space: nowrap;
+            flex: 0 0 auto;
+        }
+
+        .tabs-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 10px 12px 12px;
+            position: sticky;
+            top: 0;
+            z-index: 25;
+            background: rgba(255,255,255,.96);
+            backdrop-filter: blur(14px);
+            scroll-snap-type: x proximity;
+            scrollbar-width: none;
+        }
+
+        .tabs-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab-button {
+            flex: 0 0 84%;
+            min-height: 72px;
+            padding: 13px 42px 13px 14px;
+            scroll-snap-align: start;
+            box-shadow: 0 3px 10px rgba(27,34,48,.04);
+        }
+
+        .tab-button::before {
+            width: 28px;
+            height: 28px;
+            margin-right: 8px;
+            border-radius: 9px;
+            font-size: 14px;
+        }
+
+        .tab-button::after {
+            right: 14px;
+            font-size: 24px;
+        }
+
+        .tab-info {
+            margin-left: 4px;
+            font-size: 10px;
+            padding: 2px 6px;
+        }
+
+        .content {
+            padding: 16px 12px calc(108px + env(safe-area-inset-bottom));
+        }
+
+        .exam-summary {
+            padding: 16px 16px 16px 18px;
+            margin-bottom: 14px;
+        }
+
+        .exam-summary strong {
+            font-size: 16px;
+            line-height: 1.4;
+        }
+
+        .controls {
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            padding: 12px;
+            margin-bottom: 14px;
+        }
+
+        .controls label {
+            font-size: 13px;
+            margin: 0;
+        }
+
+        .controls select,
+        .controls button {
+            min-height: 46px;
+        }
+
+        .progress-info {
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .progress-info .info-item:first-child {
+            grid-column: 1 / -1;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 6px;
+            padding: 12px 14px;
+            text-align: left;
+        }
+
+        .progress-info .info-item:first-child::before {
+            position: static;
+            transform: none;
+            width: auto;
+            font-size: 16px;
+            margin-right: 2px;
+        }
+
+        .info-item {
+            min-height: 62px;
+            padding: 10px 8px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 3px;
+            font-size: 11px;
+        }
+
+        .info-item::before {
+            position: static;
+            transform: none;
+            width: auto;
+            font-size: 15px;
+            line-height: 1;
+        }
+
+        .info-item strong {
+            font-size: 16px;
+        }
+
+        .progress-bar {
+            height: 10px;
+            margin: 8px 0 16px;
+        }
+
+        .question-box {
+            padding: 18px 14px;
+            border-radius: 18px;
+            scroll-margin-top: 80px;
+        }
+
+        .question-header {
+            gap: 8px;
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+        }
+
+        .question-number {
+            font-size: 13px;
+        }
+
+        .difficulty-badge {
+            font-size: 10px;
+            padding: 5px 9px;
+        }
+
+        .question-text {
+            font-size: 18px;
+            line-height: 1.75;
+            margin: 12px 0 16px;
+        }
+
+        .options {
+            gap: 10px;
+        }
+
+        .option-item {
+            padding: 15px 14px;
+            border-radius: 14px;
+            min-height: 56px;
+        }
+
+        .option-item input[type="radio"] {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .answer-reveal {
+            margin-top: 14px;
+            padding: 14px 15px;
+            border-radius: 12px;
+        }
+
+        .answer-label {
+            font-size: 14px;
+        }
+
+        .explanation {
+            font-size: 14px;
+        }
+
+        .navigation {
+            position: sticky;
+            bottom: 0;
+            z-index: 30;
+            grid-template-columns: .95fr 1.2fr .95fr;
+            gap: 8px;
+            margin: 16px -12px -16px;
+            padding: 10px 12px calc(12px + env(safe-area-inset-bottom));
+            background: rgba(245,246,248,.96);
+            backdrop-filter: blur(14px);
+            border-top: 1px solid rgba(215,217,223,.95);
+            box-shadow: 0 -8px 22px rgba(27,34,48,.08);
+        }
+
+        .navigation .nav-btn:first-child,
+        .navigation .nav-btn:nth-child(2),
+        .navigation .nav-btn:last-child {
+            grid-column: auto;
+            grid-row: auto;
+        }
+
+        .nav-btn {
+            min-height: 50px;
+            padding: 10px 8px;
+            font-size: 12.5px;
+            border-radius: 14px;
+            letter-spacing: .01em;
         }
     }
 
