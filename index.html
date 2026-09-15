@@ -1298,6 +1298,80 @@
         }
     }
 
+
+
+    /* ===== Mobile radio alignment v3: custom radio, browser-independent ===== */
+    @media (max-width: 600px) {
+        .option-item {
+            position: relative;
+            display: grid !important;
+            grid-template-columns: 22px minmax(0, 1fr) !important;
+            column-gap: 11px !important;
+            align-items: start !important;
+            padding: 15px 14px !important;
+        }
+
+        /* Hide native radios because iOS/Android render their baseline differently. */
+        .option-item input[type="radio"] {
+            position: absolute !important;
+            width: 1px !important;
+            height: 1px !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+            appearance: none !important;
+            -webkit-appearance: none !important;
+        }
+
+        /* Draw a consistent radio circle aligned to the first text line. */
+        .option-item::before {
+            content: "";
+            grid-column: 1;
+            grid-row: 1;
+            width: 20px;
+            height: 20px;
+            box-sizing: border-box;
+            border: 2px solid #b9c0ca;
+            border-radius: 50%;
+            background: #fff;
+            justify-self: center;
+            align-self: start;
+            margin-top: 3px;
+            transition: border-color .16s ease, background .16s ease, box-shadow .16s ease;
+        }
+
+        .option-item > div,
+        .option-item > label {
+            grid-column: 2;
+            grid-row: 1;
+            min-width: 0;
+            margin: 0 !important;
+            padding: 0 !important;
+            font-size: 16px;
+            line-height: 1.62;
+        }
+
+        .option-item strong {
+            line-height: inherit;
+        }
+
+        .option-item.selected::before {
+            border-color: var(--accent);
+            background: radial-gradient(circle at center, var(--accent) 0 4px, #fff 4.5px 100%);
+        }
+
+        .option-item.correct::before {
+            border-color: var(--success);
+            background: radial-gradient(circle at center, var(--success) 0 4px, #fff 4.5px 100%);
+        }
+
+        .option-item.incorrect::before {
+            border-color: var(--danger);
+            background: radial-gradient(circle at center, var(--danger) 0 4px, #fff 4.5px 100%);
+        }
+    }
+
     @media (prefers-reduced-motion: reduce) {
         *, *::before, *::after {
             animation-duration: .01ms !important;
