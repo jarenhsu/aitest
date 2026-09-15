@@ -1247,6 +1247,57 @@
         }
     }
 
+
+
+    /* ===== Option alignment fix ===== */
+    .option-item {
+        display: grid;
+        grid-template-columns: 22px minmax(0, 1fr);
+        column-gap: 12px;
+        align-items: start;
+    }
+
+    .option-item input[type="radio"] {
+        margin: 3px 0 0;
+        width: 18px;
+        height: 18px;
+        justify-self: center;
+        align-self: start;
+    }
+
+    .option-item > div,
+    .option-item > label {
+        min-width: 0;
+        margin: 0;
+        line-height: 1.65;
+    }
+
+    .option-item strong {
+        display: inline;
+        line-height: inherit;
+    }
+
+    @media (max-width: 600px) {
+        .option-item {
+            grid-template-columns: 24px minmax(0, 1fr);
+            column-gap: 10px;
+            align-items: start;
+            padding: 15px 14px;
+        }
+
+        .option-item input[type="radio"] {
+            width: 20px;
+            height: 20px;
+            margin: 2px 0 0;
+        }
+
+        .option-item > div,
+        .option-item > label {
+            font-size: 15.5px;
+            line-height: 1.65;
+        }
+    }
+
     @media (prefers-reduced-motion: reduce) {
         *, *::before, *::after {
             animation-duration: .01ms !important;
