@@ -1,0 +1,6502 @@
+[
+  {
+    "id": 1,
+    "section": 1,
+    "text": "AI 生態系中「文理兼具」最重要的原因是",
+    "options": {
+      "A": "只有文科人才能討論倫理",
+      "B": "只有技術人才能開發系統",
+      "C": "重大決策需要文科和理科觀點",
+      "D": "選一個專長即可"
+    },
+    "correct_answer": "C",
+    "explanation": "AI 時代需要跨領域合作"
+  },
+  {
+    "id": 2,
+    "section": 1,
+    "text": "AI 導入社會時應優先考慮",
+    "options": {
+      "A": "降低企業成本",
+      "B": "最先進的技術",
+      "C": "對人類和社會的影響",
+      "D": "市場競爭優勢"
+    },
+    "correct_answer": "C",
+    "explanation": "倫理應先於商業考量"
+  },
+  {
+    "id": 3,
+    "section": 1,
+    "text": "演算法中的『偏見』根本來源包括",
+    "options": {
+      "A": "只有訓練資料不均衡",
+      "B": "只有人工標籤主觀性",
+      "C": "資料、標籤、設計的多層組合",
+      "D": "無法來源於演算法"
+    },
+    "correct_answer": "C",
+    "explanation": "偏見是系統性問題"
+  },
+  {
+    "id": 4,
+    "section": 1,
+    "text": "AI 系統做出對個人有重大影響的決策時",
+    "options": {
+      "A": "完全自動化最有效",
+      "B": "應能向當事人解釋決策理由",
+      "C": "為保護商業機密無需解釋",
+      "D": "只通知決定結果即可"
+    },
+    "correct_answer": "B",
+    "explanation": "決策透明度是信任基礎"
+  },
+  {
+    "id": 5,
+    "section": 1,
+    "text": "個人資料被 AI 系統使用時最基本的權利",
+    "options": {
+      "A": "免費獲得該公司服務",
+      "B": "知道如何被使用並能控制或拒絕",
+      "C": "公司可隱密使用",
+      "D": "用戶無法選擇"
+    },
+    "correct_answer": "B",
+    "explanation": "個人資料自主權"
+  },
+  {
+    "id": 6,
+    "section": 1,
+    "text": "AI 系統持續自動學習和更新模型的風險",
+    "options": {
+      "A": "沒有風險越新越好",
+      "B": "可能漸進放大原有的系統性偏見",
+      "C": "成本不斷降低",
+      "D": "無需任何監控"
+    },
+    "correct_answer": "B",
+    "explanation": "監控機制隨之更新"
+  },
+  {
+    "id": 7,
+    "section": 1,
+    "text": "深度學習模型『黑箱問題』的倫理意義",
+    "options": {
+      "A": "無關只要準確度高",
+      "B": "無法解釋決策過程威脅用戶信任",
+      "C": "技術細節可以忽視",
+      "D": "不影響實務應用"
+    },
+    "correct_answer": "B",
+    "explanation": "可解釋性是信任的基礎"
+  },
+  {
+    "id": 8,
+    "section": 1,
+    "text": "新聞推薦系統根據用戶過去偏好可能導致",
+    "options": {
+      "A": "實現完全客觀中立",
+      "B": "過濾氣泡強化用戶既有觀點",
+      "C": "民主討論大幅改善",
+      "D": "資訊自動透明化"
+    },
+    "correct_answer": "C",
+    "explanation": "演算法回聲室的危害"
+  },
+  {
+    "id": 9,
+    "section": 1,
+    "text": "AI 監視技術（如人臉辨識、行為監控）倫理上應",
+    "options": {
+      "A": "以安全優先完全禁用隱私",
+      "B": "以隱私優先禁用所有監視",
+      "C": "法律框架平衡安全和隱私",
+      "D": "商業自由無需任何限制"
+    },
+    "correct_answer": "C",
+    "explanation": "價值衝突需對話和平衡"
+  },
+  {
+    "id": 10,
+    "section": 1,
+    "text": "AI 自動化導致大規模職業淘汰時社會應",
+    "options": {
+      "A": "這只是市場調整無需干預",
+      "B": "企業和政府共同支持員工轉型",
+      "C": "無法解決的自然現象",
+      "D": "禁止企業使用自動化"
+    },
+    "correct_answer": "B",
+    "explanation": "社會責任的主動承擔"
+  },
+  {
+    "id": 11,
+    "section": 1,
+    "text": "GDPR 的『被遺忘權』指的是",
+    "options": {
+      "A": "企業可以刪除用戶資料",
+      "B": "用戶可以要求刪除自己的個人資料",
+      "C": "技術上無法刪除",
+      "D": "只是法律宣傳"
+    },
+    "correct_answer": "B",
+    "explanation": "歐洲隱私保護標準"
+  },
+  {
+    "id": 12,
+    "section": 1,
+    "text": "差分隱私技術的核心作用",
+    "options": {
+      "A": "完全隱藏所有個人資料",
+      "B": "在統計分析中保護個人隱私",
+      "C": "增加資料量",
+      "D": "無法實現"
+    },
+    "correct_answer": "B",
+    "explanation": "隱私保護方案"
+  },
+  {
+    "id": 13,
+    "section": 1,
+    "text": "AI 生成式內容（如 ChatGPT）的著作權問題",
+    "options": {
+      "A": "所有網路資料無版權",
+      "B": "訓練資料使用需要尊重著作權",
+      "C": "大公司可以例外",
+      "D": "無法規範"
+    },
+    "correct_answer": "B",
+    "explanation": "內容創作者權益"
+  },
+  {
+    "id": 14,
+    "section": 1,
+    "text": "人臉識別系統在警務中的倫理問題",
+    "options": {
+      "A": "無問題完全公正",
+      "B": "可能誤認導致冤案和隱私侵犯",
+      "C": "已經完全準確",
+      "D": "無法管制"
+    },
+    "correct_answer": "B",
+    "explanation": "識別錯誤的代價"
+  },
+  {
+    "id": 15,
+    "section": 1,
+    "text": "推薦演算法對弱勢族群的潛在影響",
+    "options": {
+      "A": "無影響算法中立",
+      "B": "可能加深既有社會不平等",
+      "C": "自動改善平等",
+      "D": "無相關"
+    },
+    "correct_answer": "B",
+    "explanation": "系統性差別對待"
+  },
+  {
+    "id": 16,
+    "section": 1,
+    "text": "AI 在醫療診斷中發現性別偏見應",
+    "options": {
+      "A": "繼續使用",
+      "B": "立即停止並深入審計",
+      "C": "隱瞞這個發現",
+      "D": "只針對特定族群"
+    },
+    "correct_answer": "B",
+    "explanation": "醫療公平性緊迫"
+  },
+  {
+    "id": 17,
+    "section": 1,
+    "text": "企業收集用戶行為數據的倫理界限",
+    "options": {
+      "A": "越多越好提升服務",
+      "B": "應有法律和倫理邊界",
+      "C": "用戶無法拒絕",
+      "D": "完全自由"
+    },
+    "correct_answer": "B",
+    "explanation": "須有規範和同意"
+  },
+  {
+    "id": 18,
+    "section": 1,
+    "text": "自動駕駛在無法避免的事故中應優先保護",
+    "options": {
+      "A": "車內乘客",
+      "B": "應有事前倫理討論而非事後判斷",
+      "C": "路人",
+      "D": "都同等"
+    },
+    "correct_answer": "B",
+    "explanation": "倫理困境無簡單答案"
+  },
+  {
+    "id": 19,
+    "section": 1,
+    "text": "AI 倫理審查委員會應該",
+    "options": {
+      "A": "形式走流程",
+      "B": "有實權停止高風險專案",
+      "C": "無實際作用",
+      "D": "干擾產品開發"
+    },
+    "correct_answer": "B",
+    "explanation": "內部制衡必要"
+  },
+  {
+    "id": 20,
+    "section": 1,
+    "text": "開源 AI 模型的道德風險包括",
+    "options": {
+      "A": "無風險最民主",
+      "B": "易被濫用於有害用途",
+      "C": "完全安全",
+      "D": "無法防止"
+    },
+    "correct_answer": "B",
+    "explanation": "安全和開放的平衡"
+  },
+  {
+    "id": 21,
+    "section": 1,
+    "text": "AI 預測社會趨勢時的自我實現預言風險",
+    "options": {
+      "A": "無風險",
+      "B": "預測本身影響社會行為",
+      "C": "只是客觀分析",
+      "D": "無關"
+    },
+    "correct_answer": "B",
+    "explanation": "預測會改變現實"
+  },
+  {
+    "id": 22,
+    "section": 1,
+    "text": "政府 AI 監視工具相比企業的風險",
+    "options": {
+      "A": "政府更安全",
+      "B": "都有專制可能需要民主監督",
+      "C": "企業更危險",
+      "D": "無區別"
+    },
+    "correct_answer": "B",
+    "explanation": "權力濫用的風險"
+  },
+  {
+    "id": 23,
+    "section": 1,
+    "text": "AI 內容審核中被刪除內容的申訴機制",
+    "options": {
+      "A": "無需解釋",
+      "B": "應告知理由並允許申訴",
+      "C": "商業機密",
+      "D": "不可改"
+    },
+    "correct_answer": "B",
+    "explanation": "用戶權利保護"
+  },
+  {
+    "id": 24,
+    "section": 1,
+    "text": "弱勢群體在 AI 系統設計中的代表性",
+    "options": {
+      "A": "無需考慮",
+      "B": "應確保不被系統性歧視",
+      "C": "複雜成本高",
+      "D": "技術中立"
+    },
+    "correct_answer": "B",
+    "explanation": "共融設計原則"
+  },
+  {
+    "id": 25,
+    "section": 1,
+    "text": "AI 倫理和法律的關係",
+    "options": {
+      "A": "倫理無需法律化",
+      "B": "倫理提出新的法律議題",
+      "C": "無相關",
+      "D": "法律已足夠"
+    },
+    "correct_answer": "B",
+    "explanation": "道德變成制度"
+  },
+  {
+    "id": 26,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 27,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 28,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 29,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 30,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 31,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 32,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 33,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 34,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 35,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 36,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 37,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 38,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 39,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 40,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 41,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 42,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 43,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 44,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 45,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 46,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 47,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 48,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 49,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 50,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 51,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 52,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 53,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 54,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 55,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 56,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 57,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 58,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 59,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 60,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 61,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 62,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 63,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 64,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 65,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 66,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 67,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 68,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 69,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 70,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 71,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 72,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 73,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 74,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 75,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 76,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 77,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 78,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 79,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 80,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 81,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 82,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 83,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 84,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 85,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 86,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 87,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 88,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 89,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 90,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 91,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 92,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 93,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 94,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 95,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 96,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 97,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 98,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 99,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 100,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 101,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 102,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 103,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 104,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 105,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 106,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 107,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 108,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 109,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 110,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 111,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 112,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 113,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 114,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 115,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 116,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 117,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 118,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 119,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 120,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 121,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 122,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 123,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 124,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 125,
+    "section": 1,
+    "text": "環保：訓練大型模型的碳足跡問題",
+    "options": {
+      "A": "無成本",
+      "B": "訓練耗電和排碳巨大",
+      "C": "不重要",
+      "D": "忽視"
+    },
+    "correct_answer": "B",
+    "explanation": "永續發展考量"
+  },
+  {
+    "id": 126,
+    "section": 2,
+    "text": "Python 中 list 和 tuple 的根本區別",
+    "options": {
+      "A": "完全相同",
+      "B": "list 內容可修改，tuple 內容不可修改",
+      "C": "performance 不同",
+      "D": "功能用途不同"
+    },
+    "correct_answer": "B",
+    "explanation": "可變 vs 不可變"
+  },
+  {
+    "id": 127,
+    "section": 2,
+    "text": "range(5) 函數返回的是",
+    "options": {
+      "A": "列表 [0,1,2,3,4]",
+      "B": "一個序列物件（迭代器）",
+      "C": "包含 0 到 5 的全部數字",
+      "D": "tuple"
+    },
+    "correct_answer": "B",
+    "explanation": "range 是懶惰求值"
+  },
+  {
+    "id": 128,
+    "section": 2,
+    "text": "字典中 key 的要求是",
+    "options": {
+      "A": "可以是任何型別",
+      "B": "必須是不可變且可雜湊的型別",
+      "C": "只能是字串",
+      "D": "都可以但會降速"
+    },
+    "correct_answer": "B",
+    "explanation": "雜湊表的需求"
+  },
+  {
+    "id": 129,
+    "section": 2,
+    "text": "Python 集合 set 的特性",
+    "options": {
+      "A": "有序且無重複",
+      "B": "無序且無重複元素",
+      "C": "有序可有重複",
+      "D": "完全有序"
+    },
+    "correct_answer": "B",
+    "explanation": "集合的特性"
+  },
+  {
+    "id": 130,
+    "section": 2,
+    "text": "list.sort() 和 sorted() 的區別",
+    "options": {
+      "A": "完全相同",
+      "B": "sort 原地修改列表，sorted 返回新列表",
+      "C": "效率相同",
+      "D": "返回值相同"
+    },
+    "correct_answer": "B",
+    "explanation": "修改方式不同"
+  },
+  {
+    "id": 131,
+    "section": 2,
+    "text": "字典的 get() 方法相比直接訪問的優勢",
+    "options": {
+      "A": "沒有優勢",
+      "B": "安全存取避免 KeyError 異常",
+      "C": "速度更快",
+      "D": "代碼更簡化"
+    },
+    "correct_answer": "B",
+    "explanation": "錯誤處理"
+  },
+  {
+    "id": 132,
+    "section": 2,
+    "text": "enumerate() 函數的主要用途",
+    "options": {
+      "A": "無實用",
+      "B": "同時獲得序列的索引和值",
+      "C": "計數操作",
+      "D": "排序操作"
+    },
+    "correct_answer": "B",
+    "explanation": "迭代增強工具"
+  },
+  {
+    "id": 133,
+    "section": 2,
+    "text": "zip() 函數對多個序列的作用",
+    "options": {
+      "A": "壓縮檔案",
+      "B": "將多個序列的對應位置配對",
+      "C": "解壓縮",
+      "D": "加密操作"
+    },
+    "correct_answer": "B",
+    "explanation": "序列打包"
+  },
+  {
+    "id": 134,
+    "section": 2,
+    "text": "字串的 split() 方法的用途",
+    "options": {
+      "A": "合併多個字串",
+      "B": "將字串分割成列表",
+      "C": "比較兩個字串",
+      "D": "反轉字串"
+    },
+    "correct_answer": "B",
+    "explanation": "字串分割"
+  },
+  {
+    "id": 135,
+    "section": 2,
+    "text": "strip() 和 replace() 方法的區別",
+    "options": {
+      "A": "完全相同",
+      "B": "strip 移除空白 replace 替換內容",
+      "C": "都是刪除",
+      "D": "都是替換"
+    },
+    "correct_answer": "B",
+    "explanation": "字串處理方式"
+  },
+  {
+    "id": 136,
+    "section": 2,
+    "text": "for 迴圈中 break 的作用",
+    "options": {
+      "A": "跳過本次",
+      "B": "完全終止迴圈",
+      "C": "繼續下次",
+      "D": "暫停"
+    },
+    "correct_answer": "B",
+    "explanation": "流程控制"
+  },
+  {
+    "id": 137,
+    "section": 2,
+    "text": "continue 在迴圈中的效果",
+    "options": {
+      "A": "中止迴圈",
+      "B": "跳過本次進入下次",
+      "C": "中止程式",
+      "D": "重新"
+    },
+    "correct_answer": "B",
+    "explanation": "迴圈跳過"
+  },
+  {
+    "id": 138,
+    "section": 2,
+    "text": "for-else 結構中 else 何時執行",
+    "options": {
+      "A": "總是執行",
+      "B": "迴圈正常結束時",
+      "C": "有錯時",
+      "D": "無用"
+    },
+    "correct_answer": "B",
+    "explanation": "條件執行"
+  },
+  {
+    "id": 139,
+    "section": 2,
+    "text": "lambda 函數的主要限制",
+    "options": {
+      "A": "無限制",
+      "B": "只能單一表達式",
+      "C": "不能參數",
+      "D": "不能回傳"
+    },
+    "correct_answer": "B",
+    "explanation": "匿名函數"
+  },
+  {
+    "id": 140,
+    "section": 2,
+    "text": "map() 函數的作用",
+    "options": {
+      "A": "過濾",
+      "B": "對序列每元素應用函數",
+      "C": "排序",
+      "D": "計數"
+    },
+    "correct_answer": "B",
+    "explanation": "函數式編程"
+  },
+  {
+    "id": 141,
+    "section": 2,
+    "text": "filter() 函數的效果",
+    "options": {
+      "A": "複製",
+      "B": "根據條件篩選元素",
+      "C": "轉換",
+      "D": "計數"
+    },
+    "correct_answer": "B",
+    "explanation": "條件篩選"
+  },
+  {
+    "id": 142,
+    "section": 2,
+    "text": "列表推導式的優勢",
+    "options": {
+      "A": "無優勢",
+      "B": "簡潔高效 Pythonic",
+      "C": "易讀差",
+      "D": "慢"
+    },
+    "correct_answer": "B",
+    "explanation": "Python 風格"
+  },
+  {
+    "id": 143,
+    "section": 2,
+    "text": "全域變數在函數內的修改",
+    "options": {
+      "A": "自動改變",
+      "B": "需要 global 宣告",
+      "C": "無法修改",
+      "D": "不推薦"
+    },
+    "correct_answer": "B",
+    "explanation": "作用域管理"
+  },
+  {
+    "id": 144,
+    "section": 2,
+    "text": "with 語句的作用",
+    "options": {
+      "A": "無用",
+      "B": "自動管理資源關閉",
+      "C": "複雜",
+      "D": "無"
+    },
+    "correct_answer": "B",
+    "explanation": "上下文管理"
+  },
+  {
+    "id": 145,
+    "section": 2,
+    "text": "try-except 的用途",
+    "options": {
+      "A": "延遲",
+      "B": "捕捉異常防崩潰",
+      "C": "無用",
+      "D": "減速"
+    },
+    "correct_answer": "B",
+    "explanation": "錯誤處理"
+  },
+  {
+    "id": 146,
+    "section": 2,
+    "text": "finally 塊何時執行",
+    "options": {
+      "A": "不執行",
+      "B": "無論如何都執行",
+      "C": "出錯時",
+      "D": "條件"
+    },
+    "correct_answer": "B",
+    "explanation": "必執行代碼"
+  },
+  {
+    "id": 147,
+    "section": 2,
+    "text": "__name__ == '__main__'的意義",
+    "options": {
+      "A": "無用",
+      "B": "判斷是否直接執行檔案",
+      "C": "總是真",
+      "D": "無"
+    },
+    "correct_answer": "B",
+    "explanation": "程式進入點"
+  },
+  {
+    "id": 148,
+    "section": 2,
+    "text": "import 和 from...import 的差別",
+    "options": {
+      "A": "相同",
+      "B": "前者模組後者特定",
+      "C": "都同",
+      "D": "無"
+    },
+    "correct_answer": "B",
+    "explanation": "引入方式"
+  },
+  {
+    "id": 149,
+    "section": 2,
+    "text": "虛擬環境 venv 的作用",
+    "options": {
+      "A": "無用",
+      "B": "隔離依賴版本",
+      "C": "複雜",
+      "D": "無"
+    },
+    "correct_answer": "B",
+    "explanation": "環境管理"
+  },
+  {
+    "id": 150,
+    "section": 2,
+    "text": "NumPy 陣列相比 list 的優勢",
+    "options": {
+      "A": "無優勢",
+      "B": "向量化操作快速",
+      "C": "都慢",
+      "D": "無"
+    },
+    "correct_answer": "B",
+    "explanation": "性能優化"
+  },
+  {
+    "id": 151,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 152,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 153,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 154,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 155,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 156,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 157,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 158,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 159,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 160,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 161,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 162,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 163,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 164,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 165,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 166,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 167,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 168,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 169,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 170,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 171,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 172,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 173,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 174,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 175,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 176,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 177,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 178,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 179,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 180,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 181,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 182,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 183,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 184,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 185,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 186,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 187,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 188,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 189,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 190,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 191,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 192,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 193,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 194,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 195,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 196,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 197,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 198,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 199,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 200,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 201,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 202,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 203,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 204,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 205,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 206,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 207,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 208,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 209,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 210,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 211,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 212,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 213,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 214,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 215,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 216,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 217,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 218,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 219,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 220,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 221,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 222,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 223,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 224,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 225,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 226,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 227,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 228,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 229,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 230,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 231,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 232,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 233,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 234,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 235,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 236,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 237,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 238,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 239,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 240,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 241,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 242,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 243,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 244,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 245,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 246,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 247,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 248,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 249,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 250,
+    "section": 2,
+    "text": "Pandas DataFrame 的 loc vs iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤 iloc 位置",
+      "C": "都位置",
+      "D": "都標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式"
+  },
+  {
+    "id": 251,
+    "section": 3,
+    "text": "機器學習的核心概念是",
+    "options": {
+      "A": "編寫明確的規則",
+      "B": "從資料中自動學習規則和模式",
+      "C": "隨機猜測",
+      "D": "預先定義全部規則"
+    },
+    "correct_answer": "B",
+    "explanation": "資料驅動學習"
+  },
+  {
+    "id": 252,
+    "section": 3,
+    "text": "監督學習和非監督學習的本質區別",
+    "options": {
+      "A": "完全相同",
+      "B": "監督學習有標籤資料，非監督學習無標籤",
+      "C": "都沒有標籤",
+      "D": "都有標籤"
+    },
+    "correct_answer": "B",
+    "explanation": "標籤的有無"
+  },
+  {
+    "id": 253,
+    "section": 3,
+    "text": "訓練集、驗證集、測試集的用途分別是",
+    "options": {
+      "A": "都用來訓練模型",
+      "B": "訓練學習，驗證調參，測試評估",
+      "C": "都用來驗證",
+      "D": "無差別"
+    },
+    "correct_answer": "B",
+    "explanation": "資料分割策略"
+  },
+  {
+    "id": 254,
+    "section": 3,
+    "text": "過擬合（Overfitting）的典型表現",
+    "options": {
+      "A": "訓練誤差持續高",
+      "B": "訓練誤差低但測試誤差高",
+      "C": "誤差都很高",
+      "D": "誤差都很低"
+    },
+    "correct_answer": "B",
+    "explanation": "泛化能力差"
+  },
+  {
+    "id": 255,
+    "section": 3,
+    "text": "欠擬合（Underfitting）的表現",
+    "options": {
+      "A": "只有訓練誤差高",
+      "B": "訓練誤差和測試誤差都很高",
+      "C": "只有測試誤差低",
+      "D": "誤差都很低"
+    },
+    "correct_answer": "B",
+    "explanation": "學習能力不足"
+  },
+  {
+    "id": 256,
+    "section": 3,
+    "text": "K-Fold 交叉驗證的主要目的",
+    "options": {
+      "A": "加快訓練速度",
+      "B": "更準確估計模型的真實泛化能力",
+      "C": "減少資料量",
+      "D": "簡化計算"
+    },
+    "correct_answer": "B",
+    "explanation": "穩健評估模型"
+  },
+  {
+    "id": 257,
+    "section": 3,
+    "text": "準確度（Accuracy）作為評估指標的局限",
+    "options": {
+      "A": "沒有局限",
+      "B": "在不平衡資料集上可能產生誤導",
+      "C": "最好的指標",
+      "D": "完全可靠"
+    },
+    "correct_answer": "B",
+    "explanation": "指標的適用範圍"
+  },
+  {
+    "id": 258,
+    "section": 3,
+    "text": "精準度（Precision）和召回率（Recall）的區別",
+    "options": {
+      "A": "完全相同",
+      "B": "精準度是預測正例的準確率，召回率是實際正例的覆蓋率",
+      "C": "相反含義",
+      "D": "無區別"
+    },
+    "correct_answer": "B",
+    "explanation": "兩個評估視角"
+  },
+  {
+    "id": 259,
+    "section": 3,
+    "text": "F1 Score 的主要用途",
+    "options": {
+      "A": "無實用",
+      "B": "平衡精準度和召回率的調和平均",
+      "C": "計算準確度",
+      "D": "計算錯誤率"
+    },
+    "correct_answer": "B",
+    "explanation": "平衡指標"
+  },
+  {
+    "id": 260,
+    "section": 3,
+    "text": "特徵工程在機器學習中的重要性",
+    "options": {
+      "A": "無關緊要",
+      "B": "往往比演算法選擇更重要",
+      "C": "完全無用",
+      "D": "很少需要"
+    },
+    "correct_answer": "B",
+    "explanation": "數據品質決定模型"
+  },
+  {
+    "id": 261,
+    "section": 3,
+    "text": "決策樹的主要優勢",
+    "options": {
+      "A": "無",
+      "B": "易解釋無需標準化",
+      "C": "黑箱",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "可解釋"
+  },
+  {
+    "id": 262,
+    "section": 3,
+    "text": "隨機森林改進方式",
+    "options": {
+      "A": "無",
+      "B": "集成多棵樹降低過擬",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "集成學習"
+  },
+  {
+    "id": 263,
+    "section": 3,
+    "text": "SVM 核函數作用",
+    "options": {
+      "A": "加速",
+      "B": "非線性映射高維",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "非線性"
+  },
+  {
+    "id": 264,
+    "section": 3,
+    "text": "神經網路激活函數",
+    "options": {
+      "A": "無",
+      "B": "引入非線性",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "非線性表達"
+  },
+  {
+    "id": 265,
+    "section": 3,
+    "text": "梯度下降法原理",
+    "options": {
+      "A": "隨機",
+      "B": "沿梯度最小化損失",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "優化方法"
+  },
+  {
+    "id": 266,
+    "section": 3,
+    "text": "學習率影響",
+    "options": {
+      "A": "無",
+      "B": "過高無法收斂過低太慢",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "步長調整"
+  },
+  {
+    "id": 267,
+    "section": 3,
+    "text": "正則化目的",
+    "options": {
+      "A": "加速",
+      "B": "防過擬罰複雜度",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "複雜度控制"
+  },
+  {
+    "id": 268,
+    "section": 3,
+    "text": "批量正規化作用",
+    "options": {
+      "A": "無",
+      "B": "穩定訓練加速",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "訓練穩定"
+  },
+  {
+    "id": 269,
+    "section": 3,
+    "text": "Dropout 機制",
+    "options": {
+      "A": "刪除",
+      "B": "隨機停用神經元",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "隨機正則"
+  },
+  {
+    "id": 270,
+    "section": 3,
+    "text": "損失函數作用",
+    "options": {
+      "A": "無",
+      "B": "量化誤差指導優化",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "優化目標"
+  },
+  {
+    "id": 271,
+    "section": 3,
+    "text": "混淆矩陣成分",
+    "options": {
+      "A": "無",
+      "B": "TP FP FN TN",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類結果"
+  },
+  {
+    "id": 272,
+    "section": 3,
+    "text": "ROC 曲線用途",
+    "options": {
+      "A": "無",
+      "B": "展示不同閾值性能",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類展示"
+  },
+  {
+    "id": 273,
+    "section": 3,
+    "text": "AUC 含義",
+    "options": {
+      "A": "無",
+      "B": "ROC 下面積越高越好",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "性能評分"
+  },
+  {
+    "id": 274,
+    "section": 3,
+    "text": "特徵標準化",
+    "options": {
+      "A": "無需",
+      "B": "許多演算法需要",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "數值穩定"
+  },
+  {
+    "id": 275,
+    "section": 3,
+    "text": "過度正則化問題",
+    "options": {
+      "A": "最佳",
+      "B": "欠擬合",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "容量控制"
+  },
+  {
+    "id": 276,
+    "section": 3,
+    "text": "K-最近鄰 KNN",
+    "options": {
+      "A": "複雜",
+      "B": "根據最近 K 點預測",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "懶惰演算法"
+  },
+  {
+    "id": 277,
+    "section": 3,
+    "text": "K 值選擇",
+    "options": {
+      "A": "隨意",
+      "B": "奇數避免平手",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "參數調整"
+  },
+  {
+    "id": 278,
+    "section": 3,
+    "text": "樸素貝葉斯",
+    "options": {
+      "A": "真實",
+      "B": "條件獨立假設",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "簡化假設"
+  },
+  {
+    "id": 279,
+    "section": 3,
+    "text": "集成學習",
+    "options": {
+      "A": "無",
+      "B": "多模型聯合",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "聚合優勢"
+  },
+  {
+    "id": 280,
+    "section": 3,
+    "text": "袋裝法概念",
+    "options": {
+      "A": "無",
+      "B": "自助採樣訓練",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "集成方法"
+  },
+  {
+    "id": 281,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 282,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 283,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 284,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 285,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 286,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 287,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 288,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 289,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 290,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 291,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 292,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 293,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 294,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 295,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 296,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 297,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 298,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 299,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 300,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 301,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 302,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 303,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 304,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 305,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 306,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 307,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 308,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 309,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 310,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 311,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 312,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 313,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 314,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 315,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 316,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 317,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 318,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 319,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 320,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 321,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 322,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 323,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 324,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 325,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 326,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 327,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 328,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 329,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 330,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 331,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 332,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 333,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 334,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 335,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 336,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 337,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 338,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 339,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 340,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 341,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 342,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 343,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 344,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 345,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 346,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 347,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 348,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 349,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 350,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 351,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 352,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 353,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 354,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 355,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 356,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 357,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 358,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 359,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 360,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 361,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 362,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 363,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 364,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 365,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 366,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 367,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 368,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 369,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 370,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 371,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 372,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 373,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 374,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 375,
+    "section": 3,
+    "text": "平衡精準度召回",
+    "options": {
+      "A": "無平衡",
+      "B": "提高一個降另一",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "分類權衡"
+  },
+  {
+    "id": 376,
+    "section": 4,
+    "text": "卷積神經網路（CNN）主要應用於",
+    "options": {
+      "A": "自然語言處理",
+      "B": "影像分類、物體偵測、語義分割",
+      "C": "時間序列預測",
+      "D": "純文本生成"
+    },
+    "correct_answer": "B",
+    "explanation": "視覺任務專家"
+  },
+  {
+    "id": 377,
+    "section": 4,
+    "text": "循環神經網路（RNN）的主要優勢",
+    "options": {
+      "A": "無優勢",
+      "B": "能處理序列資料和時間依賴",
+      "C": "速度最快",
+      "D": "最簡單"
+    },
+    "correct_answer": "B",
+    "explanation": "序列建模"
+  },
+  {
+    "id": 378,
+    "section": 4,
+    "text": "長短期記憶網路（LSTM）的核心意義",
+    "options": {
+      "A": "只是 RNN 的變體",
+      "B": "解決梯度消失問題並處理長序列",
+      "C": "無特殊優勢",
+      "D": "無法應用"
+    },
+    "correct_answer": "B",
+    "explanation": "長期記憶"
+  },
+  {
+    "id": 379,
+    "section": 4,
+    "text": "Transformer 架構相比 RNN 的創新",
+    "options": {
+      "A": "無創新",
+      "B": "使用自注意力機制允許並行處理",
+      "C": "更慢",
+      "D": "更簡單"
+    },
+    "correct_answer": "B",
+    "explanation": "現代 NLP 基礎"
+  },
+  {
+    "id": 380,
+    "section": 4,
+    "text": "詞嵌入（Word Embedding）的核心意義",
+    "options": {
+      "A": "無意義",
+      "B": "將詞語映射到向量空間捕捉語義",
+      "C": "簡單分類",
+      "D": "只是計數"
+    },
+    "correct_answer": "B",
+    "explanation": "語義表示方法"
+  },
+  {
+    "id": 381,
+    "section": 4,
+    "text": "Word2Vec 的工作原理",
+    "options": {
+      "A": "隨機映射",
+      "B": "根據上下文預測詞語",
+      "C": "字數計數",
+      "D": "無原理"
+    },
+    "correct_answer": "B",
+    "explanation": "上下文預測"
+  },
+  {
+    "id": 382,
+    "section": 4,
+    "text": "情感分析的主要任務",
+    "options": {
+      "A": "無用途",
+      "B": "判斷文本的情感傾向（正、負、中立）",
+      "C": "計數單詞",
+      "D": "無相關"
+    },
+    "correct_answer": "B",
+    "explanation": "意見挖掘"
+  },
+  {
+    "id": 383,
+    "section": 4,
+    "text": "命名實體識別（NER）的作用",
+    "options": {
+      "A": "無作用",
+      "B": "識別文本中的人名、地名、組織等",
+      "C": "簡單分類",
+      "D": "無用"
+    },
+    "correct_answer": "B",
+    "explanation": "資訊提取"
+  },
+  {
+    "id": 384,
+    "section": 4,
+    "text": "推薦系統中協同過濾的核心思想",
+    "options": {
+      "A": "無思想",
+      "B": "基於用戶或物品相似性進行推薦",
+      "C": "內容過濾",
+      "D": "完全隨機"
+    },
+    "correct_answer": "B",
+    "explanation": "相似性推薦"
+  },
+  {
+    "id": 385,
+    "section": 4,
+    "text": "推薦系統冷啟動問題的含義",
+    "options": {
+      "A": "無問題",
+      "B": "新用戶新物品無歷史資料難推薦",
+      "C": "速度慢",
+      "D": "無法解決"
+    },
+    "correct_answer": "B",
+    "explanation": "初期系統挑戰"
+  },
+  {
+    "id": 386,
+    "section": 4,
+    "text": "機器翻譯應用",
+    "options": {
+      "A": "無",
+      "B": "自動翻譯語言",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "跨語言"
+  },
+  {
+    "id": 387,
+    "section": 4,
+    "text": "問答系統",
+    "options": {
+      "A": "無",
+      "B": "回答自然語言問題",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "互動系統"
+  },
+  {
+    "id": 388,
+    "section": 4,
+    "text": "摘要生成",
+    "options": {
+      "A": "無",
+      "B": "自動生成文本摘要",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "文本縮寫"
+  },
+  {
+    "id": 389,
+    "section": 4,
+    "text": "物體偵測",
+    "options": {
+      "A": "無",
+      "B": "定位和分類物體",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "位置分類"
+  },
+  {
+    "id": 390,
+    "section": 4,
+    "text": "YOLO 特點",
+    "options": {
+      "A": "無",
+      "B": "實時目標偵測",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "快速偵測"
+  },
+  {
+    "id": 391,
+    "section": 4,
+    "text": "語義分割",
+    "options": {
+      "A": "無",
+      "B": "像素級分類",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "密集預測"
+  },
+  {
+    "id": 392,
+    "section": 4,
+    "text": "人臉識別",
+    "options": {
+      "A": "無",
+      "B": "人臉驗證和識別",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "生物識別"
+  },
+  {
+    "id": 393,
+    "section": 4,
+    "text": "影像生成 GAN",
+    "options": {
+      "A": "無",
+      "B": "生成逼真影像",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "生成模型"
+  },
+  {
+    "id": 394,
+    "section": 4,
+    "text": "時間序列預測",
+    "options": {
+      "A": "無",
+      "B": "預測未來值",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "動態預測"
+  },
+  {
+    "id": 395,
+    "section": 4,
+    "text": "異常檢測應用",
+    "options": {
+      "A": "無",
+      "B": "識別異常樣本",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "品質控制"
+  },
+  {
+    "id": 396,
+    "section": 4,
+    "text": "強化學習",
+    "options": {
+      "A": "無",
+      "B": "代理與環境互動",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "試錯學習"
+  },
+  {
+    "id": 397,
+    "section": 4,
+    "text": "遷移學習",
+    "options": {
+      "A": "無",
+      "B": "預訓練模型適應新任",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "知識轉移"
+  },
+  {
+    "id": 398,
+    "section": 4,
+    "text": "模型壓縮",
+    "options": {
+      "A": "無",
+      "B": "減小模型邊界部署",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "輕量化"
+  },
+  {
+    "id": 399,
+    "section": 4,
+    "text": "聯邦學習",
+    "options": {
+      "A": "無",
+      "B": "分散訓練保隱私",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "隱私保護"
+  },
+  {
+    "id": 400,
+    "section": 4,
+    "text": "知識蒸餾",
+    "options": {
+      "A": "無",
+      "B": "小模型學大模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "模型簡化"
+  },
+  {
+    "id": 401,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 402,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 403,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 404,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 405,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 406,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 407,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 408,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 409,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 410,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 411,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 412,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 413,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 414,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 415,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 416,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 417,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 418,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 419,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 420,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 421,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 422,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 423,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 424,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 425,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 426,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 427,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 428,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 429,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 430,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 431,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 432,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 433,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 434,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 435,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 436,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 437,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 438,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 439,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 440,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 441,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 442,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 443,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 444,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 445,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 446,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 447,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 448,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 449,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 450,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 451,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 452,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 453,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 454,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 455,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 456,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 457,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 458,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 459,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 460,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 461,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 462,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 463,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 464,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 465,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 466,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 467,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 468,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 469,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 470,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 471,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 472,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 473,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 474,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 475,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 476,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 477,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 478,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 479,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 480,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 481,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 482,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 483,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 484,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 485,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 486,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 487,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 488,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 489,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 490,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 491,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 492,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 493,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 494,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 495,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 496,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 497,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 498,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 499,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  },
+  {
+    "id": 500,
+    "section": 4,
+    "text": "BERT 預訓練",
+    "options": {
+      "A": "無",
+      "B": "雙向語言模型",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "自監督"
+  }
+]
