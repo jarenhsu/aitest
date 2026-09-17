@@ -365,18 +365,126 @@
         .mock-score.fail { border:2px solid #b14b4b; }
         .domain-badge { display:inline-block; margin-bottom:8px; padding:4px 9px; border-radius:999px; background:#eee; font-size:.82rem; font-weight:700; }
         .mock-review { margin-top:18px; }
+
+
+        /* Python 特訓區 */
+        .python-hero {
+            background: linear-gradient(135deg, #FFF8F0 0%, #FFFDF9 100%);
+            border: 1px solid #E5D4BF;
+            border-radius: 14px;
+            padding: 22px;
+            margin-bottom: 18px;
+        }
+        .python-hero h2 { margin-bottom: 8px; font-size: 24px; }
+        .python-hero p { line-height: 1.8; color: #555; }
+        .python-topic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+            gap: 10px;
+            margin: 16px 0;
+        }
+        .python-topic-card {
+            border: 1px solid #E8E6E1;
+            background: #fff;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 13px;
+            line-height: 1.55;
+        }
+        .python-topic-card strong { display:block; margin-bottom:4px; font-size:14px; }
+        .python-trainer-controls {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            background: #fff;
+            border: 1px solid #E8E6E1;
+            border-radius: 12px;
+            padding: 14px;
+            margin-bottom: 16px;
+        }
+        .python-trainer-controls select { min-width: 180px; }
+        .python-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+        .python-stat {
+            background: #FEFDFB;
+            border: 1px solid #E8E6E1;
+            border-radius: 9px;
+            padding: 11px;
+            text-align: center;
+            font-size: 13px;
+        }
+        .python-stat strong { display:block; font-size:20px; margin-top:3px; }
+        .python-feedback {
+            border-radius: 10px;
+            padding: 16px;
+            margin: 12px 0 16px;
+            line-height: 1.75;
+        }
+        .python-feedback.correct { background:#F1F8F4; border:1px solid #B8D7BE; }
+        .python-feedback.wrong { background:#FDF1F0; border:1px solid #E3B6B2; }
+        .python-summary {
+            background:#fff;
+            border:2px solid #D8C5AE;
+            border-radius:14px;
+            padding:22px;
+            margin:16px 0;
+            line-height:1.8;
+        }
+        .python-summary .score { font-size:30px; font-weight:800; margin:6px 0; }
+        .python-next-wrap { display:flex; justify-content:center; margin-top:12px; }
+        .python-primary { background:#333; color:#fff; border-color:#333; }
+        .python-primary:hover { background:#222; color:#fff; }
+        .python-wrong-btn { background:#FFF3E0; border-color:#D7B58A; }
+        .python-code-inline {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            background:#F3F2EF;
+            border-radius:5px;
+            padding:2px 5px;
+            font-size:.95em;
+        }
+        .python-code-block {
+            white-space: pre-wrap;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            background:#202124;
+            color:#F5F5F5;
+            padding:14px;
+            border-radius:9px;
+            margin:12px 0;
+            overflow-x:auto;
+            line-height:1.6;
+            font-size:14px;
+        }
+        .python-tip {
+            margin-top:10px;
+            padding:10px 12px;
+            background:#FFF8F0;
+            border-left:4px solid #B8956A;
+            border-radius:6px;
+            font-size:13px;
+        }
+        @media (max-width: 650px) {
+            .python-stats { grid-template-columns: repeat(2, 1fr); }
+            .python-trainer-controls select, .python-trainer-controls button { width:100%; }
+        }
+
     </style>
 </head>
 <body>
     <div class="header">
         <h1>🐕 AI 認證練習系統</h1>
-        <p>資策會人工智慧工程素養認證專攻版｜1280 題教材 + 400 題考照題庫 + 50 題模擬考</p>
+        <p>資策會人工智慧工程素養認證專攻版｜1280 題教材 + 400 題考照題庫 + Python 特訓 + 50 題模擬考</p>
     </div>
 
     <div class="mode-selector">
         <button class="mode-btn active" onclick="switchMode('original', event)">📖 原始題庫（499 題）</button>
         <button class="mode-btn" onclick="switchMode('units', event)">📚 16 單元系統（1280 題）</button>
         <button class="mode-btn" onclick="switchMode('iii', event)">🎯 資策會專攻（400 題）</button>
+        <button class="mode-btn" onclick="switchMode('python', event)">🐍 Python 特訓（80 題）</button>
     </div>
 
     <div class="container">
@@ -400,6 +508,52 @@
             </div>
             <div class="tabs-container" id="iiiTabs"></div>
             <div id="iiiContent"></div>
+        </div>
+
+        <!-- Python 特訓模式 -->
+        <div id="pythonMode" class="content">
+            <div class="python-hero">
+                <h2>🐍 Python 超怕版特訓</h2>
+                <p>這區只練資策會考試會用到的基礎 Python。先從 5 題開始，答完立即看解析；不計時、不連坐、不需要會寫大型程式。</p>
+                <div class="python-topic-grid">
+                    <div class="python-topic-card"><strong>① 基礎語法</strong>變數、型別、input、print、型態轉換</div>
+                    <div class="python-topic-card"><strong>② 運算子</strong>//、%、**、比較、and / or / not</div>
+                    <div class="python-topic-card"><strong>③ 條件與迴圈</strong>if、for、range、while、break、continue</div>
+                    <div class="python-topic-card"><strong>④ 容器與字串</strong>List、Tuple、Dictionary、索引、slice</div>
+                    <div class="python-topic-card"><strong>⑤ 程式判讀</strong>看短程式，逐步算出最後輸出</div>
+                </div>
+            </div>
+
+            <div class="python-trainer-controls">
+                <label>主題：
+                    <select id="pythonTopic">
+                        <option value="all">全部 Python 題</option>
+                        <option value="basics">基礎語法</option>
+                        <option value="operators">運算子與布林</option>
+                        <option value="control">if / for / while</option>
+                        <option value="collections">List / Tuple / Dict / 字串</option>
+                        <option value="trace">程式判讀特訓</option>
+                    </select>
+                </label>
+                <label>一次：
+                    <select id="pythonSessionSize">
+                        <option value="5" selected>5 題（推薦）</option>
+                        <option value="10">10 題</option>
+                        <option value="20">20 題</option>
+                    </select>
+                </label>
+                <button class="python-primary" onclick="startPythonTraining()">▶️ 開始一輪</button>
+                <button id="pythonWrongBtn" class="python-wrong-btn" onclick="startPythonWrongTraining()" disabled>🔁 只練錯題</button>
+            </div>
+
+            <div class="python-stats">
+                <div class="python-stat">本輪題數<strong id="pyTotal">0</strong></div>
+                <div class="python-stat">目前答對<strong id="pyCorrect">0</strong></div>
+                <div class="python-stat">連續答對<strong id="pyStreak">0</strong></div>
+                <div class="python-stat">本輪錯題<strong id="pyWrong">0</strong></div>
+            </div>
+            <div class="progress-bar"><div id="pyBar" class="progress-fill" style="width:0%"></div></div>
+            <div id="pythonTrainingArea"></div>
         </div>
     </div>
 
@@ -737,6 +891,190 @@
             renderMockQuestion();
         }
 
+
+        // ================= Python 特訓 =================
+        let pythonTrainerReady = false;
+        let pythonTrainer = {
+            pool: [], questions: [], currentIndex: 0, answers: {}, correct: 0,
+            streak: 0, bestStreak: 0, currentWrong: [], lastWrong: [], started: false
+        };
+
+        function escapeHtml(value) {
+            return String(value ?? '')
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+        }
+
+        function formatPythonText(value) {
+            const escaped = escapeHtml(value);
+            return escaped.replace(/`([^`]+)`/gs, (_, code) => {
+                if (code.includes('\n')) return `<pre class="python-code-block">${code}</pre>`;
+                return `<code class="python-code-inline">${code}</code>`;
+            }).replace(/\n/g, '<br>');
+        }
+
+        function pythonTopicOf(q) {
+            const t = q.text || '';
+            if (/for |while |range\(|if |else|break|continue|條件判斷|迴圈/i.test(t)) return 'control';
+            if (/List|Tuple|Dictionary|append|pop|sort|split|upper|len\(|sum\(|max\(|min\(|\[|\]|字串|f"/i.test(t)) return 'collections';
+            if (/\/\/|%|\*\*|==|\band\b|\bor\b|\bnot\b|運算子|布林|bool\(|[<>]/i.test(t)) return 'operators';
+            return 'basics';
+        }
+
+        function isPythonTrace(q) {
+            return /執行|結果|輸出|程式/.test(q.text || '');
+        }
+
+        function initPythonTrainer() {
+            pythonTrainer.pool = iiiAllQuestions.filter(q => Number(q.section) === 2);
+            pythonTrainerReady = true;
+            const counts = {all: pythonTrainer.pool.length, basics:0, operators:0, control:0, collections:0, trace:0};
+            pythonTrainer.pool.forEach(q => {
+                counts[pythonTopicOf(q)]++;
+                if (isPythonTrace(q)) counts.trace++;
+            });
+            const sel = document.getElementById('pythonTopic');
+            if (sel) {
+                const labelMap = {
+                    all:'全部 Python 題', basics:'基礎語法', operators:'運算子與布林',
+                    control:'if / for / while', collections:'List / Tuple / Dict / 字串', trace:'程式判讀特訓'
+                };
+                Array.from(sel.options).forEach(o => { o.textContent = `${labelMap[o.value]}（${counts[o.value]} 題）`; });
+            }
+            if (!pythonTrainer.started) startPythonTraining();
+        }
+
+        function getPythonPool(topic) {
+            if (topic === 'trace') return pythonTrainer.pool.filter(isPythonTrace);
+            if (topic === 'all') return pythonTrainer.pool.slice();
+            return pythonTrainer.pool.filter(q => pythonTopicOf(q) === topic);
+        }
+
+        function startPythonTraining() {
+            if (!pythonTrainerReady) return;
+            const topic = document.getElementById('pythonTopic')?.value || 'all';
+            const size = Number(document.getElementById('pythonSessionSize')?.value || 5);
+            const pool = getPythonPool(topic);
+            const selected = sample(pool, Math.min(size, pool.length));
+            pythonTrainer.questions = selected;
+            pythonTrainer.currentIndex = 0;
+            pythonTrainer.answers = {};
+            pythonTrainer.correct = 0;
+            pythonTrainer.streak = 0;
+            pythonTrainer.bestStreak = 0;
+            pythonTrainer.currentWrong = [];
+            pythonTrainer.started = true;
+            document.getElementById('pythonWrongBtn').disabled = pythonTrainer.lastWrong.length === 0;
+            renderPythonQuestion();
+            updatePythonStats();
+            window.scrollTo(0, 0);
+        }
+
+        function startPythonWrongTraining() {
+            if (!pythonTrainer.lastWrong.length) return;
+            pythonTrainer.questions = shuffledCopy(pythonTrainer.lastWrong);
+            pythonTrainer.currentIndex = 0;
+            pythonTrainer.answers = {};
+            pythonTrainer.correct = 0;
+            pythonTrainer.streak = 0;
+            pythonTrainer.bestStreak = 0;
+            pythonTrainer.currentWrong = [];
+            pythonTrainer.started = true;
+            renderPythonQuestion();
+            updatePythonStats();
+            window.scrollTo(0, 0);
+        }
+
+        function pythonTipFor(q) {
+            const t = q.text || '';
+            if (/range\(/.test(t)) return 'range 的右邊界「不包含」；先把實際會跑的數字列出來。';
+            if (/while/.test(t)) return 'while 題先寫出每一輪變數值，確認條件何時變成 False。';
+            if (/\/\//.test(t)) return '// 是整除（向下取整）；% 是餘數，這兩個很常一起考。';
+            if (/%/.test(t)) return '% 是餘數；判斷奇偶數常用 x % 2。';
+            if (/\[.*:.*\]/.test(t)) return 'slice 左邊包含、右邊不包含，例如 a[1:4] 取索引 1、2、3。';
+            if (/Dictionary|\{.*:/.test(t)) return 'Dictionary 用 key 找 value；先看題目是在查 key、改值，還是新增 key。';
+            if (/Tuple/.test(t)) return 'Tuple 最常考「建立方式」和「不可直接修改元素」。';
+            if (/type\(|int\(|float\(|str\(|bool\(/.test(t)) return '型態題先分清楚 int、float、str、bool，再算轉換結果。';
+            return '不要急著猜：把變數目前的值寫在紙上，一行一行執行。';
+        }
+
+        function renderPythonQuestion() {
+            const area = document.getElementById('pythonTrainingArea');
+            if (!area || !pythonTrainer.questions.length) {
+                if (area) area.innerHTML = '<div class="python-summary">目前沒有可練習的題目。</div>';
+                return;
+            }
+            const idx = pythonTrainer.currentIndex;
+            const q = pythonTrainer.questions[idx];
+            const answered = pythonTrainer.answers[idx];
+            let html = `<div class="question-box"><div style="color:#999;">Python 特訓｜第 ${idx+1}/${pythonTrainer.questions.length} 題</div><div class="question-text">${formatPythonText(q.text)}</div><div class="options">`;
+            ['A','B','C','D'].forEach(opt => {
+                let cls = 'option-item';
+                if (answered) {
+                    if (opt === q.correct_answer) cls += ' correct';
+                    if (opt === answered.answer && opt !== q.correct_answer) cls += ' incorrect';
+                }
+                html += `<label class="${cls}"><input type="radio" name="pyOpt" value="${opt}" ${answered && answered.answer===opt?'checked':''} ${answered?'disabled':''} onchange="selectPythonAnswer('${opt}')"><span><strong>${opt}.</strong> ${formatPythonText(q.options[opt])}</span></label>`;
+            });
+            html += '</div></div>';
+            if (answered) {
+                html += `<div class="python-feedback ${answered.correct?'correct':'wrong'}"><strong>${answered.correct?'✅ 答對了':'❌ 這題先記住'}</strong><br>正確答案：${q.correct_answer}<br>${formatPythonText(q.explanation)}<div class="python-tip">💡 ${pythonTipFor(q)}</div></div>`;
+                html += `<div class="python-next-wrap"><button class="python-primary" onclick="pythonNext()">${idx === pythonTrainer.questions.length-1 ? '看本輪成績 🏁' : '下一題 ➡️'}</button></div>`;
+            }
+            area.innerHTML = html;
+            updatePythonStats();
+        }
+
+        function selectPythonAnswer(opt) {
+            const idx = pythonTrainer.currentIndex;
+            if (pythonTrainer.answers[idx]) return;
+            const q = pythonTrainer.questions[idx];
+            const correct = opt === q.correct_answer;
+            pythonTrainer.answers[idx] = {answer:opt, correct};
+            if (correct) {
+                pythonTrainer.correct++;
+                pythonTrainer.streak++;
+                pythonTrainer.bestStreak = Math.max(pythonTrainer.bestStreak, pythonTrainer.streak);
+            } else {
+                pythonTrainer.streak = 0;
+                pythonTrainer.currentWrong.push(q);
+            }
+            renderPythonQuestion();
+        }
+
+        function pythonNext() {
+            if (pythonTrainer.currentIndex < pythonTrainer.questions.length - 1) {
+                pythonTrainer.currentIndex++;
+                renderPythonQuestion();
+            } else {
+                finishPythonTraining();
+            }
+        }
+
+        function updatePythonStats() {
+            const total = pythonTrainer.questions.length;
+            const answered = Object.keys(pythonTrainer.answers).length;
+            const wrong = pythonTrainer.currentWrong.length;
+            const set = (id, value) => { const el=document.getElementById(id); if(el) el.textContent=value; };
+            set('pyTotal', total); set('pyCorrect', pythonTrainer.correct); set('pyStreak', pythonTrainer.streak); set('pyWrong', wrong);
+            const bar = document.getElementById('pyBar');
+            if (bar) bar.style.width = (total ? Math.round(answered/total*100) : 0) + '%';
+        }
+
+        function finishPythonTraining() {
+            pythonTrainer.lastWrong = pythonTrainer.currentWrong.slice();
+            document.getElementById('pythonWrongBtn').disabled = pythonTrainer.lastWrong.length === 0;
+            const total = pythonTrainer.questions.length;
+            const pct = total ? Math.round(pythonTrainer.correct/total*100) : 0;
+            let msg = '';
+            if (pct >= 90) msg = '很穩了。接下來可以增加到 10 或 20 題。';
+            else if (pct >= 70) msg = '已經接近考試可用程度，先把本輪錯題再做一次。';
+            else msg = '先不要加題量。維持 5 題一輪，把錯題原因弄懂就好。';
+            const area = document.getElementById('pythonTrainingArea');
+            area.innerHTML = `<div class="python-summary"><div>本輪完成</div><div class="score">${pythonTrainer.correct}/${total}（${pct}%）</div><div>${msg}</div><div>最佳連續答對：${pythonTrainer.bestStreak} 題｜錯題：${pythonTrainer.lastWrong.length} 題</div><div class="mock-actions"><button class="python-primary" onclick="startPythonTraining()">再來一輪</button>${pythonTrainer.lastWrong.length?'<button class="python-wrong-btn" onclick="startPythonWrongTraining()">只練這輪錯題</button>':''}</div></div>`;
+            updatePythonStats();
+        }
+
         // 切換模式
         async function switchMode(mode, evt) {
             currentMode = mode;
@@ -749,6 +1087,7 @@
             document.getElementById('originalMode').classList.toggle('active', mode === 'original');
             document.getElementById('unitsMode').classList.toggle('active', mode === 'units');
             document.getElementById('iiiMode').classList.toggle('active', mode === 'iii');
+            document.getElementById('pythonMode').classList.toggle('active', mode === 'python');
 
             if (mode === 'original') {
                 switchOriginalExam('genai_100');
@@ -758,6 +1097,10 @@
             } else if (mode === 'iii') {
                 if (!state['iii_ethics'].loaded) await loadIIIData();
                 switchIIISection('iii_ethics');
+            } else if (mode === 'python') {
+                if (!state['iii_python'].loaded) await loadIIIData();
+                if (!pythonTrainerReady) initPythonTrainer();
+                window.scrollTo(0, 0);
             }
         }
 
