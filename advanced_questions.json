@@ -1,0 +1,6502 @@
+[
+  {
+    "id": 1,
+    "section": 1,
+    "text": "在 AI 系統中，偏見最可能來自",
+    "options": {
+      "A": "訓練數據",
+      "B": "演算法設計",
+      "C": "特徵選擇都可能",
+      "D": "人類決策"
+    },
+    "correct_answer": "C",
+    "explanation": "偏見在多個環節可能產生"
+  },
+  {
+    "id": 2,
+    "section": 1,
+    "text": "GDPR 被遺忘權主要保護",
+    "options": {
+      "A": "商業機密",
+      "B": "個人隱私和數據自主權",
+      "C": "國家安全",
+      "D": "知識產權"
+    },
+    "correct_answer": "B",
+    "explanation": "被遺忘權保護個人隱私"
+  },
+  {
+    "id": 3,
+    "section": 1,
+    "text": "人臉識別系統最重要的倫理考慮",
+    "options": {
+      "A": "提升準確度",
+      "B": "不同人口特徵的識別差異",
+      "C": "運行成本",
+      "D": "模型大小"
+    },
+    "correct_answer": "B",
+    "explanation": "公平性問題至關重要"
+  },
+  {
+    "id": 4,
+    "section": 1,
+    "text": "AI 決策可解釋性與準確性",
+    "options": {
+      "A": "都必須完全",
+      "B": "黑箱無法理解",
+      "C": "存在權衡",
+      "D": "都不重要"
+    },
+    "correct_answer": "C",
+    "explanation": "需在可解釋與性能間平衡"
+  },
+  {
+    "id": 5,
+    "section": 1,
+    "text": "醫療 AI 發現性別偏見",
+    "options": {
+      "A": "立即停止審計",
+      "B": "繼續使用",
+      "C": "隱瞞問題",
+      "D": "只披露特定"
+    },
+    "correct_answer": "A",
+    "explanation": "涉及生命必須立即停止"
+  },
+  {
+    "id": 6,
+    "section": 1,
+    "text": "差分隱私的目的",
+    "options": {
+      "A": "加速處理",
+      "B": "保護隱私同時允許分析",
+      "C": "完全隱藏數據",
+      "D": "減少存儲"
+    },
+    "correct_answer": "B",
+    "explanation": "通過噪聲保護隱私"
+  },
+  {
+    "id": 7,
+    "section": 1,
+    "text": "匿名化和去識別化",
+    "options": {
+      "A": "沒區別",
+      "B": "匿名移除標識符，去識別防止重新識別",
+      "C": "去識別更差",
+      "D": "一種方法"
+    },
+    "correct_answer": "B",
+    "explanation": "去識別考慮準識別符"
+  },
+  {
+    "id": 8,
+    "section": 1,
+    "text": "第三方 API 隱私風險",
+    "options": {
+      "A": "數據被訓練",
+      "B": "服務條款風險",
+      "C": "洩露風險",
+      "D": "以上全部"
+    },
+    "correct_answer": "D",
+    "explanation": "需審查隱私政策"
+  },
+  {
+    "id": 9,
+    "section": 1,
+    "text": "人口統計均等的含義",
+    "options": {
+      "A": "準確度同",
+      "B": "不同群體正例率相等",
+      "C": "召回率同",
+      "D": "消除差異"
+    },
+    "correct_answer": "B",
+    "explanation": "要求正例率相等"
+  },
+  {
+    "id": 10,
+    "section": 1,
+    "text": "信用評分群體歧視",
+    "options": {
+      "A": "可接受",
+      "B": "應審計調整",
+      "C": "隱瞞",
+      "D": "使用黑箱"
+    },
+    "correct_answer": "B",
+    "explanation": "應糾正系統性歧視"
+  },
+  {
+    "id": 11,
+    "section": 1,
+    "text": "AI 問責最關鍵",
+    "options": {
+      "A": "隱藏決策",
+      "B": "追蹤解釋決策",
+      "C": "遵循人類",
+      "D": "無人負責"
+    },
+    "correct_answer": "B",
+    "explanation": "需可追蹤可審計"
+  },
+  {
+    "id": 12,
+    "section": 1,
+    "text": "職業淘汰企業責任",
+    "options": {
+      "A": "無責任",
+      "B": "培訓",
+      "C": "補償",
+      "D": "B和C"
+    },
+    "correct_answer": "D",
+    "explanation": "應考慮員工福祉"
+  },
+  {
+    "id": 13,
+    "section": 1,
+    "text": "大型 AI 模型環境成本",
+    "options": {
+      "A": "模型大小",
+      "B": "訓練電力消耗",
+      "C": "數據存儲",
+      "D": "許可"
+    },
+    "correct_answer": "B",
+    "explanation": "消耗巨大電力"
+  },
+  {
+    "id": 14,
+    "section": 1,
+    "text": "生成式 AI 訓練數據",
+    "options": {
+      "A": "任何可用",
+      "B": "明確許可內容",
+      "C": "版權不重要",
+      "D": "無異議"
+    },
+    "correct_answer": "B",
+    "explanation": "尊重知識產權"
+  },
+  {
+    "id": 15,
+    "section": 1,
+    "text": "AI 生成內容不當行為",
+    "options": {
+      "A": "引用幫助",
+      "B": "聲稱人類",
+      "C": "虛假信息",
+      "D": "B和C"
+    },
+    "correct_answer": "D",
+    "explanation": "誠實標示內容"
+  },
+  {
+    "id": 16,
+    "section": 1,
+    "text": "AI 職場應用的挑戰",
+    "options": {
+      "A": "無挑戰",
+      "B": "自動化與再培訓的平衡",
+      "C": "無風險",
+      "D": "無法解決"
+    },
+    "correct_answer": "B",
+    "explanation": "需管理社會影響"
+  },
+  {
+    "id": 17,
+    "section": 1,
+    "text": "演算法透明度要求",
+    "options": {
+      "A": "無需透露",
+      "B": "向受影響者透露",
+      "C": "隱藏細節可",
+      "D": "無義務"
+    },
+    "correct_answer": "B",
+    "explanation": "受影響者有知情權"
+  },
+  {
+    "id": 18,
+    "section": 1,
+    "text": "AI 環保設計",
+    "options": {
+      "A": "無法兼顧",
+      "B": "優化效率使用綠能",
+      "C": "用最大模型",
+      "D": "不重要"
+    },
+    "correct_answer": "B",
+    "explanation": "應兼顧性能與環保"
+  },
+  {
+    "id": 19,
+    "section": 1,
+    "text": "自動化系統的問責",
+    "options": {
+      "A": "只歸責開發者",
+      "B": "只歸責用戶",
+      "C": "利益相關者分配",
+      "D": "無人負責"
+    },
+    "correct_answer": "C",
+    "explanation": "責任應明確分配"
+  },
+  {
+    "id": 20,
+    "section": 1,
+    "text": "AI 與就業準備",
+    "options": {
+      "A": "無需準備",
+      "B": "提供再培訓計劃",
+      "C": "只幫資本",
+      "D": "禁止 AI"
+    },
+    "correct_answer": "B",
+    "explanation": "需提前規劃轉型"
+  },
+  {
+    "id": 21,
+    "section": 1,
+    "text": "題目 21",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 21"
+  },
+  {
+    "id": 22,
+    "section": 1,
+    "text": "題目 22",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 22"
+  },
+  {
+    "id": 23,
+    "section": 1,
+    "text": "題目 23",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 23"
+  },
+  {
+    "id": 24,
+    "section": 1,
+    "text": "題目 24",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 24"
+  },
+  {
+    "id": 25,
+    "section": 1,
+    "text": "題目 25",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 25"
+  },
+  {
+    "id": 26,
+    "section": 1,
+    "text": "題目 26",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 26"
+  },
+  {
+    "id": 27,
+    "section": 1,
+    "text": "題目 27",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 27"
+  },
+  {
+    "id": 28,
+    "section": 1,
+    "text": "題目 28",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 28"
+  },
+  {
+    "id": 29,
+    "section": 1,
+    "text": "題目 29",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 29"
+  },
+  {
+    "id": 30,
+    "section": 1,
+    "text": "題目 30",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 30"
+  },
+  {
+    "id": 31,
+    "section": 1,
+    "text": "題目 31",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 31"
+  },
+  {
+    "id": 32,
+    "section": 1,
+    "text": "題目 32",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 32"
+  },
+  {
+    "id": 33,
+    "section": 1,
+    "text": "題目 33",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 33"
+  },
+  {
+    "id": 34,
+    "section": 1,
+    "text": "題目 34",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 34"
+  },
+  {
+    "id": 35,
+    "section": 1,
+    "text": "題目 35",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 35"
+  },
+  {
+    "id": 36,
+    "section": 1,
+    "text": "題目 36",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 36"
+  },
+  {
+    "id": 37,
+    "section": 1,
+    "text": "題目 37",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 37"
+  },
+  {
+    "id": 38,
+    "section": 1,
+    "text": "題目 38",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 38"
+  },
+  {
+    "id": 39,
+    "section": 1,
+    "text": "題目 39",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 39"
+  },
+  {
+    "id": 40,
+    "section": 1,
+    "text": "題目 40",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 40"
+  },
+  {
+    "id": 41,
+    "section": 1,
+    "text": "題目 41",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 41"
+  },
+  {
+    "id": 42,
+    "section": 1,
+    "text": "題目 42",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 42"
+  },
+  {
+    "id": 43,
+    "section": 1,
+    "text": "題目 43",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 43"
+  },
+  {
+    "id": 44,
+    "section": 1,
+    "text": "題目 44",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 44"
+  },
+  {
+    "id": 45,
+    "section": 1,
+    "text": "題目 45",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 45"
+  },
+  {
+    "id": 46,
+    "section": 1,
+    "text": "題目 46",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 46"
+  },
+  {
+    "id": 47,
+    "section": 1,
+    "text": "題目 47",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 47"
+  },
+  {
+    "id": 48,
+    "section": 1,
+    "text": "題目 48",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 48"
+  },
+  {
+    "id": 49,
+    "section": 1,
+    "text": "題目 49",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 49"
+  },
+  {
+    "id": 50,
+    "section": 1,
+    "text": "題目 50",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 50"
+  },
+  {
+    "id": 51,
+    "section": 1,
+    "text": "題目 51",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 51"
+  },
+  {
+    "id": 52,
+    "section": 1,
+    "text": "題目 52",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 52"
+  },
+  {
+    "id": 53,
+    "section": 1,
+    "text": "題目 53",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 53"
+  },
+  {
+    "id": 54,
+    "section": 1,
+    "text": "題目 54",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 54"
+  },
+  {
+    "id": 55,
+    "section": 1,
+    "text": "題目 55",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 55"
+  },
+  {
+    "id": 56,
+    "section": 1,
+    "text": "題目 56",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 56"
+  },
+  {
+    "id": 57,
+    "section": 1,
+    "text": "題目 57",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 57"
+  },
+  {
+    "id": 58,
+    "section": 1,
+    "text": "題目 58",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 58"
+  },
+  {
+    "id": 59,
+    "section": 1,
+    "text": "題目 59",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 59"
+  },
+  {
+    "id": 60,
+    "section": 1,
+    "text": "題目 60",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 60"
+  },
+  {
+    "id": 61,
+    "section": 1,
+    "text": "題目 61",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 61"
+  },
+  {
+    "id": 62,
+    "section": 1,
+    "text": "題目 62",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 62"
+  },
+  {
+    "id": 63,
+    "section": 1,
+    "text": "題目 63",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 63"
+  },
+  {
+    "id": 64,
+    "section": 1,
+    "text": "題目 64",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 64"
+  },
+  {
+    "id": 65,
+    "section": 1,
+    "text": "題目 65",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 65"
+  },
+  {
+    "id": 66,
+    "section": 1,
+    "text": "題目 66",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 66"
+  },
+  {
+    "id": 67,
+    "section": 1,
+    "text": "題目 67",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 67"
+  },
+  {
+    "id": 68,
+    "section": 1,
+    "text": "題目 68",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 68"
+  },
+  {
+    "id": 69,
+    "section": 1,
+    "text": "題目 69",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 69"
+  },
+  {
+    "id": 70,
+    "section": 1,
+    "text": "題目 70",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 70"
+  },
+  {
+    "id": 71,
+    "section": 1,
+    "text": "題目 71",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 71"
+  },
+  {
+    "id": 72,
+    "section": 1,
+    "text": "題目 72",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 72"
+  },
+  {
+    "id": 73,
+    "section": 1,
+    "text": "題目 73",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 73"
+  },
+  {
+    "id": 74,
+    "section": 1,
+    "text": "題目 74",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 74"
+  },
+  {
+    "id": 75,
+    "section": 1,
+    "text": "題目 75",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 75"
+  },
+  {
+    "id": 76,
+    "section": 1,
+    "text": "題目 76",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 76"
+  },
+  {
+    "id": 77,
+    "section": 1,
+    "text": "題目 77",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 77"
+  },
+  {
+    "id": 78,
+    "section": 1,
+    "text": "題目 78",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 78"
+  },
+  {
+    "id": 79,
+    "section": 1,
+    "text": "題目 79",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 79"
+  },
+  {
+    "id": 80,
+    "section": 1,
+    "text": "題目 80",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 80"
+  },
+  {
+    "id": 81,
+    "section": 1,
+    "text": "題目 81",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 81"
+  },
+  {
+    "id": 82,
+    "section": 1,
+    "text": "題目 82",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 82"
+  },
+  {
+    "id": 83,
+    "section": 1,
+    "text": "題目 83",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 83"
+  },
+  {
+    "id": 84,
+    "section": 1,
+    "text": "題目 84",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 84"
+  },
+  {
+    "id": 85,
+    "section": 1,
+    "text": "題目 85",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 85"
+  },
+  {
+    "id": 86,
+    "section": 1,
+    "text": "題目 86",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 86"
+  },
+  {
+    "id": 87,
+    "section": 1,
+    "text": "題目 87",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 87"
+  },
+  {
+    "id": 88,
+    "section": 1,
+    "text": "題目 88",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 88"
+  },
+  {
+    "id": 89,
+    "section": 1,
+    "text": "題目 89",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 89"
+  },
+  {
+    "id": 90,
+    "section": 1,
+    "text": "題目 90",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 90"
+  },
+  {
+    "id": 91,
+    "section": 1,
+    "text": "題目 91",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 91"
+  },
+  {
+    "id": 92,
+    "section": 1,
+    "text": "題目 92",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 92"
+  },
+  {
+    "id": 93,
+    "section": 1,
+    "text": "題目 93",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 93"
+  },
+  {
+    "id": 94,
+    "section": 1,
+    "text": "題目 94",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 94"
+  },
+  {
+    "id": 95,
+    "section": 1,
+    "text": "題目 95",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 95"
+  },
+  {
+    "id": 96,
+    "section": 1,
+    "text": "題目 96",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 96"
+  },
+  {
+    "id": 97,
+    "section": 1,
+    "text": "題目 97",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 97"
+  },
+  {
+    "id": 98,
+    "section": 1,
+    "text": "題目 98",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 98"
+  },
+  {
+    "id": 99,
+    "section": 1,
+    "text": "題目 99",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 99"
+  },
+  {
+    "id": 100,
+    "section": 1,
+    "text": "題目 100",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 100"
+  },
+  {
+    "id": 101,
+    "section": 1,
+    "text": "題目 101",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 101"
+  },
+  {
+    "id": 102,
+    "section": 1,
+    "text": "題目 102",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 102"
+  },
+  {
+    "id": 103,
+    "section": 1,
+    "text": "題目 103",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 103"
+  },
+  {
+    "id": 104,
+    "section": 1,
+    "text": "題目 104",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 104"
+  },
+  {
+    "id": 105,
+    "section": 1,
+    "text": "題目 105",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 105"
+  },
+  {
+    "id": 106,
+    "section": 1,
+    "text": "題目 106",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 106"
+  },
+  {
+    "id": 107,
+    "section": 1,
+    "text": "題目 107",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 107"
+  },
+  {
+    "id": 108,
+    "section": 1,
+    "text": "題目 108",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 108"
+  },
+  {
+    "id": 109,
+    "section": 1,
+    "text": "題目 109",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 109"
+  },
+  {
+    "id": 110,
+    "section": 1,
+    "text": "題目 110",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 110"
+  },
+  {
+    "id": 111,
+    "section": 1,
+    "text": "題目 111",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 111"
+  },
+  {
+    "id": 112,
+    "section": 1,
+    "text": "題目 112",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 112"
+  },
+  {
+    "id": 113,
+    "section": 1,
+    "text": "題目 113",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 113"
+  },
+  {
+    "id": 114,
+    "section": 1,
+    "text": "題目 114",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 114"
+  },
+  {
+    "id": 115,
+    "section": 1,
+    "text": "題目 115",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 115"
+  },
+  {
+    "id": 116,
+    "section": 1,
+    "text": "題目 116",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 116"
+  },
+  {
+    "id": 117,
+    "section": 1,
+    "text": "題目 117",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 117"
+  },
+  {
+    "id": 118,
+    "section": 1,
+    "text": "題目 118",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 118"
+  },
+  {
+    "id": 119,
+    "section": 1,
+    "text": "題目 119",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 119"
+  },
+  {
+    "id": 120,
+    "section": 1,
+    "text": "題目 120",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 120"
+  },
+  {
+    "id": 121,
+    "section": 1,
+    "text": "題目 121",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 121"
+  },
+  {
+    "id": 122,
+    "section": 1,
+    "text": "題目 122",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 122"
+  },
+  {
+    "id": 123,
+    "section": 1,
+    "text": "題目 123",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 123"
+  },
+  {
+    "id": 124,
+    "section": 1,
+    "text": "題目 124",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 124"
+  },
+  {
+    "id": 125,
+    "section": 1,
+    "text": "題目 125",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 125"
+  },
+  {
+    "id": 126,
+    "section": 2,
+    "text": "列表推導式 [x**2 for x in range(5) if x%2==1]",
+    "options": {
+      "A": "[0,4,16]",
+      "B": "[1,9]",
+      "C": "[1,4,9,16]",
+      "D": "[]"
+    },
+    "correct_answer": "B",
+    "explanation": "只取奇數的平方"
+  },
+  {
+    "id": 127,
+    "section": 2,
+    "text": "字典和集合區別",
+    "options": {
+      "A": "相同",
+      "B": "字典鍵值對，集合無序無重",
+      "C": "集合更快",
+      "D": "無法轉換"
+    },
+    "correct_answer": "B",
+    "explanation": "數據結構不同"
+  },
+  {
+    "id": 128,
+    "section": 2,
+    "text": "NumPy 數組和列表性能",
+    "options": {
+      "A": "相同",
+      "B": "列表更快",
+      "C": "NumPy 向量化更快",
+      "D": "取決於"
+    },
+    "correct_answer": "C",
+    "explanation": "向量化操作優化"
+  },
+  {
+    "id": 129,
+    "section": 2,
+    "text": "深復製和淺復製",
+    "options": {
+      "A": "相同",
+      "B": "深復製遞歸複製層級",
+      "C": "淺更安全",
+      "D": "都修改"
+    },
+    "correct_answer": "B",
+    "explanation": "複製深度不同"
+  },
+  {
+    "id": 130,
+    "section": 2,
+    "text": "*args 和 **kwargs",
+    "options": {
+      "A": "相同",
+      "B": "*args 位置，**kwargs 關鍵字",
+      "C": "只能一個",
+      "D": "可互換"
+    },
+    "correct_answer": "B",
+    "explanation": "參數收集方式不同"
+  },
+  {
+    "id": 131,
+    "section": 2,
+    "text": "閉包作用",
+    "options": {
+      "A": "加速",
+      "B": "保留外層變數引用",
+      "C": "減少記憶體",
+      "D": "無關"
+    },
+    "correct_answer": "B",
+    "explanation": "保存外層狀態"
+  },
+  {
+    "id": 132,
+    "section": 2,
+    "text": "生成器優勢",
+    "options": {
+      "A": "速度",
+      "B": "按需生成節省記憶體",
+      "C": "易理解",
+      "D": "無優"
+    },
+    "correct_answer": "B",
+    "explanation": "延遲評估優勢"
+  },
+  {
+    "id": 133,
+    "section": 2,
+    "text": "Lambda 限制",
+    "options": {
+      "A": "無限",
+      "B": "單一表達式",
+      "C": "不能回調",
+      "D": "無返回"
+    },
+    "correct_answer": "B",
+    "explanation": "表達式受限"
+  },
+  {
+    "id": 134,
+    "section": 2,
+    "text": "list.sort() 和 sorted()",
+    "options": {
+      "A": "功能同",
+      "B": "sort() 原地，sorted() 新列表",
+      "C": "效率同",
+      "D": "返回同"
+    },
+    "correct_answer": "B",
+    "explanation": "修改方式不同"
+  },
+  {
+    "id": 135,
+    "section": 2,
+    "text": "字串和列表可變性",
+    "options": {
+      "A": "都可變",
+      "B": "都不可變",
+      "C": "字串不可變列表可",
+      "D": "相反"
+    },
+    "correct_answer": "C",
+    "explanation": "可變性不同"
+  },
+  {
+    "id": 136,
+    "section": 2,
+    "text": "Pandas loc 和 iloc",
+    "options": {
+      "A": "相同",
+      "B": "loc 標籤，iloc 位置",
+      "C": "loc 快",
+      "D": "iloc 安全"
+    },
+    "correct_answer": "B",
+    "explanation": "索引方式不同"
+  },
+  {
+    "id": 137,
+    "section": 2,
+    "text": "merge() 和 join()",
+    "options": {
+      "A": "相同",
+      "B": "merge 靈活，join 基索引",
+      "C": "join 常用",
+      "D": "無法互"
+    },
+    "correct_answer": "B",
+    "explanation": "合併方式不同"
+  },
+  {
+    "id": 138,
+    "section": 2,
+    "text": "groupby() 返回",
+    "options": {
+      "A": "DataFrame",
+      "B": "GroupBy 對象",
+      "C": "Series",
+      "D": "列表"
+    },
+    "correct_answer": "B",
+    "explanation": "返回可聚合對象"
+  },
+  {
+    "id": 139,
+    "section": 2,
+    "text": "NumPy broadcasting",
+    "options": {
+      "A": "無規則",
+      "B": "逐維比較可擴",
+      "C": "必須同",
+      "D": "自動轉"
+    },
+    "correct_answer": "B",
+    "explanation": "形狀自動擴展"
+  },
+  {
+    "id": 140,
+    "section": 2,
+    "text": "DataFrame 索引和列",
+    "options": {
+      "A": "相同",
+      "B": "行索引列名",
+      "C": "都標籤",
+      "D": "都位置"
+    },
+    "correct_answer": "B",
+    "explanation": "結構不同"
+  },
+  {
+    "id": 141,
+    "section": 2,
+    "text": "Pandas 缺失值處理",
+    "options": {
+      "A": "無法",
+      "B": "fillna、dropna 等",
+      "C": "忽略",
+      "D": "手動"
+    },
+    "correct_answer": "B",
+    "explanation": "多種處理方法"
+  },
+  {
+    "id": 142,
+    "section": 2,
+    "text": "數據型別轉換",
+    "options": {
+      "A": "無需",
+      "B": "astype() 轉換",
+      "C": "自動",
+      "D": "不可"
+    },
+    "correct_answer": "B",
+    "explanation": "顯式轉換"
+  },
+  {
+    "id": 143,
+    "section": 2,
+    "text": "Pandas pivot_table",
+    "options": {
+      "A": "無用",
+      "B": "數據透視表聚合",
+      "C": "無聚",
+      "D": "只分組"
+    },
+    "correct_answer": "B",
+    "explanation": "多維數據聚合"
+  },
+  {
+    "id": 144,
+    "section": 2,
+    "text": "NumPy 矩陣運算",
+    "options": {
+      "A": "無法",
+      "B": "@運算符或 dot()",
+      "C": "無優",
+      "D": "手工"
+    },
+    "correct_answer": "B",
+    "explanation": "矩陣乘法"
+  },
+  {
+    "id": 145,
+    "section": 2,
+    "text": "統計函數 describe()",
+    "options": {
+      "A": "無用",
+      "B": "返回描述統計",
+      "C": "只計數",
+      "D": "無用"
+    },
+    "correct_answer": "B",
+    "explanation": "快速統計概覽"
+  },
+  {
+    "id": 146,
+    "section": 2,
+    "text": "Python 題 21",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 21"
+  },
+  {
+    "id": 147,
+    "section": 2,
+    "text": "Python 題 22",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 22"
+  },
+  {
+    "id": 148,
+    "section": 2,
+    "text": "Python 題 23",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 23"
+  },
+  {
+    "id": 149,
+    "section": 2,
+    "text": "Python 題 24",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 24"
+  },
+  {
+    "id": 150,
+    "section": 2,
+    "text": "Python 題 25",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 25"
+  },
+  {
+    "id": 151,
+    "section": 2,
+    "text": "Python 題 26",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 26"
+  },
+  {
+    "id": 152,
+    "section": 2,
+    "text": "Python 題 27",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 27"
+  },
+  {
+    "id": 153,
+    "section": 2,
+    "text": "Python 題 28",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 28"
+  },
+  {
+    "id": 154,
+    "section": 2,
+    "text": "Python 題 29",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 29"
+  },
+  {
+    "id": 155,
+    "section": 2,
+    "text": "Python 題 30",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 30"
+  },
+  {
+    "id": 156,
+    "section": 2,
+    "text": "Python 題 31",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 31"
+  },
+  {
+    "id": 157,
+    "section": 2,
+    "text": "Python 題 32",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 32"
+  },
+  {
+    "id": 158,
+    "section": 2,
+    "text": "Python 題 33",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 33"
+  },
+  {
+    "id": 159,
+    "section": 2,
+    "text": "Python 題 34",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 34"
+  },
+  {
+    "id": 160,
+    "section": 2,
+    "text": "Python 題 35",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 35"
+  },
+  {
+    "id": 161,
+    "section": 2,
+    "text": "Python 題 36",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 36"
+  },
+  {
+    "id": 162,
+    "section": 2,
+    "text": "Python 題 37",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 37"
+  },
+  {
+    "id": 163,
+    "section": 2,
+    "text": "Python 題 38",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 38"
+  },
+  {
+    "id": 164,
+    "section": 2,
+    "text": "Python 題 39",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 39"
+  },
+  {
+    "id": 165,
+    "section": 2,
+    "text": "Python 題 40",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 40"
+  },
+  {
+    "id": 166,
+    "section": 2,
+    "text": "Python 題 41",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 41"
+  },
+  {
+    "id": 167,
+    "section": 2,
+    "text": "Python 題 42",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 42"
+  },
+  {
+    "id": 168,
+    "section": 2,
+    "text": "Python 題 43",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 43"
+  },
+  {
+    "id": 169,
+    "section": 2,
+    "text": "Python 題 44",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 44"
+  },
+  {
+    "id": 170,
+    "section": 2,
+    "text": "Python 題 45",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 45"
+  },
+  {
+    "id": 171,
+    "section": 2,
+    "text": "Python 題 46",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 46"
+  },
+  {
+    "id": 172,
+    "section": 2,
+    "text": "Python 題 47",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 47"
+  },
+  {
+    "id": 173,
+    "section": 2,
+    "text": "Python 題 48",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 48"
+  },
+  {
+    "id": 174,
+    "section": 2,
+    "text": "Python 題 49",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 49"
+  },
+  {
+    "id": 175,
+    "section": 2,
+    "text": "Python 題 50",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 50"
+  },
+  {
+    "id": 176,
+    "section": 2,
+    "text": "Python 題 51",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 51"
+  },
+  {
+    "id": 177,
+    "section": 2,
+    "text": "Python 題 52",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 52"
+  },
+  {
+    "id": 178,
+    "section": 2,
+    "text": "Python 題 53",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 53"
+  },
+  {
+    "id": 179,
+    "section": 2,
+    "text": "Python 題 54",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 54"
+  },
+  {
+    "id": 180,
+    "section": 2,
+    "text": "Python 題 55",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 55"
+  },
+  {
+    "id": 181,
+    "section": 2,
+    "text": "Python 題 56",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 56"
+  },
+  {
+    "id": 182,
+    "section": 2,
+    "text": "Python 題 57",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 57"
+  },
+  {
+    "id": 183,
+    "section": 2,
+    "text": "Python 題 58",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 58"
+  },
+  {
+    "id": 184,
+    "section": 2,
+    "text": "Python 題 59",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 59"
+  },
+  {
+    "id": 185,
+    "section": 2,
+    "text": "Python 題 60",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 60"
+  },
+  {
+    "id": 186,
+    "section": 2,
+    "text": "Python 題 61",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 61"
+  },
+  {
+    "id": 187,
+    "section": 2,
+    "text": "Python 題 62",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 62"
+  },
+  {
+    "id": 188,
+    "section": 2,
+    "text": "Python 題 63",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 63"
+  },
+  {
+    "id": 189,
+    "section": 2,
+    "text": "Python 題 64",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 64"
+  },
+  {
+    "id": 190,
+    "section": 2,
+    "text": "Python 題 65",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 65"
+  },
+  {
+    "id": 191,
+    "section": 2,
+    "text": "Python 題 66",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 66"
+  },
+  {
+    "id": 192,
+    "section": 2,
+    "text": "Python 題 67",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 67"
+  },
+  {
+    "id": 193,
+    "section": 2,
+    "text": "Python 題 68",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 68"
+  },
+  {
+    "id": 194,
+    "section": 2,
+    "text": "Python 題 69",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 69"
+  },
+  {
+    "id": 195,
+    "section": 2,
+    "text": "Python 題 70",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 70"
+  },
+  {
+    "id": 196,
+    "section": 2,
+    "text": "Python 題 71",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 71"
+  },
+  {
+    "id": 197,
+    "section": 2,
+    "text": "Python 題 72",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 72"
+  },
+  {
+    "id": 198,
+    "section": 2,
+    "text": "Python 題 73",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 73"
+  },
+  {
+    "id": 199,
+    "section": 2,
+    "text": "Python 題 74",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 74"
+  },
+  {
+    "id": 200,
+    "section": 2,
+    "text": "Python 題 75",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 75"
+  },
+  {
+    "id": 201,
+    "section": 2,
+    "text": "Python 題 76",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 76"
+  },
+  {
+    "id": 202,
+    "section": 2,
+    "text": "Python 題 77",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 77"
+  },
+  {
+    "id": 203,
+    "section": 2,
+    "text": "Python 題 78",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 78"
+  },
+  {
+    "id": 204,
+    "section": 2,
+    "text": "Python 題 79",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 79"
+  },
+  {
+    "id": 205,
+    "section": 2,
+    "text": "Python 題 80",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 80"
+  },
+  {
+    "id": 206,
+    "section": 2,
+    "text": "Python 題 81",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 81"
+  },
+  {
+    "id": 207,
+    "section": 2,
+    "text": "Python 題 82",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 82"
+  },
+  {
+    "id": 208,
+    "section": 2,
+    "text": "Python 題 83",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 83"
+  },
+  {
+    "id": 209,
+    "section": 2,
+    "text": "Python 題 84",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 84"
+  },
+  {
+    "id": 210,
+    "section": 2,
+    "text": "Python 題 85",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 85"
+  },
+  {
+    "id": 211,
+    "section": 2,
+    "text": "Python 題 86",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 86"
+  },
+  {
+    "id": 212,
+    "section": 2,
+    "text": "Python 題 87",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 87"
+  },
+  {
+    "id": 213,
+    "section": 2,
+    "text": "Python 題 88",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 88"
+  },
+  {
+    "id": 214,
+    "section": 2,
+    "text": "Python 題 89",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 89"
+  },
+  {
+    "id": 215,
+    "section": 2,
+    "text": "Python 題 90",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 90"
+  },
+  {
+    "id": 216,
+    "section": 2,
+    "text": "Python 題 91",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 91"
+  },
+  {
+    "id": 217,
+    "section": 2,
+    "text": "Python 題 92",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 92"
+  },
+  {
+    "id": 218,
+    "section": 2,
+    "text": "Python 題 93",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 93"
+  },
+  {
+    "id": 219,
+    "section": 2,
+    "text": "Python 題 94",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 94"
+  },
+  {
+    "id": 220,
+    "section": 2,
+    "text": "Python 題 95",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 95"
+  },
+  {
+    "id": 221,
+    "section": 2,
+    "text": "Python 題 96",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 96"
+  },
+  {
+    "id": 222,
+    "section": 2,
+    "text": "Python 題 97",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 97"
+  },
+  {
+    "id": 223,
+    "section": 2,
+    "text": "Python 題 98",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 98"
+  },
+  {
+    "id": 224,
+    "section": 2,
+    "text": "Python 題 99",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 99"
+  },
+  {
+    "id": 225,
+    "section": 2,
+    "text": "Python 題 100",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 100"
+  },
+  {
+    "id": 226,
+    "section": 2,
+    "text": "Python 題 101",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 101"
+  },
+  {
+    "id": 227,
+    "section": 2,
+    "text": "Python 題 102",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 102"
+  },
+  {
+    "id": 228,
+    "section": 2,
+    "text": "Python 題 103",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 103"
+  },
+  {
+    "id": 229,
+    "section": 2,
+    "text": "Python 題 104",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 104"
+  },
+  {
+    "id": 230,
+    "section": 2,
+    "text": "Python 題 105",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 105"
+  },
+  {
+    "id": 231,
+    "section": 2,
+    "text": "Python 題 106",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 106"
+  },
+  {
+    "id": 232,
+    "section": 2,
+    "text": "Python 題 107",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 107"
+  },
+  {
+    "id": 233,
+    "section": 2,
+    "text": "Python 題 108",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 108"
+  },
+  {
+    "id": 234,
+    "section": 2,
+    "text": "Python 題 109",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 109"
+  },
+  {
+    "id": 235,
+    "section": 2,
+    "text": "Python 題 110",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 110"
+  },
+  {
+    "id": 236,
+    "section": 2,
+    "text": "Python 題 111",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 111"
+  },
+  {
+    "id": 237,
+    "section": 2,
+    "text": "Python 題 112",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 112"
+  },
+  {
+    "id": 238,
+    "section": 2,
+    "text": "Python 題 113",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 113"
+  },
+  {
+    "id": 239,
+    "section": 2,
+    "text": "Python 題 114",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 114"
+  },
+  {
+    "id": 240,
+    "section": 2,
+    "text": "Python 題 115",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 115"
+  },
+  {
+    "id": 241,
+    "section": 2,
+    "text": "Python 題 116",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 116"
+  },
+  {
+    "id": 242,
+    "section": 2,
+    "text": "Python 題 117",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 117"
+  },
+  {
+    "id": 243,
+    "section": 2,
+    "text": "Python 題 118",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 118"
+  },
+  {
+    "id": 244,
+    "section": 2,
+    "text": "Python 題 119",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 119"
+  },
+  {
+    "id": 245,
+    "section": 2,
+    "text": "Python 題 120",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 120"
+  },
+  {
+    "id": 246,
+    "section": 2,
+    "text": "Python 題 121",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 121"
+  },
+  {
+    "id": 247,
+    "section": 2,
+    "text": "Python 題 122",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 122"
+  },
+  {
+    "id": 248,
+    "section": 2,
+    "text": "Python 題 123",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 123"
+  },
+  {
+    "id": 249,
+    "section": 2,
+    "text": "Python 題 124",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 124"
+  },
+  {
+    "id": 250,
+    "section": 2,
+    "text": "Python 題 125",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 125"
+  },
+  {
+    "id": 251,
+    "section": 3,
+    "text": "過擬合主要原因",
+    "options": {
+      "A": "樣本不足",
+      "B": "樣本過多",
+      "C": "模型簡",
+      "D": "學習率"
+    },
+    "correct_answer": "A",
+    "explanation": "複雜或數據不足"
+  },
+  {
+    "id": 252,
+    "section": 3,
+    "text": "F1 Score 適用",
+    "options": {
+      "A": "平衡數據",
+      "B": "不平衡數據",
+      "C": "回歸",
+      "D": "聚類"
+    },
+    "correct_answer": "B",
+    "explanation": "不平衡分類最佳"
+  },
+  {
+    "id": 253,
+    "section": 3,
+    "text": "交叉驗證目的",
+    "options": {
+      "A": "加快",
+      "B": "評估泛化",
+      "C": "減少",
+      "D": "簡化"
+    },
+    "correct_answer": "B",
+    "explanation": "估計真實性能"
+  },
+  {
+    "id": 254,
+    "section": 3,
+    "text": "欠擬合表現",
+    "options": {
+      "A": "訓練測試誤都高",
+      "B": "訓練低",
+      "C": "測試低",
+      "D": "隨機"
+    },
+    "correct_answer": "A",
+    "explanation": "都未能學習"
+  },
+  {
+    "id": 255,
+    "section": 3,
+    "text": "特徵工程重要性",
+    "options": {
+      "A": "無關",
+      "B": "可能比演算法重要",
+      "C": "只有算法",
+      "D": "自動"
+    },
+    "correct_answer": "B",
+    "explanation": "特徵影響深遠"
+  },
+  {
+    "id": 256,
+    "section": 3,
+    "text": "ROC 曲線 AUC",
+    "options": {
+      "A": "準確度",
+      "B": "真正例率與假正例率",
+      "C": "精準度",
+      "D": "召回"
+    },
+    "correct_answer": "B",
+    "explanation": "分類績效權衡"
+  },
+  {
+    "id": 257,
+    "section": 3,
+    "text": "決策樹優勢",
+    "options": {
+      "A": "快速",
+      "B": "易解釋無特徵縮放",
+      "C": "無過擬",
+      "D": "大數"
+    },
+    "correct_answer": "B",
+    "explanation": "可解釋性強"
+  },
+  {
+    "id": 258,
+    "section": 3,
+    "text": "隨機森林對決策樹",
+    "options": {
+      "A": "簡單",
+      "B": "集成降低過擬",
+      "C": "快",
+      "D": "同複"
+    },
+    "correct_answer": "B",
+    "explanation": "聚合改進"
+  },
+  {
+    "id": 259,
+    "section": 3,
+    "text": "SVM 核函數",
+    "options": {
+      "A": "加速",
+      "B": "非線性映高維",
+      "C": "減參",
+      "D": "無"
+    },
+    "correct_answer": "B",
+    "explanation": "非線性處理"
+  },
+  {
+    "id": 260,
+    "section": 3,
+    "text": "激活函數作用",
+    "options": {
+      "A": "無需",
+      "B": "引入非線性",
+      "C": "加速",
+      "D": "減"
+    },
+    "correct_answer": "B",
+    "explanation": "非線性表達"
+  },
+  {
+    "id": 261,
+    "section": 3,
+    "text": "損失函數作用",
+    "options": {
+      "A": "無關",
+      "B": "量化誤差指導優化",
+      "C": "加速",
+      "D": "減"
+    },
+    "correct_answer": "B",
+    "explanation": "優化目標"
+  },
+  {
+    "id": 262,
+    "section": 3,
+    "text": "學習率作用",
+    "options": {
+      "A": "無關",
+      "B": "控制更新步大",
+      "C": "固定",
+      "D": "越大越好"
+    },
+    "correct_answer": "B",
+    "explanation": "步長控制"
+  },
+  {
+    "id": 263,
+    "section": 3,
+    "text": "正則化目的",
+    "options": {
+      "A": "加快",
+      "B": "防過擬罰複雜",
+      "C": "提速",
+      "D": "無"
+    },
+    "correct_answer": "B",
+    "explanation": "控制容量"
+  },
+  {
+    "id": 264,
+    "section": 3,
+    "text": "批量歸一化",
+    "options": {
+      "A": "無關",
+      "B": "穩定訓練加速",
+      "C": "減參",
+      "D": "無需"
+    },
+    "correct_answer": "B",
+    "explanation": "穩定激活"
+  },
+  {
+    "id": 265,
+    "section": 3,
+    "text": "集成學習原理",
+    "options": {
+      "A": "無關",
+      "B": "多個弱學習器聯合",
+      "C": "單模型",
+      "D": "浪"
+    },
+    "correct_answer": "B",
+    "explanation": "聚合改進"
+  },
+  {
+    "id": 266,
+    "section": 3,
+    "text": "驗證集的作用",
+    "options": {
+      "A": "無用",
+      "B": "調超參數測泛化",
+      "C": "訓練",
+      "D": "測試"
+    },
+    "correct_answer": "B",
+    "explanation": "超參數選擇"
+  },
+  {
+    "id": 267,
+    "section": 3,
+    "text": "測試集的作用",
+    "options": {
+      "A": "無用",
+      "B": "評估未見數據性能",
+      "C": "訓練",
+      "D": "驗證"
+    },
+    "correct_answer": "B",
+    "explanation": "最終評估"
+  },
+  {
+    "id": 268,
+    "section": 3,
+    "text": "過正則化",
+    "options": {
+      "A": "更好",
+      "B": "過度懲罰欠擬",
+      "C": "無影",
+      "D": "加快"
+    },
+    "correct_answer": "B",
+    "explanation": "影響性能"
+  },
+  {
+    "id": 269,
+    "section": 3,
+    "text": "Dropout 的作用",
+    "options": {
+      "A": "加速",
+      "B": "隨機停用神經元防過擬",
+      "C": "簡化",
+      "D": "無"
+    },
+    "correct_answer": "B",
+    "explanation": "隨機正則化"
+  },
+  {
+    "id": 270,
+    "section": 3,
+    "text": "超參數調整方法",
+    "options": {
+      "A": "無用",
+      "B": "網格、隨機、貝葉斯搜索",
+      "C": "固定",
+      "D": "猜測"
+    },
+    "correct_answer": "B",
+    "explanation": "系統搜索"
+  },
+  {
+    "id": 271,
+    "section": 3,
+    "text": "理論 21",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 21"
+  },
+  {
+    "id": 272,
+    "section": 3,
+    "text": "理論 22",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 22"
+  },
+  {
+    "id": 273,
+    "section": 3,
+    "text": "理論 23",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 23"
+  },
+  {
+    "id": 274,
+    "section": 3,
+    "text": "理論 24",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 24"
+  },
+  {
+    "id": 275,
+    "section": 3,
+    "text": "理論 25",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 25"
+  },
+  {
+    "id": 276,
+    "section": 3,
+    "text": "理論 26",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 26"
+  },
+  {
+    "id": 277,
+    "section": 3,
+    "text": "理論 27",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 27"
+  },
+  {
+    "id": 278,
+    "section": 3,
+    "text": "理論 28",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 28"
+  },
+  {
+    "id": 279,
+    "section": 3,
+    "text": "理論 29",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 29"
+  },
+  {
+    "id": 280,
+    "section": 3,
+    "text": "理論 30",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 30"
+  },
+  {
+    "id": 281,
+    "section": 3,
+    "text": "理論 31",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 31"
+  },
+  {
+    "id": 282,
+    "section": 3,
+    "text": "理論 32",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 32"
+  },
+  {
+    "id": 283,
+    "section": 3,
+    "text": "理論 33",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 33"
+  },
+  {
+    "id": 284,
+    "section": 3,
+    "text": "理論 34",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 34"
+  },
+  {
+    "id": 285,
+    "section": 3,
+    "text": "理論 35",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 35"
+  },
+  {
+    "id": 286,
+    "section": 3,
+    "text": "理論 36",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 36"
+  },
+  {
+    "id": 287,
+    "section": 3,
+    "text": "理論 37",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 37"
+  },
+  {
+    "id": 288,
+    "section": 3,
+    "text": "理論 38",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 38"
+  },
+  {
+    "id": 289,
+    "section": 3,
+    "text": "理論 39",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 39"
+  },
+  {
+    "id": 290,
+    "section": 3,
+    "text": "理論 40",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 40"
+  },
+  {
+    "id": 291,
+    "section": 3,
+    "text": "理論 41",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 41"
+  },
+  {
+    "id": 292,
+    "section": 3,
+    "text": "理論 42",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 42"
+  },
+  {
+    "id": 293,
+    "section": 3,
+    "text": "理論 43",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 43"
+  },
+  {
+    "id": 294,
+    "section": 3,
+    "text": "理論 44",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 44"
+  },
+  {
+    "id": 295,
+    "section": 3,
+    "text": "理論 45",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 45"
+  },
+  {
+    "id": 296,
+    "section": 3,
+    "text": "理論 46",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 46"
+  },
+  {
+    "id": 297,
+    "section": 3,
+    "text": "理論 47",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 47"
+  },
+  {
+    "id": 298,
+    "section": 3,
+    "text": "理論 48",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 48"
+  },
+  {
+    "id": 299,
+    "section": 3,
+    "text": "理論 49",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 49"
+  },
+  {
+    "id": 300,
+    "section": 3,
+    "text": "理論 50",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 50"
+  },
+  {
+    "id": 301,
+    "section": 3,
+    "text": "理論 51",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 51"
+  },
+  {
+    "id": 302,
+    "section": 3,
+    "text": "理論 52",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 52"
+  },
+  {
+    "id": 303,
+    "section": 3,
+    "text": "理論 53",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 53"
+  },
+  {
+    "id": 304,
+    "section": 3,
+    "text": "理論 54",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 54"
+  },
+  {
+    "id": 305,
+    "section": 3,
+    "text": "理論 55",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 55"
+  },
+  {
+    "id": 306,
+    "section": 3,
+    "text": "理論 56",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 56"
+  },
+  {
+    "id": 307,
+    "section": 3,
+    "text": "理論 57",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 57"
+  },
+  {
+    "id": 308,
+    "section": 3,
+    "text": "理論 58",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 58"
+  },
+  {
+    "id": 309,
+    "section": 3,
+    "text": "理論 59",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 59"
+  },
+  {
+    "id": 310,
+    "section": 3,
+    "text": "理論 60",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 60"
+  },
+  {
+    "id": 311,
+    "section": 3,
+    "text": "理論 61",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 61"
+  },
+  {
+    "id": 312,
+    "section": 3,
+    "text": "理論 62",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 62"
+  },
+  {
+    "id": 313,
+    "section": 3,
+    "text": "理論 63",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 63"
+  },
+  {
+    "id": 314,
+    "section": 3,
+    "text": "理論 64",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 64"
+  },
+  {
+    "id": 315,
+    "section": 3,
+    "text": "理論 65",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 65"
+  },
+  {
+    "id": 316,
+    "section": 3,
+    "text": "理論 66",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 66"
+  },
+  {
+    "id": 317,
+    "section": 3,
+    "text": "理論 67",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 67"
+  },
+  {
+    "id": 318,
+    "section": 3,
+    "text": "理論 68",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 68"
+  },
+  {
+    "id": 319,
+    "section": 3,
+    "text": "理論 69",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 69"
+  },
+  {
+    "id": 320,
+    "section": 3,
+    "text": "理論 70",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 70"
+  },
+  {
+    "id": 321,
+    "section": 3,
+    "text": "理論 71",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 71"
+  },
+  {
+    "id": 322,
+    "section": 3,
+    "text": "理論 72",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 72"
+  },
+  {
+    "id": 323,
+    "section": 3,
+    "text": "理論 73",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 73"
+  },
+  {
+    "id": 324,
+    "section": 3,
+    "text": "理論 74",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 74"
+  },
+  {
+    "id": 325,
+    "section": 3,
+    "text": "理論 75",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 75"
+  },
+  {
+    "id": 326,
+    "section": 3,
+    "text": "理論 76",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 76"
+  },
+  {
+    "id": 327,
+    "section": 3,
+    "text": "理論 77",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 77"
+  },
+  {
+    "id": 328,
+    "section": 3,
+    "text": "理論 78",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 78"
+  },
+  {
+    "id": 329,
+    "section": 3,
+    "text": "理論 79",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 79"
+  },
+  {
+    "id": 330,
+    "section": 3,
+    "text": "理論 80",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 80"
+  },
+  {
+    "id": 331,
+    "section": 3,
+    "text": "理論 81",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 81"
+  },
+  {
+    "id": 332,
+    "section": 3,
+    "text": "理論 82",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 82"
+  },
+  {
+    "id": 333,
+    "section": 3,
+    "text": "理論 83",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 83"
+  },
+  {
+    "id": 334,
+    "section": 3,
+    "text": "理論 84",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 84"
+  },
+  {
+    "id": 335,
+    "section": 3,
+    "text": "理論 85",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 85"
+  },
+  {
+    "id": 336,
+    "section": 3,
+    "text": "理論 86",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 86"
+  },
+  {
+    "id": 337,
+    "section": 3,
+    "text": "理論 87",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 87"
+  },
+  {
+    "id": 338,
+    "section": 3,
+    "text": "理論 88",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 88"
+  },
+  {
+    "id": 339,
+    "section": 3,
+    "text": "理論 89",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 89"
+  },
+  {
+    "id": 340,
+    "section": 3,
+    "text": "理論 90",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 90"
+  },
+  {
+    "id": 341,
+    "section": 3,
+    "text": "理論 91",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 91"
+  },
+  {
+    "id": 342,
+    "section": 3,
+    "text": "理論 92",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 92"
+  },
+  {
+    "id": 343,
+    "section": 3,
+    "text": "理論 93",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 93"
+  },
+  {
+    "id": 344,
+    "section": 3,
+    "text": "理論 94",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 94"
+  },
+  {
+    "id": 345,
+    "section": 3,
+    "text": "理論 95",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 95"
+  },
+  {
+    "id": 346,
+    "section": 3,
+    "text": "理論 96",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 96"
+  },
+  {
+    "id": 347,
+    "section": 3,
+    "text": "理論 97",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 97"
+  },
+  {
+    "id": 348,
+    "section": 3,
+    "text": "理論 98",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 98"
+  },
+  {
+    "id": 349,
+    "section": 3,
+    "text": "理論 99",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 99"
+  },
+  {
+    "id": 350,
+    "section": 3,
+    "text": "理論 100",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 100"
+  },
+  {
+    "id": 351,
+    "section": 3,
+    "text": "理論 101",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 101"
+  },
+  {
+    "id": 352,
+    "section": 3,
+    "text": "理論 102",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 102"
+  },
+  {
+    "id": 353,
+    "section": 3,
+    "text": "理論 103",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 103"
+  },
+  {
+    "id": 354,
+    "section": 3,
+    "text": "理論 104",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 104"
+  },
+  {
+    "id": 355,
+    "section": 3,
+    "text": "理論 105",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 105"
+  },
+  {
+    "id": 356,
+    "section": 3,
+    "text": "理論 106",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 106"
+  },
+  {
+    "id": 357,
+    "section": 3,
+    "text": "理論 107",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 107"
+  },
+  {
+    "id": 358,
+    "section": 3,
+    "text": "理論 108",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 108"
+  },
+  {
+    "id": 359,
+    "section": 3,
+    "text": "理論 109",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 109"
+  },
+  {
+    "id": 360,
+    "section": 3,
+    "text": "理論 110",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 110"
+  },
+  {
+    "id": 361,
+    "section": 3,
+    "text": "理論 111",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 111"
+  },
+  {
+    "id": 362,
+    "section": 3,
+    "text": "理論 112",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 112"
+  },
+  {
+    "id": 363,
+    "section": 3,
+    "text": "理論 113",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 113"
+  },
+  {
+    "id": 364,
+    "section": 3,
+    "text": "理論 114",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 114"
+  },
+  {
+    "id": 365,
+    "section": 3,
+    "text": "理論 115",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 115"
+  },
+  {
+    "id": 366,
+    "section": 3,
+    "text": "理論 116",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 116"
+  },
+  {
+    "id": 367,
+    "section": 3,
+    "text": "理論 117",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 117"
+  },
+  {
+    "id": 368,
+    "section": 3,
+    "text": "理論 118",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 118"
+  },
+  {
+    "id": 369,
+    "section": 3,
+    "text": "理論 119",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 119"
+  },
+  {
+    "id": 370,
+    "section": 3,
+    "text": "理論 120",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 120"
+  },
+  {
+    "id": 371,
+    "section": 3,
+    "text": "理論 121",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 121"
+  },
+  {
+    "id": 372,
+    "section": 3,
+    "text": "理論 122",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 122"
+  },
+  {
+    "id": 373,
+    "section": 3,
+    "text": "理論 123",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 123"
+  },
+  {
+    "id": 374,
+    "section": 3,
+    "text": "理論 124",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 124"
+  },
+  {
+    "id": 375,
+    "section": 3,
+    "text": "理論 125",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 125"
+  },
+  {
+    "id": 376,
+    "section": 4,
+    "text": "RAG 系統重要",
+    "options": {
+      "A": "速度",
+      "B": "檢索文檔相關準確",
+      "C": "模型",
+      "D": "無質"
+    },
+    "correct_answer": "B",
+    "explanation": "檢索品質決定效果"
+  },
+  {
+    "id": 377,
+    "section": 4,
+    "text": "企業部署隱私",
+    "options": {
+      "A": "無",
+      "B": "私有部署訪問控制",
+      "C": "預設",
+      "D": "免費"
+    },
+    "correct_answer": "B",
+    "explanation": "多層防護"
+  },
+  {
+    "id": 378,
+    "section": 4,
+    "text": "微調優勢",
+    "options": {
+      "A": "無",
+      "B": "快速適應少數據",
+      "C": "無調",
+      "D": "同效"
+    },
+    "correct_answer": "B",
+    "explanation": "利用預訓練"
+  },
+  {
+    "id": 379,
+    "section": 4,
+    "text": "遷移學習適用",
+    "options": {
+      "A": "充足",
+      "B": "不足但相關",
+      "C": "無相",
+      "D": "不實"
+    },
+    "correct_answer": "B",
+    "explanation": "數據不足時效"
+  },
+  {
+    "id": 380,
+    "section": 4,
+    "text": "模型評估",
+    "options": {
+      "A": "訓練準",
+      "B": "測試和業務指標",
+      "C": "複雜",
+      "D": "速度"
+    },
+    "correct_answer": "B",
+    "explanation": "實際性能評估"
+  },
+  {
+    "id": 381,
+    "section": 4,
+    "text": "A/B 測試目的",
+    "options": {
+      "A": "無",
+      "B": "比較版本實際效果",
+      "C": "加快",
+      "D": "簡"
+    },
+    "correct_answer": "B",
+    "explanation": "驗證實際價值"
+  },
+  {
+    "id": 382,
+    "section": 4,
+    "text": "模型監控指標",
+    "options": {
+      "A": "無",
+      "B": "漂移、下降、分布變",
+      "C": "只準",
+      "D": "無法"
+    },
+    "correct_answer": "B",
+    "explanation": "多指標監控"
+  },
+  {
+    "id": 383,
+    "section": 4,
+    "text": "特徵存儲作用",
+    "options": {
+      "A": "無",
+      "B": "統一管理特徵效率",
+      "C": "無需",
+      "D": "手動更好"
+    },
+    "correct_answer": "B",
+    "explanation": "提高效率"
+  },
+  {
+    "id": 384,
+    "section": 4,
+    "text": "AutoML 限制",
+    "options": {
+      "A": "無限",
+      "B": "無法優化全無需知識",
+      "C": "完全",
+      "D": "永差"
+    },
+    "correct_answer": "B",
+    "explanation": "需領域知識"
+  },
+  {
+    "id": 385,
+    "section": 4,
+    "text": "部署挑戰",
+    "options": {
+      "A": "無",
+      "B": "延遲可擴版本管理",
+      "C": "簡",
+      "D": "一次"
+    },
+    "correct_answer": "B",
+    "explanation": "多重挑戰"
+  },
+  {
+    "id": 386,
+    "section": 4,
+    "text": "推薦系統冷啟",
+    "options": {
+      "A": "無",
+      "B": "新用戶無數據",
+      "C": "自動",
+      "D": "無"
+    },
+    "correct_answer": "B",
+    "explanation": "常見問題"
+  },
+  {
+    "id": 387,
+    "section": 4,
+    "text": "詞嵌入作用",
+    "options": {
+      "A": "無需",
+      "B": "映射到向量空間",
+      "C": "只分",
+      "D": "降維"
+    },
+    "correct_answer": "B",
+    "explanation": "NLP 基礎"
+  },
+  {
+    "id": 388,
+    "section": 4,
+    "text": "視覺遷移學習",
+    "options": {
+      "A": "無效",
+      "B": "預訓練卷積加速",
+      "C": "無速",
+      "D": "只分"
+    },
+    "correct_answer": "B",
+    "explanation": "大幅加速"
+  },
+  {
+    "id": 389,
+    "section": 4,
+    "text": "時間序列挑戰",
+    "options": {
+      "A": "無",
+      "B": "非平穩季節趨勢",
+      "C": "線性",
+      "D": "無解"
+    },
+    "correct_answer": "B",
+    "explanation": "多重特性"
+  },
+  {
+    "id": 390,
+    "section": 4,
+    "text": "異常檢測應用",
+    "options": {
+      "A": "無",
+      "B": "詐欺、故障預警",
+      "C": "無用",
+      "D": "複"
+    },
+    "correct_answer": "B",
+    "explanation": "多領域價值"
+  },
+  {
+    "id": 391,
+    "section": 4,
+    "text": "模型版本控制",
+    "options": {
+      "A": "無需",
+      "B": "追蹤模型演變",
+      "C": "無",
+      "D": "手動"
+    },
+    "correct_answer": "B",
+    "explanation": "生產必需"
+  },
+  {
+    "id": 392,
+    "section": 4,
+    "text": "模型漂移檢測",
+    "options": {
+      "A": "無",
+      "B": "監控性能下降",
+      "C": "無",
+      "D": "無法"
+    },
+    "correct_answer": "B",
+    "explanation": "重要監控"
+  },
+  {
+    "id": 393,
+    "section": 4,
+    "text": "再訓練策略",
+    "options": {
+      "A": "無",
+      "B": "根據性能定期訓練",
+      "C": "無需",
+      "D": "一次"
+    },
+    "correct_answer": "B",
+    "explanation": "持續改進"
+  },
+  {
+    "id": 394,
+    "section": 4,
+    "text": "成本優化",
+    "options": {
+      "A": "無",
+      "B": "選擇適當模型複雜度",
+      "C": "複",
+      "D": "大"
+    },
+    "correct_answer": "B",
+    "explanation": "性能成本平衡"
+  },
+  {
+    "id": 395,
+    "section": 4,
+    "text": "倫理審計",
+    "options": {
+      "A": "無",
+      "B": "定期檢查偏見性能",
+      "C": "無需",
+      "D": "無"
+    },
+    "correct_answer": "B",
+    "explanation": "持續把關"
+  },
+  {
+    "id": 396,
+    "section": 4,
+    "text": "應用 21",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 21"
+  },
+  {
+    "id": 397,
+    "section": 4,
+    "text": "應用 22",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 22"
+  },
+  {
+    "id": 398,
+    "section": 4,
+    "text": "應用 23",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 23"
+  },
+  {
+    "id": 399,
+    "section": 4,
+    "text": "應用 24",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 24"
+  },
+  {
+    "id": 400,
+    "section": 4,
+    "text": "應用 25",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 25"
+  },
+  {
+    "id": 401,
+    "section": 4,
+    "text": "應用 26",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 26"
+  },
+  {
+    "id": 402,
+    "section": 4,
+    "text": "應用 27",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 27"
+  },
+  {
+    "id": 403,
+    "section": 4,
+    "text": "應用 28",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 28"
+  },
+  {
+    "id": 404,
+    "section": 4,
+    "text": "應用 29",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 29"
+  },
+  {
+    "id": 405,
+    "section": 4,
+    "text": "應用 30",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 30"
+  },
+  {
+    "id": 406,
+    "section": 4,
+    "text": "應用 31",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 31"
+  },
+  {
+    "id": 407,
+    "section": 4,
+    "text": "應用 32",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 32"
+  },
+  {
+    "id": 408,
+    "section": 4,
+    "text": "應用 33",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 33"
+  },
+  {
+    "id": 409,
+    "section": 4,
+    "text": "應用 34",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 34"
+  },
+  {
+    "id": 410,
+    "section": 4,
+    "text": "應用 35",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 35"
+  },
+  {
+    "id": 411,
+    "section": 4,
+    "text": "應用 36",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 36"
+  },
+  {
+    "id": 412,
+    "section": 4,
+    "text": "應用 37",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 37"
+  },
+  {
+    "id": 413,
+    "section": 4,
+    "text": "應用 38",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 38"
+  },
+  {
+    "id": 414,
+    "section": 4,
+    "text": "應用 39",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 39"
+  },
+  {
+    "id": 415,
+    "section": 4,
+    "text": "應用 40",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 40"
+  },
+  {
+    "id": 416,
+    "section": 4,
+    "text": "應用 41",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 41"
+  },
+  {
+    "id": 417,
+    "section": 4,
+    "text": "應用 42",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 42"
+  },
+  {
+    "id": 418,
+    "section": 4,
+    "text": "應用 43",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 43"
+  },
+  {
+    "id": 419,
+    "section": 4,
+    "text": "應用 44",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 44"
+  },
+  {
+    "id": 420,
+    "section": 4,
+    "text": "應用 45",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 45"
+  },
+  {
+    "id": 421,
+    "section": 4,
+    "text": "應用 46",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 46"
+  },
+  {
+    "id": 422,
+    "section": 4,
+    "text": "應用 47",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 47"
+  },
+  {
+    "id": 423,
+    "section": 4,
+    "text": "應用 48",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 48"
+  },
+  {
+    "id": 424,
+    "section": 4,
+    "text": "應用 49",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 49"
+  },
+  {
+    "id": 425,
+    "section": 4,
+    "text": "應用 50",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 50"
+  },
+  {
+    "id": 426,
+    "section": 4,
+    "text": "應用 51",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 51"
+  },
+  {
+    "id": 427,
+    "section": 4,
+    "text": "應用 52",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 52"
+  },
+  {
+    "id": 428,
+    "section": 4,
+    "text": "應用 53",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 53"
+  },
+  {
+    "id": 429,
+    "section": 4,
+    "text": "應用 54",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 54"
+  },
+  {
+    "id": 430,
+    "section": 4,
+    "text": "應用 55",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 55"
+  },
+  {
+    "id": 431,
+    "section": 4,
+    "text": "應用 56",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 56"
+  },
+  {
+    "id": 432,
+    "section": 4,
+    "text": "應用 57",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 57"
+  },
+  {
+    "id": 433,
+    "section": 4,
+    "text": "應用 58",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 58"
+  },
+  {
+    "id": 434,
+    "section": 4,
+    "text": "應用 59",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 59"
+  },
+  {
+    "id": 435,
+    "section": 4,
+    "text": "應用 60",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 60"
+  },
+  {
+    "id": 436,
+    "section": 4,
+    "text": "應用 61",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 61"
+  },
+  {
+    "id": 437,
+    "section": 4,
+    "text": "應用 62",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 62"
+  },
+  {
+    "id": 438,
+    "section": 4,
+    "text": "應用 63",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 63"
+  },
+  {
+    "id": 439,
+    "section": 4,
+    "text": "應用 64",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 64"
+  },
+  {
+    "id": 440,
+    "section": 4,
+    "text": "應用 65",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 65"
+  },
+  {
+    "id": 441,
+    "section": 4,
+    "text": "應用 66",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 66"
+  },
+  {
+    "id": 442,
+    "section": 4,
+    "text": "應用 67",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 67"
+  },
+  {
+    "id": 443,
+    "section": 4,
+    "text": "應用 68",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 68"
+  },
+  {
+    "id": 444,
+    "section": 4,
+    "text": "應用 69",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 69"
+  },
+  {
+    "id": 445,
+    "section": 4,
+    "text": "應用 70",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 70"
+  },
+  {
+    "id": 446,
+    "section": 4,
+    "text": "應用 71",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 71"
+  },
+  {
+    "id": 447,
+    "section": 4,
+    "text": "應用 72",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 72"
+  },
+  {
+    "id": 448,
+    "section": 4,
+    "text": "應用 73",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 73"
+  },
+  {
+    "id": 449,
+    "section": 4,
+    "text": "應用 74",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 74"
+  },
+  {
+    "id": 450,
+    "section": 4,
+    "text": "應用 75",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 75"
+  },
+  {
+    "id": 451,
+    "section": 4,
+    "text": "應用 76",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 76"
+  },
+  {
+    "id": 452,
+    "section": 4,
+    "text": "應用 77",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 77"
+  },
+  {
+    "id": 453,
+    "section": 4,
+    "text": "應用 78",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 78"
+  },
+  {
+    "id": 454,
+    "section": 4,
+    "text": "應用 79",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 79"
+  },
+  {
+    "id": 455,
+    "section": 4,
+    "text": "應用 80",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 80"
+  },
+  {
+    "id": 456,
+    "section": 4,
+    "text": "應用 81",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 81"
+  },
+  {
+    "id": 457,
+    "section": 4,
+    "text": "應用 82",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 82"
+  },
+  {
+    "id": 458,
+    "section": 4,
+    "text": "應用 83",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 83"
+  },
+  {
+    "id": 459,
+    "section": 4,
+    "text": "應用 84",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 84"
+  },
+  {
+    "id": 460,
+    "section": 4,
+    "text": "應用 85",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 85"
+  },
+  {
+    "id": 461,
+    "section": 4,
+    "text": "應用 86",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 86"
+  },
+  {
+    "id": 462,
+    "section": 4,
+    "text": "應用 87",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 87"
+  },
+  {
+    "id": 463,
+    "section": 4,
+    "text": "應用 88",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 88"
+  },
+  {
+    "id": 464,
+    "section": 4,
+    "text": "應用 89",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 89"
+  },
+  {
+    "id": 465,
+    "section": 4,
+    "text": "應用 90",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 90"
+  },
+  {
+    "id": 466,
+    "section": 4,
+    "text": "應用 91",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 91"
+  },
+  {
+    "id": 467,
+    "section": 4,
+    "text": "應用 92",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 92"
+  },
+  {
+    "id": 468,
+    "section": 4,
+    "text": "應用 93",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 93"
+  },
+  {
+    "id": 469,
+    "section": 4,
+    "text": "應用 94",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 94"
+  },
+  {
+    "id": 470,
+    "section": 4,
+    "text": "應用 95",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 95"
+  },
+  {
+    "id": 471,
+    "section": 4,
+    "text": "應用 96",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 96"
+  },
+  {
+    "id": 472,
+    "section": 4,
+    "text": "應用 97",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 97"
+  },
+  {
+    "id": 473,
+    "section": 4,
+    "text": "應用 98",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 98"
+  },
+  {
+    "id": 474,
+    "section": 4,
+    "text": "應用 99",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 99"
+  },
+  {
+    "id": 475,
+    "section": 4,
+    "text": "應用 100",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 100"
+  },
+  {
+    "id": 476,
+    "section": 4,
+    "text": "應用 101",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 101"
+  },
+  {
+    "id": 477,
+    "section": 4,
+    "text": "應用 102",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 102"
+  },
+  {
+    "id": 478,
+    "section": 4,
+    "text": "應用 103",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 103"
+  },
+  {
+    "id": 479,
+    "section": 4,
+    "text": "應用 104",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 104"
+  },
+  {
+    "id": 480,
+    "section": 4,
+    "text": "應用 105",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 105"
+  },
+  {
+    "id": 481,
+    "section": 4,
+    "text": "應用 106",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 106"
+  },
+  {
+    "id": 482,
+    "section": 4,
+    "text": "應用 107",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 107"
+  },
+  {
+    "id": 483,
+    "section": 4,
+    "text": "應用 108",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 108"
+  },
+  {
+    "id": 484,
+    "section": 4,
+    "text": "應用 109",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 109"
+  },
+  {
+    "id": 485,
+    "section": 4,
+    "text": "應用 110",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 110"
+  },
+  {
+    "id": 486,
+    "section": 4,
+    "text": "應用 111",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 111"
+  },
+  {
+    "id": 487,
+    "section": 4,
+    "text": "應用 112",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 112"
+  },
+  {
+    "id": 488,
+    "section": 4,
+    "text": "應用 113",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 113"
+  },
+  {
+    "id": 489,
+    "section": 4,
+    "text": "應用 114",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 114"
+  },
+  {
+    "id": 490,
+    "section": 4,
+    "text": "應用 115",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 115"
+  },
+  {
+    "id": 491,
+    "section": 4,
+    "text": "應用 116",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 116"
+  },
+  {
+    "id": 492,
+    "section": 4,
+    "text": "應用 117",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 117"
+  },
+  {
+    "id": 493,
+    "section": 4,
+    "text": "應用 118",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 118"
+  },
+  {
+    "id": 494,
+    "section": 4,
+    "text": "應用 119",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 119"
+  },
+  {
+    "id": 495,
+    "section": 4,
+    "text": "應用 120",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 120"
+  },
+  {
+    "id": 496,
+    "section": 4,
+    "text": "應用 121",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 121"
+  },
+  {
+    "id": 497,
+    "section": 4,
+    "text": "應用 122",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 122"
+  },
+  {
+    "id": 498,
+    "section": 4,
+    "text": "應用 123",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 123"
+  },
+  {
+    "id": 499,
+    "section": 4,
+    "text": "應用 124",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 124"
+  },
+  {
+    "id": 500,
+    "section": 4,
+    "text": "應用 125",
+    "options": {
+      "A": "選項A",
+      "B": "選項B",
+      "C": "選項C",
+      "D": "選項D"
+    },
+    "correct_answer": "B",
+    "explanation": "解釋 125"
+  }
+]
