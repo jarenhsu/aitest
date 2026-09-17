@@ -1,0 +1,2242 @@
+[
+  {
+    "id": 1001,
+    "section": 5,
+    "text": "關於「Google Colab 的定位」，下列敘述何者最正確？",
+    "options": {
+      "A": "它是代管的 Jupyter Notebook 服務，可在瀏覽器中撰寫與執行 Python，通常不必先在本機安裝完整環境。",
+      "B": "它是只能離線使用的桌面 IDE。",
+      "C": "它是專門訓練 GAN 的單一 Python 套件。",
+      "D": "它本身就是一種 GPU 型號。"
+    },
+    "correct_answer": "A",
+    "explanation": "Colab 是雲端代管的 Jupyter Notebook 服務，適合資料科學、機器學習與教學。",
+    "unit": 5
+  },
+  {
+    "id": 1002,
+    "section": 5,
+    "text": "複習「Google Colab 的定位」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "它是只能離線使用的桌面 IDE。",
+      "B": "它是代管的 Jupyter Notebook 服務，可在瀏覽器中撰寫與執行 Python，通常不必先在本機安裝完整環境。",
+      "C": "它是專門訓練 GAN 的單一 Python 套件。",
+      "D": "它本身就是一種 GPU 型號。"
+    },
+    "correct_answer": "B",
+    "explanation": "Colab 是雲端代管的 Jupyter Notebook 服務，適合資料科學、機器學習與教學。",
+    "unit": 5
+  },
+  {
+    "id": 1003,
+    "section": 5,
+    "text": "關於「Colab 的 GPU／TPU 資源」，下列敘述何者最正確？",
+    "options": {
+      "A": "免費帳號永遠固定配發 Tesla T4。",
+      "B": "只要選 GPU 就保證程式一定會使用 GPU。",
+      "C": "Colab 可提供 GPU／TPU 等硬體加速器，但可用類型、配額與供應會隨時間、方案和資源狀況變動。",
+      "D": "Colab 的 GPU 類型永久不變。"
+    },
+    "correct_answer": "C",
+    "explanation": "Google 官方說明 Colab 資源並非保證或無限量，GPU／TPU 類型也會隨時間變動。",
+    "unit": 5
+  },
+  {
+    "id": 1004,
+    "section": 5,
+    "text": "複習「Colab 的 GPU／TPU 資源」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "免費帳號永遠固定配發 Tesla T4。",
+      "B": "只要選 GPU 就保證程式一定會使用 GPU。",
+      "C": "Colab 的 GPU 類型永久不變。",
+      "D": "Colab 可提供 GPU／TPU 等硬體加速器，但可用類型、配額與供應會隨時間、方案和資源狀況變動。"
+    },
+    "correct_answer": "D",
+    "explanation": "Google 官方說明 Colab 資源並非保證或無限量，GPU／TPU 類型也會隨時間變動。",
+    "unit": 5
+  },
+  {
+    "id": 1005,
+    "section": 5,
+    "text": "關於「Pandas 的核心用途」，下列敘述何者最正確？",
+    "options": {
+      "A": "Pandas 很適合處理表格型資料，例如讀取、清理、篩選與整理 CSV。",
+      "B": "Pandas 主要用來訓練卷積神經網路。",
+      "C": "Pandas 是專門畫 3D 曲面的繪圖引擎。",
+      "D": "Pandas 是 GPU 驅動程式。"
+    },
+    "correct_answer": "A",
+    "explanation": "Pandas 以 DataFrame／Series 為核心，常用於表格資料處理。",
+    "unit": 5
+  },
+  {
+    "id": 1006,
+    "section": 5,
+    "text": "複習「Pandas 的核心用途」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "Pandas 主要用來訓練卷積神經網路。",
+      "B": "Pandas 很適合處理表格型資料，例如讀取、清理、篩選與整理 CSV。",
+      "C": "Pandas 是專門畫 3D 曲面的繪圖引擎。",
+      "D": "Pandas 是 GPU 驅動程式。"
+    },
+    "correct_answer": "B",
+    "explanation": "Pandas 以 DataFrame／Series 為核心，常用於表格資料處理。",
+    "unit": 5
+  },
+  {
+    "id": 1007,
+    "section": 5,
+    "text": "關於「pd.read_csv()」，下列敘述何者最正確？",
+    "options": {
+      "A": "`pd.read_csv()` 用來把模型輸出轉成圖片。",
+      "B": "`pd.read_csv()` 會自動訓練線性回歸模型。",
+      "C": "`pd.read_csv()` 用來把 CSV 資料讀入 Pandas，通常形成 DataFrame。",
+      "D": "`pd.read_csv()` 的用途是建立 GPU runtime。"
+    },
+    "correct_answer": "C",
+    "explanation": "read_csv 是 Pandas 最常見的資料匯入函式之一。",
+    "unit": 5
+  },
+  {
+    "id": 1008,
+    "section": 5,
+    "text": "複習「pd.read_csv()」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`pd.read_csv()` 用來把模型輸出轉成圖片。",
+      "B": "`pd.read_csv()` 會自動訓練線性回歸模型。",
+      "C": "`pd.read_csv()` 的用途是建立 GPU runtime。",
+      "D": "`pd.read_csv()` 用來把 CSV 資料讀入 Pandas，通常形成 DataFrame。"
+    },
+    "correct_answer": "D",
+    "explanation": "read_csv 是 Pandas 最常見的資料匯入函式之一。",
+    "unit": 5
+  },
+  {
+    "id": 1009,
+    "section": 5,
+    "text": "關於「Pandas 的 .map()」，下列敘述何者最正確？",
+    "options": {
+      "A": "Series 的 `.map()` 可依函式或對照表轉換每個值，能用來實作明確的類別值映射。",
+      "B": "`.map()` 會自動判斷所有類別的最佳機器學習編碼。",
+      "C": "`.map()` 等同於 `sklearn.preprocessing.LabelEncoder`。",
+      "D": "`.map()` 是用來畫地圖的 Matplotlib 函式。"
+    },
+    "correct_answer": "A",
+    "explanation": "Pandas Series.map 可依字典、Series 或函式進行逐值轉換；它和 scikit-learn 的 LabelEncoder 不是同一個工具。",
+    "unit": 5
+  },
+  {
+    "id": 1010,
+    "section": 5,
+    "text": "複習「Pandas 的 .map()」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`.map()` 會自動判斷所有類別的最佳機器學習編碼。",
+      "B": "Series 的 `.map()` 可依函式或對照表轉換每個值，能用來實作明確的類別值映射。",
+      "C": "`.map()` 等同於 `sklearn.preprocessing.LabelEncoder`。",
+      "D": "`.map()` 是用來畫地圖的 Matplotlib 函式。"
+    },
+    "correct_answer": "B",
+    "explanation": "Pandas Series.map 可依字典、Series 或函式進行逐值轉換；它和 scikit-learn 的 LabelEncoder 不是同一個工具。",
+    "unit": 5
+  },
+  {
+    "id": 1011,
+    "section": 5,
+    "text": "關於「NumPy 的核心用途」，下列敘述何者最正確？",
+    "options": {
+      "A": "NumPy 只用來讀取文字檔。",
+      "B": "NumPy 是瀏覽器 Notebook 服務。",
+      "C": "NumPy 提供高效率的多維陣列與數值運算，是許多科學計算與機器學習程式的基礎。",
+      "D": "NumPy 專門負責自然語言斷詞。"
+    },
+    "correct_answer": "C",
+    "explanation": "NumPy 的 ndarray 與向量化數值運算是 Python 科學計算的重要基礎。",
+    "unit": 5
+  },
+  {
+    "id": 1012,
+    "section": 5,
+    "text": "複習「NumPy 的核心用途」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "NumPy 只用來讀取文字檔。",
+      "B": "NumPy 是瀏覽器 Notebook 服務。",
+      "C": "NumPy 專門負責自然語言斷詞。",
+      "D": "NumPy 提供高效率的多維陣列與數值運算，是許多科學計算與機器學習程式的基礎。"
+    },
+    "correct_answer": "D",
+    "explanation": "NumPy 的 ndarray 與向量化數值運算是 Python 科學計算的重要基礎。",
+    "unit": 5
+  },
+  {
+    "id": 1013,
+    "section": 5,
+    "text": "關於「np.mean() 與均方誤差」，下列敘述何者最正確？",
+    "options": {
+      "A": "若先計算每筆資料的平方誤差，再用 `np.mean()` 取平均，就能得到常見形式的 MSE。",
+      "B": "`np.mean()` 本身會自動把任意模型轉成 MSE 模型。",
+      "C": "`np.mean()` 只能用在整數。",
+      "D": "`np.mean()` 的主要用途是產生隨機雜訊。"
+    },
+    "correct_answer": "A",
+    "explanation": "MSE 可寫成平方誤差的平均值，因此 NumPy mean 可用於其實作。",
+    "unit": 5
+  },
+  {
+    "id": 1014,
+    "section": 5,
+    "text": "複習「np.mean() 與均方誤差」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`np.mean()` 本身會自動把任意模型轉成 MSE 模型。",
+      "B": "若先計算每筆資料的平方誤差，再用 `np.mean()` 取平均，就能得到常見形式的 MSE。",
+      "C": "`np.mean()` 只能用在整數。",
+      "D": "`np.mean()` 的主要用途是產生隨機雜訊。"
+    },
+    "correct_answer": "B",
+    "explanation": "MSE 可寫成平方誤差的平均值，因此 NumPy mean 可用於其實作。",
+    "unit": 5
+  },
+  {
+    "id": 1015,
+    "section": 5,
+    "text": "關於「np.meshgrid()」，下列敘述何者最正確？",
+    "options": {
+      "A": "`np.meshgrid()` 用來切分訓練集與測試集。",
+      "B": "`np.meshgrid()` 是獨熱編碼器。",
+      "C": "`np.meshgrid()` 可由座標向量建立座標網格，常用於評估或繪製二維參數網格上的函數值。",
+      "D": "`np.meshgrid()` 用來標註詞性。"
+    },
+    "correct_answer": "C",
+    "explanation": "meshgrid 常配合一組 x、y 座標產生網格，方便計算曲面或等高線。",
+    "unit": 5
+  },
+  {
+    "id": 1016,
+    "section": 5,
+    "text": "複習「np.meshgrid()」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`np.meshgrid()` 用來切分訓練集與測試集。",
+      "B": "`np.meshgrid()` 是獨熱編碼器。",
+      "C": "`np.meshgrid()` 用來標註詞性。",
+      "D": "`np.meshgrid()` 可由座標向量建立座標網格，常用於評估或繪製二維參數網格上的函數值。"
+    },
+    "correct_answer": "D",
+    "explanation": "meshgrid 常配合一組 x、y 座標產生網格，方便計算曲面或等高線。",
+    "unit": 5
+  },
+  {
+    "id": 1017,
+    "section": 5,
+    "text": "關於「np.where()」，下列敘述何者最正確？",
+    "options": {
+      "A": "`np.where()` 可依條件找出符合位置；例如搭配 `costs == np.min(costs)` 找到最低值所在索引。",
+      "B": "`np.where()` 會自動執行梯度下降。",
+      "C": "`np.where()` 只會回傳資料平均值。",
+      "D": "`np.where()` 是 3D 繪圖函式。"
+    },
+    "correct_answer": "A",
+    "explanation": "where 依條件回傳位置或選擇值，常可用來定位符合條件的元素。",
+    "unit": 5
+  },
+  {
+    "id": 1018,
+    "section": 5,
+    "text": "複習「np.where()」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`np.where()` 會自動執行梯度下降。",
+      "B": "`np.where()` 可依條件找出符合位置；例如搭配 `costs == np.min(costs)` 找到最低值所在索引。",
+      "C": "`np.where()` 只會回傳資料平均值。",
+      "D": "`np.where()` 是 3D 繪圖函式。"
+    },
+    "correct_answer": "B",
+    "explanation": "where 依條件回傳位置或選擇值，常可用來定位符合條件的元素。",
+    "unit": 5
+  },
+  {
+    "id": 1019,
+    "section": 5,
+    "text": "關於「Matplotlib 的核心用途」，下列敘述何者最正確？",
+    "options": {
+      "A": "Matplotlib 主要用來做 One-Hot Encoding。",
+      "B": "Matplotlib 是資料庫管理系統。",
+      "C": "Matplotlib 主要用於資料視覺化，可畫散佈圖、折線圖及 3D 圖形等。",
+      "D": "Matplotlib 是專門切分資料集的工具。"
+    },
+    "correct_answer": "C",
+    "explanation": "Matplotlib 是 Python 常用視覺化函式庫。",
+    "unit": 5
+  },
+  {
+    "id": 1020,
+    "section": 5,
+    "text": "複習「Matplotlib 的核心用途」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "Matplotlib 主要用來做 One-Hot Encoding。",
+      "B": "Matplotlib 是資料庫管理系統。",
+      "C": "Matplotlib 是專門切分資料集的工具。",
+      "D": "Matplotlib 主要用於資料視覺化，可畫散佈圖、折線圖及 3D 圖形等。"
+    },
+    "correct_answer": "D",
+    "explanation": "Matplotlib 是 Python 常用視覺化函式庫。",
+    "unit": 5
+  },
+  {
+    "id": 1021,
+    "section": 5,
+    "text": "關於「plt.scatter()」，下列敘述何者最正確？",
+    "options": {
+      "A": "`plt.scatter(x, y)` 常用來把成對的 x、y 資料畫成散佈圖。",
+      "B": "`plt.scatter()` 用來建立 DataFrame。",
+      "C": "`plt.scatter()` 用來標準化資料。",
+      "D": "`plt.scatter()` 用來產生詞向量。"
+    },
+    "correct_answer": "A",
+    "explanation": "scatter 以點的方式呈現 x、y 資料位置。",
+    "unit": 5
+  },
+  {
+    "id": 1022,
+    "section": 5,
+    "text": "複習「plt.scatter()」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`plt.scatter()` 用來建立 DataFrame。",
+      "B": "`plt.scatter(x, y)` 常用來把成對的 x、y 資料畫成散佈圖。",
+      "C": "`plt.scatter()` 用來標準化資料。",
+      "D": "`plt.scatter()` 用來產生詞向量。"
+    },
+    "correct_answer": "B",
+    "explanation": "scatter 以點的方式呈現 x、y 資料位置。",
+    "unit": 5
+  },
+  {
+    "id": 1023,
+    "section": 5,
+    "text": "關於「plt.plot()」，下列敘述何者最正確？",
+    "options": {
+      "A": "`plt.plot()` 是分類器。",
+      "B": "`plt.plot()` 會自動求最佳權重。",
+      "C": "`plt.plot()` 可用來繪製折線或模型預測曲線，例如線性回歸的擬合直線。",
+      "D": "`plt.plot()` 是斷詞函式。"
+    },
+    "correct_answer": "C",
+    "explanation": "plot 是 Matplotlib 的基本線圖函式，可顯示一條預測曲線或趨勢線。",
+    "unit": 5
+  },
+  {
+    "id": 1024,
+    "section": 5,
+    "text": "複習「plt.plot()」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`plt.plot()` 是分類器。",
+      "B": "`plt.plot()` 會自動求最佳權重。",
+      "C": "`plt.plot()` 是斷詞函式。",
+      "D": "`plt.plot()` 可用來繪製折線或模型預測曲線，例如線性回歸的擬合直線。"
+    },
+    "correct_answer": "D",
+    "explanation": "plot 是 Matplotlib 的基本線圖函式，可顯示一條預測曲線或趨勢線。",
+    "unit": 5
+  },
+  {
+    "id": 1025,
+    "section": 5,
+    "text": "關於「Matplotlib 的 plot_surface」，下列敘述何者最正確？",
+    "options": {
+      "A": "`plot_surface(X, Y, Z)` 可在 Matplotlib 的 3D axes 上繪製曲面，例如成本函數地形。",
+      "B": "`plot_surface` 是 NumPy 的文字處理函式。",
+      "C": "`plot_surface` 用來把資料切成 train/test。",
+      "D": "`plot_surface` 只能畫二維長條圖。"
+    },
+    "correct_answer": "A",
+    "explanation": "Matplotlib 的 mplot3d 支援 plot_surface 來呈現三維曲面。",
+    "unit": 5
+  },
+  {
+    "id": 1026,
+    "section": 5,
+    "text": "複習「Matplotlib 的 plot_surface」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`plot_surface` 是 NumPy 的文字處理函式。",
+      "B": "`plot_surface(X, Y, Z)` 可在 Matplotlib 的 3D axes 上繪製曲面，例如成本函數地形。",
+      "C": "`plot_surface` 用來把資料切成 train/test。",
+      "D": "`plot_surface` 只能畫二維長條圖。"
+    },
+    "correct_answer": "B",
+    "explanation": "Matplotlib 的 mplot3d 支援 plot_surface 來呈現三維曲面。",
+    "unit": 5
+  },
+  {
+    "id": 1027,
+    "section": 5,
+    "text": "關於「ipywidgets 與互動滑桿」，下列敘述何者最正確？",
+    "options": {
+      "A": "`ipywidgets` 是 Matplotlib 內建的神經網路模型。",
+      "B": "`ipywidgets` 只能在命令列使用。",
+      "C": "`ipywidgets` 是可在 Notebook 中建立互動元件的獨立套件，可和 Matplotlib 等工具搭配使用。",
+      "D": "`ipywidgets` 的主要功能是做 NER。"
+    },
+    "correct_answer": "C",
+    "explanation": "ipywidgets 可建立 slider 等互動介面，常用於 Notebook 教學展示。",
+    "unit": 5
+  },
+  {
+    "id": 1028,
+    "section": 5,
+    "text": "複習「ipywidgets 與互動滑桿」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`ipywidgets` 是 Matplotlib 內建的神經網路模型。",
+      "B": "`ipywidgets` 只能在命令列使用。",
+      "C": "`ipywidgets` 的主要功能是做 NER。",
+      "D": "`ipywidgets` 是可在 Notebook 中建立互動元件的獨立套件，可和 Matplotlib 等工具搭配使用。"
+    },
+    "correct_answer": "D",
+    "explanation": "ipywidgets 可建立 slider 等互動介面，常用於 Notebook 教學展示。",
+    "unit": 5
+  },
+  {
+    "id": 1029,
+    "section": 5,
+    "text": "關於「scikit-learn 的定位」，下列敘述何者最正確？",
+    "options": {
+      "A": "scikit-learn 提供許多常見的機器學習模型、預處理、模型選擇與評估工具。",
+      "B": "scikit-learn 是專門的深度學習 GPU 驅動。",
+      "C": "scikit-learn 只能畫圖。",
+      "D": "scikit-learn 是純粹的文字編輯器。"
+    },
+    "correct_answer": "A",
+    "explanation": "scikit-learn 是 Python 生態中廣泛使用的傳統機器學習函式庫。",
+    "unit": 5
+  },
+  {
+    "id": 1030,
+    "section": 5,
+    "text": "複習「scikit-learn 的定位」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "scikit-learn 是專門的深度學習 GPU 驅動。",
+      "B": "scikit-learn 提供許多常見的機器學習模型、預處理、模型選擇與評估工具。",
+      "C": "scikit-learn 只能畫圖。",
+      "D": "scikit-learn 是純粹的文字編輯器。"
+    },
+    "correct_answer": "B",
+    "explanation": "scikit-learn 是 Python 生態中廣泛使用的傳統機器學習函式庫。",
+    "unit": 5
+  },
+  {
+    "id": 1031,
+    "section": 5,
+    "text": "關於「OneHotEncoder」，下列敘述何者最正確？",
+    "options": {
+      "A": "`OneHotEncoder` 用來把測試集隨機刪除。",
+      "B": "`OneHotEncoder` 用來畫散佈圖。",
+      "C": "`OneHotEncoder` 用來把類別型特徵轉成 one-hot 數值表示。",
+      "D": "`OneHotEncoder` 是 GAN 的生成器。"
+    },
+    "correct_answer": "C",
+    "explanation": "scikit-learn 的 OneHotEncoder 會為類別建立 one-hot 數值欄位。",
+    "unit": 5
+  },
+  {
+    "id": 1032,
+    "section": 5,
+    "text": "複習「OneHotEncoder」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`OneHotEncoder` 用來把測試集隨機刪除。",
+      "B": "`OneHotEncoder` 用來畫散佈圖。",
+      "C": "`OneHotEncoder` 是 GAN 的生成器。",
+      "D": "`OneHotEncoder` 用來把類別型特徵轉成 one-hot 數值表示。"
+    },
+    "correct_answer": "D",
+    "explanation": "scikit-learn 的 OneHotEncoder 會為類別建立 one-hot 數值欄位。",
+    "unit": 5
+  },
+  {
+    "id": 1033,
+    "section": 5,
+    "text": "關於「train_test_split」，下列敘述何者最正確？",
+    "options": {
+      "A": "`train_test_split` 可把對齊的資料陣列或矩陣切成訓練子集與測試子集。",
+      "B": "`train_test_split` 只會把資料轉成標準常態分布。",
+      "C": "`train_test_split` 是 NER 模型。",
+      "D": "`train_test_split` 會自動建立 CNN。"
+    },
+    "correct_answer": "A",
+    "explanation": "它是 scikit-learn 中常見的資料切分工具。",
+    "unit": 5
+  },
+  {
+    "id": 1034,
+    "section": 5,
+    "text": "複習「train_test_split」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`train_test_split` 只會把資料轉成標準常態分布。",
+      "B": "`train_test_split` 可把對齊的資料陣列或矩陣切成訓練子集與測試子集。",
+      "C": "`train_test_split` 是 NER 模型。",
+      "D": "`train_test_split` 會自動建立 CNN。"
+    },
+    "correct_answer": "B",
+    "explanation": "它是 scikit-learn 中常見的資料切分工具。",
+    "unit": 5
+  },
+  {
+    "id": 1035,
+    "section": 5,
+    "text": "關於「StandardScaler」，下列敘述何者最正確？",
+    "options": {
+      "A": "`StandardScaler` 會把所有特徵轉成 0 或 1。",
+      "B": "`StandardScaler` 是一種機器翻譯模型。",
+      "C": "`StandardScaler` 會以訓練資料估計平均值與標準差，再依這些統計量對特徵做標準化。",
+      "D": "`StandardScaler` 只適用於圖片。"
+    },
+    "correct_answer": "C",
+    "explanation": "StandardScaler 常將特徵中心化並依標準差縮放。",
+    "unit": 5
+  },
+  {
+    "id": 1036,
+    "section": 5,
+    "text": "複習「StandardScaler」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "`StandardScaler` 會把所有特徵轉成 0 或 1。",
+      "B": "`StandardScaler` 是一種機器翻譯模型。",
+      "C": "`StandardScaler` 只適用於圖片。",
+      "D": "`StandardScaler` 會以訓練資料估計平均值與標準差，再依這些統計量對特徵做標準化。"
+    },
+    "correct_answer": "D",
+    "explanation": "StandardScaler 常將特徵中心化並依標準差縮放。",
+    "unit": 5
+  },
+  {
+    "id": 1037,
+    "section": 5,
+    "text": "關於「避免 StandardScaler 的資料洩漏」，下列敘述何者最正確？",
+    "options": {
+      "A": "應只在訓練集上 `fit`，再用同一個 scaler 對測試集 `transform`。",
+      "B": "訓練集與測試集都各自重新 `fit` 才公平。",
+      "C": "先用全部資料 `fit` 再切 train/test 最可靠。",
+      "D": "測試集不需要任何與訓練集一致的轉換。"
+    },
+    "correct_answer": "A",
+    "explanation": "若用測試集資訊估計縮放參數，會造成資料洩漏並讓評估失真。",
+    "unit": 5
+  },
+  {
+    "id": 1038,
+    "section": 5,
+    "text": "複習「避免 StandardScaler 的資料洩漏」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "訓練集與測試集都各自重新 `fit` 才公平。",
+      "B": "應只在訓練集上 `fit`，再用同一個 scaler 對測試集 `transform`。",
+      "C": "先用全部資料 `fit` 再切 train/test 最可靠。",
+      "D": "測試集不需要任何與訓練集一致的轉換。"
+    },
+    "correct_answer": "B",
+    "explanation": "若用測試集資訊估計縮放參數，會造成資料洩漏並讓評估失真。",
+    "unit": 5
+  },
+  {
+    "id": 1039,
+    "section": 5,
+    "text": "關於「教材所稱的 Python『四大工具庫』」，下列敘述何者最正確？",
+    "options": {
+      "A": "Python 官方規定只有這四個套件能做 AI。",
+      "B": "Google Colab 是這四個 Python 函式庫之一。",
+      "C": "可把 Pandas、NumPy、Matplotlib、scikit-learn 視為教材中四個常用工具；這是教學整理方式，不是 Python 官方分類。",
+      "D": "四者全部都是深度神經網路框架。"
+    },
+    "correct_answer": "C",
+    "explanation": "將四者合稱『四大天王』是便於教學的整理，不是官方標準術語。",
+    "unit": 5
+  },
+  {
+    "id": 1040,
+    "section": 5,
+    "text": "複習「教材所稱的 Python『四大工具庫』」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "Python 官方規定只有這四個套件能做 AI。",
+      "B": "Google Colab 是這四個 Python 函式庫之一。",
+      "C": "四者全部都是深度神經網路框架。",
+      "D": "可把 Pandas、NumPy、Matplotlib、scikit-learn 視為教材中四個常用工具；這是教學整理方式，不是 Python 官方分類。"
+    },
+    "correct_answer": "D",
+    "explanation": "將四者合稱『四大天王』是便於教學的整理，不是官方標準術語。",
+    "unit": 5
+  },
+  {
+    "id": 1041,
+    "section": 6,
+    "text": "關於「GAN 的基本架構」，下列敘述何者最正確？",
+    "options": {
+      "A": "GAN 的原始架構同時訓練生成器 G 與判別器 D 兩個模型。",
+      "B": "GAN 只包含一個生成器，不需要判別器。",
+      "C": "GAN 必須由三個分類器組成。",
+      "D": "GAN 的核心是把一個模型複製成兩份但功能相同。"
+    },
+    "correct_answer": "A",
+    "explanation": "Goodfellow 等人在 2014 年提出的 GAN 框架包含生成模型 G 與判別模型 D。",
+    "unit": 6
+  },
+  {
+    "id": 1042,
+    "section": 6,
+    "text": "複習「GAN 的基本架構」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "GAN 只包含一個生成器，不需要判別器。",
+      "B": "GAN 的原始架構同時訓練生成器 G 與判別器 D 兩個模型。",
+      "C": "GAN 必須由三個分類器組成。",
+      "D": "GAN 的核心是把一個模型複製成兩份但功能相同。"
+    },
+    "correct_answer": "B",
+    "explanation": "Goodfellow 等人在 2014 年提出的 GAN 框架包含生成模型 G 與判別模型 D。",
+    "unit": 6
+  },
+  {
+    "id": 1043,
+    "section": 6,
+    "text": "關於「生成器 G 的輸入」，下列敘述何者最正確？",
+    "options": {
+      "A": "生成器只能接收已標註的真實圖片，不能接收雜訊。",
+      "B": "生成器的唯一輸入一定是判別器的分類標籤。",
+      "C": "標準 GAN 的生成器通常把從先驗分布抽樣的隨機雜訊向量 z 映射成資料空間中的樣本。",
+      "D": "生成器不需要任何輸入就會產生固定圖片。"
+    },
+    "correct_answer": "C",
+    "explanation": "原始 GAN 以噪聲變數 z 為生成器輸入，再由 G(z) 產生樣本。",
+    "unit": 6
+  },
+  {
+    "id": 1044,
+    "section": 6,
+    "text": "複習「生成器 G 的輸入」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "生成器只能接收已標註的真實圖片，不能接收雜訊。",
+      "B": "生成器的唯一輸入一定是判別器的分類標籤。",
+      "C": "生成器不需要任何輸入就會產生固定圖片。",
+      "D": "標準 GAN 的生成器通常把從先驗分布抽樣的隨機雜訊向量 z 映射成資料空間中的樣本。"
+    },
+    "correct_answer": "D",
+    "explanation": "原始 GAN 以噪聲變數 z 為生成器輸入，再由 G(z) 產生樣本。",
+    "unit": 6
+  },
+  {
+    "id": 1045,
+    "section": 6,
+    "text": "關於「生成器 G 的目標」，下列敘述何者最正確？",
+    "options": {
+      "A": "生成器的目標是產生更像真實資料的樣本，使判別器更容易把假樣本判成真。",
+      "B": "生成器的目標是把所有真實樣本判為假。",
+      "C": "生成器只負責計算資料平均值。",
+      "D": "生成器的工作是替真實資料加上標籤。"
+    },
+    "correct_answer": "A",
+    "explanation": "在原始 GAN 中，G 透過讓 D 犯錯來改善生成分布。",
+    "unit": 6
+  },
+  {
+    "id": 1046,
+    "section": 6,
+    "text": "複習「生成器 G 的目標」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "生成器的目標是把所有真實樣本判為假。",
+      "B": "生成器的目標是產生更像真實資料的樣本，使判別器更容易把假樣本判成真。",
+      "C": "生成器只負責計算資料平均值。",
+      "D": "生成器的工作是替真實資料加上標籤。"
+    },
+    "correct_answer": "B",
+    "explanation": "在原始 GAN 中，G 透過讓 D 犯錯來改善生成分布。",
+    "unit": 6
+  },
+  {
+    "id": 1047,
+    "section": 6,
+    "text": "關於「判別器 D 的輸入」，下列敘述何者最正確？",
+    "options": {
+      "A": "判別器只看真實樣本，完全不接觸生成樣本。",
+      "B": "判別器只看隨機雜訊，不看資料。",
+      "C": "判別器會接收真實樣本與生成器產生的假樣本，學習分辨資料來源。",
+      "D": "判別器只負責把圖片放大解析度。"
+    },
+    "correct_answer": "C",
+    "explanation": "D 的任務是估計輸入樣本來自真實資料而非生成器的機率。",
+    "unit": 6
+  },
+  {
+    "id": 1048,
+    "section": 6,
+    "text": "複習「判別器 D 的輸入」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "判別器只看真實樣本，完全不接觸生成樣本。",
+      "B": "判別器只看隨機雜訊，不看資料。",
+      "C": "判別器只負責把圖片放大解析度。",
+      "D": "判別器會接收真實樣本與生成器產生的假樣本，學習分辨資料來源。"
+    },
+    "correct_answer": "D",
+    "explanation": "D 的任務是估計輸入樣本來自真實資料而非生成器的機率。",
+    "unit": 6
+  },
+  {
+    "id": 1049,
+    "section": 6,
+    "text": "關於「判別器 D 的輸出」，下列敘述何者最正確？",
+    "options": {
+      "A": "原始 GAN 的判別器輸出可解讀為輸入樣本來自真實資料分布的機率。",
+      "B": "判別器輸出一定是一張新圖片。",
+      "C": "判別器只輸出生成器的學習率。",
+      "D": "判別器輸出代表圖片的寬與高。"
+    },
+    "correct_answer": "A",
+    "explanation": "Goodfellow 原始定義中，D(x) 表示 x 來自資料而非生成模型的機率。",
+    "unit": 6
+  },
+  {
+    "id": 1050,
+    "section": 6,
+    "text": "複習「判別器 D 的輸出」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "判別器輸出一定是一張新圖片。",
+      "B": "原始 GAN 的判別器輸出可解讀為輸入樣本來自真實資料分布的機率。",
+      "C": "判別器只輸出生成器的學習率。",
+      "D": "判別器輸出代表圖片的寬與高。"
+    },
+    "correct_answer": "B",
+    "explanation": "Goodfellow 原始定義中，D(x) 表示 x 來自資料而非生成模型的機率。",
+    "unit": 6
+  },
+  {
+    "id": 1051,
+    "section": 6,
+    "text": "關於「訓練判別器 D」，下列敘述何者最正確？",
+    "options": {
+      "A": "訓練 D 的目標是讓它永遠輸出 0.5。",
+      "B": "訓練 D 時只更新生成器參數。",
+      "C": "訓練 D 時會希望它提高對真實樣本與生成樣本來源的辨識能力。",
+      "D": "D 訓練時不需要任何真實資料。"
+    },
+    "correct_answer": "C",
+    "explanation": "在訓練早期，D 透過區分真、假樣本改善辨識。",
+    "unit": 6
+  },
+  {
+    "id": 1052,
+    "section": 6,
+    "text": "複習「訓練判別器 D」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "訓練 D 的目標是讓它永遠輸出 0.5。",
+      "B": "訓練 D 時只更新生成器參數。",
+      "C": "D 訓練時不需要任何真實資料。",
+      "D": "訓練 D 時會希望它提高對真實樣本與生成樣本來源的辨識能力。"
+    },
+    "correct_answer": "D",
+    "explanation": "在訓練早期，D 透過區分真、假樣本改善辨識。",
+    "unit": 6
+  },
+  {
+    "id": 1053,
+    "section": 6,
+    "text": "關於「訓練生成器 G」，下列敘述何者最正確？",
+    "options": {
+      "A": "訓練 G 時，會利用 D 對生成樣本的評分訊號來更新 G，使假樣本更接近真實資料分布。",
+      "B": "訓練 G 時應固定讓生成結果更容易被 D 判為假。",
+      "C": "G 的參數由人工逐張圖片手動設定。",
+      "D": "訓練 G 只需把 D 的參數複製過來。"
+    },
+    "correct_answer": "A",
+    "explanation": "G 的更新方向是增加生成樣本欺騙 D 的能力。",
+    "unit": 6
+  },
+  {
+    "id": 1054,
+    "section": 6,
+    "text": "複習「訓練生成器 G」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "訓練 G 時應固定讓生成結果更容易被 D 判為假。",
+      "B": "訓練 G 時，會利用 D 對生成樣本的評分訊號來更新 G，使假樣本更接近真實資料分布。",
+      "C": "G 的參數由人工逐張圖片手動設定。",
+      "D": "訓練 G 只需把 D 的參數複製過來。"
+    },
+    "correct_answer": "B",
+    "explanation": "G 的更新方向是增加生成樣本欺騙 D 的能力。",
+    "unit": 6
+  },
+  {
+    "id": 1055,
+    "section": 6,
+    "text": "關於「GAN 的交替訓練」，下列敘述何者最正確？",
+    "options": {
+      "A": "GAN 必須先把 G 訓練到完全收斂，再永久凍結 G 才能訓練 D。",
+      "B": "GAN 只更新 D，不更新 G。",
+      "C": "實作 GAN 時通常交替更新 D 與 G，而不是只把其中一個模型訓練一次就停止。",
+      "D": "GAN 的兩個模型不能在同一訓練流程中交替更新。"
+    },
+    "correct_answer": "C",
+    "explanation": "原始論文描述的是迭代式做法，交替進行判別器與生成器的更新。",
+    "unit": 6
+  },
+  {
+    "id": 1056,
+    "section": 6,
+    "text": "複習「GAN 的交替訓練」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "GAN 必須先把 G 訓練到完全收斂，再永久凍結 G 才能訓練 D。",
+      "B": "GAN 只更新 D，不更新 G。",
+      "C": "GAN 的兩個模型不能在同一訓練流程中交替更新。",
+      "D": "實作 GAN 時通常交替更新 D 與 G，而不是只把其中一個模型訓練一次就停止。"
+    },
+    "correct_answer": "D",
+    "explanation": "原始論文描述的是迭代式做法，交替進行判別器與生成器的更新。",
+    "unit": 6
+  },
+  {
+    "id": 1057,
+    "section": 6,
+    "text": "關於「GAN 的博弈觀點」，下列敘述何者最正確？",
+    "options": {
+      "A": "原始 GAN 的目標可寫成兩個玩家的 minimax 對抗博弈。",
+      "B": "GAN 完全沒有任何對抗目標。",
+      "C": "GAN 是單純的最近鄰搜尋演算法。",
+      "D": "GAN 的核心目標是最大化分類錯誤而不涉及生成資料。"
+    },
+    "correct_answer": "A",
+    "explanation": "Goodfellow 論文把 GAN 描述為 generator 與 discriminator 的 two-player minimax game。",
+    "unit": 6
+  },
+  {
+    "id": 1058,
+    "section": 6,
+    "text": "複習「GAN 的博弈觀點」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "GAN 完全沒有任何對抗目標。",
+      "B": "原始 GAN 的目標可寫成兩個玩家的 minimax 對抗博弈。",
+      "C": "GAN 是單純的最近鄰搜尋演算法。",
+      "D": "GAN 的核心目標是最大化分類錯誤而不涉及生成資料。"
+    },
+    "correct_answer": "B",
+    "explanation": "Goodfellow 論文把 GAN 描述為 generator 與 discriminator 的 two-player minimax game。",
+    "unit": 6
+  },
+  {
+    "id": 1059,
+    "section": 6,
+    "text": "關於「GAN 與『零和博弈』的說法」，下列敘述何者最正確？",
+    "options": {
+      "A": "所有 GAN 變體的損失函數都完全相同。",
+      "B": "GAN 的兩個模型永遠追求完全相同的數值目標。",
+      "C": "對原始 minimax GAN，可把 G 與 D 的目標理解為對抗式的兩玩家零和／極小極大博弈；但實務上也有不同損失設計的 GAN 變體。",
+      "D": "只要是生成模型就必然是 GAN 的零和博弈。"
+    },
+    "correct_answer": "C",
+    "explanation": "原始 GAN 是 minimax 對抗形式；後續 GAN 變體可能改用不同目標以改善訓練。",
+    "unit": 6
+  },
+  {
+    "id": 1060,
+    "section": 6,
+    "text": "複習「GAN 與『零和博弈』的說法」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "所有 GAN 變體的損失函數都完全相同。",
+      "B": "GAN 的兩個模型永遠追求完全相同的數值目標。",
+      "C": "只要是生成模型就必然是 GAN 的零和博弈。",
+      "D": "對原始 minimax GAN，可把 G 與 D 的目標理解為對抗式的兩玩家零和／極小極大博弈；但實務上也有不同損失設計的 GAN 變體。"
+    },
+    "correct_answer": "D",
+    "explanation": "原始 GAN 是 minimax 對抗形式；後續 GAN 變體可能改用不同目標以改善訓練。",
+    "unit": 6
+  },
+  {
+    "id": 1061,
+    "section": 6,
+    "text": "關於「GAN 理論中的理想解」，下列敘述何者最正確？",
+    "options": {
+      "A": "在原始理論的理想條件下，當生成分布等於真實資料分布時，判別器的最佳輸出為 0.5。",
+      "B": "只要 D 輸出 1 就代表 GAN 已達理想平衡。",
+      "C": "理想狀態是生成器只重複同一張訓練圖片。",
+      "D": "理想狀態要求 D 對真實資料輸出 1、對生成資料輸出 0，且永遠不改變。"
+    },
+    "correct_answer": "A",
+    "explanation": "原始論文指出理想解為 p_g = p_data，且 D = 1/2。",
+    "unit": 6
+  },
+  {
+    "id": 1062,
+    "section": 6,
+    "text": "複習「GAN 理論中的理想解」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "只要 D 輸出 1 就代表 GAN 已達理想平衡。",
+      "B": "在原始理論的理想條件下，當生成分布等於真實資料分布時，判別器的最佳輸出為 0.5。",
+      "C": "理想狀態是生成器只重複同一張訓練圖片。",
+      "D": "理想狀態要求 D 對真實資料輸出 1、對生成資料輸出 0，且永遠不改變。"
+    },
+    "correct_answer": "B",
+    "explanation": "原始論文指出理想解為 p_g = p_data，且 D = 1/2。",
+    "unit": 6
+  },
+  {
+    "id": 1063,
+    "section": 6,
+    "text": "關於「D(x)=0.5 的意義」，下列敘述何者最正確？",
+    "options": {
+      "A": "D=0.5 表示生成器一定沒有學到任何東西。",
+      "B": "D=0.5 表示圖片有一半像素是真的。",
+      "C": "在理想 p_g = p_data 的條件下，D 對樣本輸出 0.5 表示它無法再利用來源分布區分真實與生成樣本。",
+      "D": "D=0.5 代表訓練資料只剩一半。"
+    },
+    "correct_answer": "C",
+    "explanation": "當真實與生成分布一致時，最佳判別器無法判斷來源，輸出為 1/2。",
+    "unit": 6
+  },
+  {
+    "id": 1064,
+    "section": 6,
+    "text": "複習「D(x)=0.5 的意義」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "D=0.5 表示生成器一定沒有學到任何東西。",
+      "B": "D=0.5 表示圖片有一半像素是真的。",
+      "C": "D=0.5 代表訓練資料只剩一半。",
+      "D": "在理想 p_g = p_data 的條件下，D 對樣本輸出 0.5 表示它無法再利用來源分布區分真實與生成樣本。"
+    },
+    "correct_answer": "D",
+    "explanation": "當真實與生成分布一致時，最佳判別器無法判斷來源，輸出為 1/2。",
+    "unit": 6
+  },
+  {
+    "id": 1065,
+    "section": 6,
+    "text": "關於「GAN 的『納許平衡』描述」，下列敘述何者最正確？",
+    "options": {
+      "A": "把 GAN 的理想狀態稱為納許平衡時，應強調這是理論上的博弈平衡，不等於實務訓練一定能完美收斂。",
+      "B": "只要訓練 100 次就必然達到納許平衡。",
+      "C": "納許平衡表示所有生成圖片都和某張真實圖片逐像素相同。",
+      "D": "納許平衡要求判別器永遠 100% 分辨真偽。"
+    },
+    "correct_answer": "A",
+    "explanation": "理論平衡描述的是分布與策略的條件，不是對任何實際訓練結果的保證。",
+    "unit": 6
+  },
+  {
+    "id": 1066,
+    "section": 6,
+    "text": "複習「GAN 的『納許平衡』描述」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "只要訓練 100 次就必然達到納許平衡。",
+      "B": "把 GAN 的理想狀態稱為納許平衡時，應強調這是理論上的博弈平衡，不等於實務訓練一定能完美收斂。",
+      "C": "納許平衡表示所有生成圖片都和某張真實圖片逐像素相同。",
+      "D": "納許平衡要求判別器永遠 100% 分辨真偽。"
+    },
+    "correct_answer": "B",
+    "explanation": "理論平衡描述的是分布與策略的條件，不是對任何實際訓練結果的保證。",
+    "unit": 6
+  },
+  {
+    "id": 1067,
+    "section": 6,
+    "text": "關於「生成器是否只是複製資料」，下列敘述何者最正確？",
+    "options": {
+      "A": "GAN 的唯一正確行為就是把訓練圖片原封不動輸出。",
+      "B": "GAN 只能記住檔名，不能學資料分布。",
+      "C": "GAN 的目標是學習資料分布並產生樣本；理想上不只是逐張複製訓練資料。",
+      "D": "GAN 一定要求每個輸出和某張訓練圖完全一致。"
+    },
+    "correct_answer": "C",
+    "explanation": "生成模型希望近似資料分布，能從潛在輸入產生新樣本。",
+    "unit": 6
+  },
+  {
+    "id": 1068,
+    "section": 6,
+    "text": "複習「生成器是否只是複製資料」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "GAN 的唯一正確行為就是把訓練圖片原封不動輸出。",
+      "B": "GAN 只能記住檔名，不能學資料分布。",
+      "C": "GAN 一定要求每個輸出和某張訓練圖完全一致。",
+      "D": "GAN 的目標是學習資料分布並產生樣本；理想上不只是逐張複製訓練資料。"
+    },
+    "correct_answer": "D",
+    "explanation": "生成模型希望近似資料分布，能從潛在輸入產生新樣本。",
+    "unit": 6
+  },
+  {
+    "id": 1069,
+    "section": 6,
+    "text": "關於「GAN 的圖像生成應用」，下列敘述何者最正確？",
+    "options": {
+      "A": "GAN 曾被廣泛用於影像生成與人臉等視覺內容合成。",
+      "B": "GAN 只能做表格排序，不能生成影像。",
+      "C": "GAN 的主要用途是 CSV 讀取。",
+      "D": "GAN 只能用於二元分類，不能生成內容。"
+    },
+    "correct_answer": "A",
+    "explanation": "GAN 對電腦視覺與影像生成的發展具有重要影響。",
+    "unit": 6
+  },
+  {
+    "id": 1070,
+    "section": 6,
+    "text": "複習「GAN 的圖像生成應用」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "GAN 只能做表格排序，不能生成影像。",
+      "B": "GAN 曾被廣泛用於影像生成與人臉等視覺內容合成。",
+      "C": "GAN 的主要用途是 CSV 讀取。",
+      "D": "GAN 只能用於二元分類，不能生成內容。"
+    },
+    "correct_answer": "B",
+    "explanation": "GAN 對電腦視覺與影像生成的發展具有重要影響。",
+    "unit": 6
+  },
+  {
+    "id": 1071,
+    "section": 6,
+    "text": "關於「GAN 與風格轉換／影像轉換」，下列敘述何者最正確？",
+    "options": {
+      "A": "所有風格轉換都只能用線性回歸完成。",
+      "B": "GAN 不能處理任何影像轉換問題。",
+      "C": "許多 GAN 變體可用於 image-to-image translation、風格轉換或影像屬性轉換。",
+      "D": "只要是 AR 濾鏡就一定使用原始 GAN。"
+    },
+    "correct_answer": "C",
+    "explanation": "GAN 家族包含多種條件式與影像到影像的生成架構；但不是所有濾鏡都必然使用 GAN。",
+    "unit": 6
+  },
+  {
+    "id": 1072,
+    "section": 6,
+    "text": "複習「GAN 與風格轉換／影像轉換」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "所有風格轉換都只能用線性回歸完成。",
+      "B": "GAN 不能處理任何影像轉換問題。",
+      "C": "只要是 AR 濾鏡就一定使用原始 GAN。",
+      "D": "許多 GAN 變體可用於 image-to-image translation、風格轉換或影像屬性轉換。"
+    },
+    "correct_answer": "D",
+    "explanation": "GAN 家族包含多種條件式與影像到影像的生成架構；但不是所有濾鏡都必然使用 GAN。",
+    "unit": 6
+  },
+  {
+    "id": 1073,
+    "section": 6,
+    "text": "關於「GAN 與高解析度影像」，下列敘述何者最正確？",
+    "options": {
+      "A": "GAN 家族曾發展出能生成高品質、高解析度影像的多種架構。",
+      "B": "原始 GAN 理論規定輸出只能是低解析度黑白圖。",
+      "C": "GAN 的解析度由判別器輸出 0 或 1 直接決定。",
+      "D": "GAN 不能用於任何高品質影像生成。"
+    },
+    "correct_answer": "A",
+    "explanation": "後續 GAN 架構在高品質影像生成上取得重要成果。",
+    "unit": 6
+  },
+  {
+    "id": 1074,
+    "section": 6,
+    "text": "複習「GAN 與高解析度影像」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "原始 GAN 理論規定輸出只能是低解析度黑白圖。",
+      "B": "GAN 家族曾發展出能生成高品質、高解析度影像的多種架構。",
+      "C": "GAN 的解析度由判別器輸出 0 或 1 直接決定。",
+      "D": "GAN 不能用於任何高品質影像生成。"
+    },
+    "correct_answer": "B",
+    "explanation": "後續 GAN 架構在高品質影像生成上取得重要成果。",
+    "unit": 6
+  },
+  {
+    "id": 1075,
+    "section": 6,
+    "text": "關於「AR 濾鏡與 GAN 的關係」，下列敘述何者最正確？",
+    "options": {
+      "A": "任何 AR 濾鏡底層都必然是 GAN。",
+      "B": "GAN 和 AR 是完全相同的技術名稱。",
+      "C": "某些臉部轉換、老化或風格化效果可以使用 GAN 類方法，但『AR 濾鏡』不是 GAN 的同義詞。",
+      "D": "只要使用相機就等於使用 GAN。"
+    },
+    "correct_answer": "C",
+    "explanation": "AR 濾鏡可能結合多種電腦視覺與生成方法，GAN 只是可能使用的技術之一。",
+    "unit": 6
+  },
+  {
+    "id": 1076,
+    "section": 6,
+    "text": "複習「AR 濾鏡與 GAN 的關係」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "任何 AR 濾鏡底層都必然是 GAN。",
+      "B": "GAN 和 AR 是完全相同的技術名稱。",
+      "C": "只要使用相機就等於使用 GAN。",
+      "D": "某些臉部轉換、老化或風格化效果可以使用 GAN 類方法，但『AR 濾鏡』不是 GAN 的同義詞。"
+    },
+    "correct_answer": "D",
+    "explanation": "AR 濾鏡可能結合多種電腦視覺與生成方法，GAN 只是可能使用的技術之一。",
+    "unit": 6
+  },
+  {
+    "id": 1077,
+    "section": 6,
+    "text": "關於「G 與 D 的角色差異」，下列敘述何者最正確？",
+    "options": {
+      "A": "G 負責生成候選樣本，D 負責判斷樣本來源；兩者角色不同但透過訓練互相影響。",
+      "B": "G 與 D 的任務完全相同，都只做分類。",
+      "C": "G 只讀真實資料，D 只負責產生圖片。",
+      "D": "G 與 D 不會在訓練中互相影響。"
+    },
+    "correct_answer": "A",
+    "explanation": "GAN 的核心就在於生成與判別兩個不同角色的對抗互動。",
+    "unit": 6
+  },
+  {
+    "id": 1078,
+    "section": 6,
+    "text": "複習「G 與 D 的角色差異」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "G 與 D 的任務完全相同，都只做分類。",
+      "B": "G 負責生成候選樣本，D 負責判斷樣本來源；兩者角色不同但透過訓練互相影響。",
+      "C": "G 只讀真實資料，D 只負責產生圖片。",
+      "D": "G 與 D 不會在訓練中互相影響。"
+    },
+    "correct_answer": "B",
+    "explanation": "GAN 的核心就在於生成與判別兩個不同角色的對抗互動。",
+    "unit": 6
+  },
+  {
+    "id": 1079,
+    "section": 6,
+    "text": "關於「GAN 中的隨機雜訊 z」，下列敘述何者最正確？",
+    "options": {
+      "A": "z 是判別器最後輸出的真假標籤。",
+      "B": "z 必須是一張真實照片。",
+      "C": "隨機雜訊 z 可視為生成器的潛在輸入，G 會把它映射成資料空間中的生成樣本。",
+      "D": "z 是訓練集的檔案名稱。"
+    },
+    "correct_answer": "C",
+    "explanation": "原始 GAN 定義先驗噪聲變數 p_z(z)，再由 G(z) 產生樣本。",
+    "unit": 6
+  },
+  {
+    "id": 1080,
+    "section": 6,
+    "text": "複習「GAN 中的隨機雜訊 z」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "z 是判別器最後輸出的真假標籤。",
+      "B": "z 必須是一張真實照片。",
+      "C": "z 是訓練集的檔案名稱。",
+      "D": "隨機雜訊 z 可視為生成器的潛在輸入，G 會把它映射成資料空間中的生成樣本。"
+    },
+    "correct_answer": "D",
+    "explanation": "原始 GAN 定義先驗噪聲變數 p_z(z)，再由 G(z) 產生樣本。",
+    "unit": 6
+  },
+  {
+    "id": 1081,
+    "section": 7,
+    "text": "關於「斷詞（Word Segmentation）」，下列敘述何者最正確？",
+    "options": {
+      "A": "斷詞是把連續文字切分成可處理的詞彙或分詞單位。",
+      "B": "斷詞是判斷一句話情緒正負。",
+      "C": "斷詞是把每個詞翻譯成英文。",
+      "D": "斷詞是辨識圖片中的物件。"
+    },
+    "correct_answer": "A",
+    "explanation": "斷詞處理詞邊界，讓後續文字分析有可操作的單位。",
+    "unit": 7
+  },
+  {
+    "id": 1082,
+    "section": 7,
+    "text": "複習「斷詞（Word Segmentation）」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "斷詞是判斷一句話情緒正負。",
+      "B": "斷詞是把連續文字切分成可處理的詞彙或分詞單位。",
+      "C": "斷詞是把每個詞翻譯成英文。",
+      "D": "斷詞是辨識圖片中的物件。"
+    },
+    "correct_answer": "B",
+    "explanation": "斷詞處理詞邊界，讓後續文字分析有可操作的單位。",
+    "unit": 7
+  },
+  {
+    "id": 1083,
+    "section": 7,
+    "text": "關於「中文斷詞的重要性」，下列敘述何者最正確？",
+    "options": {
+      "A": "中文每個詞之間一定都有空格，所以不需要斷詞。",
+      "B": "中文只能逐字處理，無法形成詞。",
+      "C": "中文一般不靠空格自然分隔每個詞，因此詞邊界判斷往往比英文更需要額外處理。",
+      "D": "斷詞只適用於英文，中文不能使用。"
+    },
+    "correct_answer": "C",
+    "explanation": "像「台南市水果很好吃」這類句子需決定合理詞界，才便於後續分析。",
+    "unit": 7
+  },
+  {
+    "id": 1084,
+    "section": 7,
+    "text": "複習「中文斷詞的重要性」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "中文每個詞之間一定都有空格，所以不需要斷詞。",
+      "B": "中文只能逐字處理，無法形成詞。",
+      "C": "斷詞只適用於英文，中文不能使用。",
+      "D": "中文一般不靠空格自然分隔每個詞，因此詞邊界判斷往往比英文更需要額外處理。"
+    },
+    "correct_answer": "D",
+    "explanation": "像「台南市水果很好吃」這類句子需決定合理詞界，才便於後續分析。",
+    "unit": 7
+  },
+  {
+    "id": 1085,
+    "section": 7,
+    "text": "關於「『台南市水果很好吃』的斷詞」，下列敘述何者最正確？",
+    "options": {
+      "A": "把句子切成「台南市／水果／很／好吃」是在示範詞邊界切分，而不是情緒分類。",
+      "B": "這是在示範把句子翻譯成英文。",
+      "C": "這是在示範 NER 只標出日期。",
+      "D": "這是在示範把圖片轉成矩陣。"
+    },
+    "correct_answer": "A",
+    "explanation": "例子重點是將連續中文句子拆成詞彙單位。",
+    "unit": 7
+  },
+  {
+    "id": 1086,
+    "section": 7,
+    "text": "複習「『台南市水果很好吃』的斷詞」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "這是在示範把句子翻譯成英文。",
+      "B": "把句子切成「台南市／水果／很／好吃」是在示範詞邊界切分，而不是情緒分類。",
+      "C": "這是在示範 NER 只標出日期。",
+      "D": "這是在示範把圖片轉成矩陣。"
+    },
+    "correct_answer": "B",
+    "explanation": "例子重點是將連續中文句子拆成詞彙單位。",
+    "unit": 7
+  },
+  {
+    "id": 1087,
+    "section": 7,
+    "text": "關於「詞性標記（POS Tagging）」，下列敘述何者最正確？",
+    "options": {
+      "A": "POS Tagging 只負責判斷地名。",
+      "B": "POS Tagging 是把每個詞轉成圖片。",
+      "C": "POS Tagging 會標記詞在句中的語法角色，例如名詞、動詞、形容詞或副詞。",
+      "D": "POS Tagging 的輸出一定只有正面或負面。"
+    },
+    "correct_answer": "C",
+    "explanation": "詞性標記關注的是詞在語法中的功能。",
+    "unit": 7
+  },
+  {
+    "id": 1088,
+    "section": 7,
+    "text": "複習「詞性標記（POS Tagging）」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "POS Tagging 只負責判斷地名。",
+      "B": "POS Tagging 是把每個詞轉成圖片。",
+      "C": "POS Tagging 的輸出一定只有正面或負面。",
+      "D": "POS Tagging 會標記詞在句中的語法角色，例如名詞、動詞、形容詞或副詞。"
+    },
+    "correct_answer": "D",
+    "explanation": "詞性標記關注的是詞在語法中的功能。",
+    "unit": 7
+  },
+  {
+    "id": 1089,
+    "section": 7,
+    "text": "關於「POS 與斷詞的關係」，下列敘述何者最正確？",
+    "options": {
+      "A": "在傳統處理流程中，通常先取得詞彙單位，再對這些詞做詞性標記。",
+      "B": "一定要先做圖像分類才能做 POS。",
+      "C": "POS 的唯一作用是決定詞與詞之間有沒有空格。",
+      "D": "POS 等同於 Word2Vec。"
+    },
+    "correct_answer": "A",
+    "explanation": "斷詞處理邊界，POS 則為詞賦予語法類別，兩者任務不同。",
+    "unit": 7
+  },
+  {
+    "id": 1090,
+    "section": 7,
+    "text": "複習「POS 與斷詞的關係」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "一定要先做圖像分類才能做 POS。",
+      "B": "在傳統處理流程中，通常先取得詞彙單位，再對這些詞做詞性標記。",
+      "C": "POS 的唯一作用是決定詞與詞之間有沒有空格。",
+      "D": "POS 等同於 Word2Vec。"
+    },
+    "correct_answer": "B",
+    "explanation": "斷詞處理邊界，POS 則為詞賦予語法類別，兩者任務不同。",
+    "unit": 7
+  },
+  {
+    "id": 1091,
+    "section": 7,
+    "text": "關於「POS 的上下文性」，下列敘述何者最正確？",
+    "options": {
+      "A": "每個字詞在所有句子中的詞性永遠固定。",
+      "B": "POS 完全不需要上下文。",
+      "C": "同一個字詞在不同句子中可能扮演不同語法角色，POS 標記需結合上下文判斷。",
+      "D": "POS 只依字的筆畫數決定詞性。"
+    },
+    "correct_answer": "C",
+    "explanation": "詞性可能依句法環境改變，因此上下文資訊很重要。",
+    "unit": 7
+  },
+  {
+    "id": 1092,
+    "section": 7,
+    "text": "複習「POS 的上下文性」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "每個字詞在所有句子中的詞性永遠固定。",
+      "B": "POS 完全不需要上下文。",
+      "C": "POS 只依字的筆畫數決定詞性。",
+      "D": "同一個字詞在不同句子中可能扮演不同語法角色，POS 標記需結合上下文判斷。"
+    },
+    "correct_answer": "D",
+    "explanation": "詞性可能依句法環境改變，因此上下文資訊很重要。",
+    "unit": 7
+  },
+  {
+    "id": 1093,
+    "section": 7,
+    "text": "關於「命名實體辨識（NER）」，下列敘述何者最正確？",
+    "options": {
+      "A": "NER 的任務是從文本中找出並分類具有特定意義的實體，例如人名、地名、機構或日期。",
+      "B": "NER 的唯一功能是計算文字長度。",
+      "C": "NER 只負責把句子斷成單字。",
+      "D": "NER 是用來調整神經網路學習率。"
+    },
+    "correct_answer": "A",
+    "explanation": "Named Entity Recognition 聚焦於文本中的命名實體。",
+    "unit": 7
+  },
+  {
+    "id": 1094,
+    "section": 7,
+    "text": "複習「命名實體辨識（NER）」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "NER 的唯一功能是計算文字長度。",
+      "B": "NER 的任務是從文本中找出並分類具有特定意義的實體，例如人名、地名、機構或日期。",
+      "C": "NER 只負責把句子斷成單字。",
+      "D": "NER 是用來調整神經網路學習率。"
+    },
+    "correct_answer": "B",
+    "explanation": "Named Entity Recognition 聚焦於文本中的命名實體。",
+    "unit": 7
+  },
+  {
+    "id": 1095,
+    "section": 7,
+    "text": "關於「NER 的人名例子」，下列敘述何者最正確？",
+    "options": {
+      "A": "把「李飛飛」標成動詞就是 NER 的唯一任務。",
+      "B": "把「李飛飛」轉成像素是 NER。",
+      "C": "在句子中把「李飛飛」標成 PERSON 類型，是 NER 的典型工作。",
+      "D": "把整句判成正面情緒就是 NER。"
+    },
+    "correct_answer": "C",
+    "explanation": "人名是 NER 常見的實體類型之一。",
+    "unit": 7
+  },
+  {
+    "id": 1096,
+    "section": 7,
+    "text": "複習「NER 的人名例子」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "把「李飛飛」標成動詞就是 NER 的唯一任務。",
+      "B": "把「李飛飛」轉成像素是 NER。",
+      "C": "把整句判成正面情緒就是 NER。",
+      "D": "在句子中把「李飛飛」標成 PERSON 類型，是 NER 的典型工作。"
+    },
+    "correct_answer": "D",
+    "explanation": "人名是 NER 常見的實體類型之一。",
+    "unit": 7
+  },
+  {
+    "id": 1097,
+    "section": 7,
+    "text": "關於「NER 的地名／機構例子」，下列敘述何者最正確？",
+    "options": {
+      "A": "把「台北市」辨識為地點、把「Google」辨識為組織，屬於 NER。",
+      "B": "這兩個例子都只是在做特徵縮放。",
+      "C": "NER 不能辨識組織名稱。",
+      "D": "地名只能靠 POS，不能作為命名實體。"
+    },
+    "correct_answer": "A",
+    "explanation": "地點與組織都是常見的 NER 類別。",
+    "unit": 7
+  },
+  {
+    "id": 1098,
+    "section": 7,
+    "text": "複習「NER 的地名／機構例子」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "這兩個例子都只是在做特徵縮放。",
+      "B": "把「台北市」辨識為地點、把「Google」辨識為組織，屬於 NER。",
+      "C": "NER 不能辨識組織名稱。",
+      "D": "地名只能靠 POS，不能作為命名實體。"
+    },
+    "correct_answer": "B",
+    "explanation": "地點與組織都是常見的 NER 類別。",
+    "unit": 7
+  },
+  {
+    "id": 1099,
+    "section": 7,
+    "text": "關於「NER 的時間／日期例子」，下列敘述何者最正確？",
+    "options": {
+      "A": "日期只能用 CNN 辨識，NER 不能處理。",
+      "B": "NER 會把日期轉成隨機雜訊。",
+      "C": "把「2026 年」或「下週三」標成日期／時間實體，是 NER 可處理的任務。",
+      "D": "只要含數字就一定是人名。"
+    },
+    "correct_answer": "C",
+    "explanation": "日期與時間表達式常被列為命名實體或專門的時間實體。",
+    "unit": 7
+  },
+  {
+    "id": 1100,
+    "section": 7,
+    "text": "複習「NER 的時間／日期例子」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "日期只能用 CNN 辨識，NER 不能處理。",
+      "B": "NER 會把日期轉成隨機雜訊。",
+      "C": "只要含數字就一定是人名。",
+      "D": "把「2026 年」或「下週三」標成日期／時間實體，是 NER 可處理的任務。"
+    },
+    "correct_answer": "D",
+    "explanation": "日期與時間表達式常被列為命名實體或專門的時間實體。",
+    "unit": 7
+  },
+  {
+    "id": 1101,
+    "section": 7,
+    "text": "關於「斷詞錯誤的影響」，下列敘述何者最正確？",
+    "options": {
+      "A": "如果詞邊界切錯，後續詞性、實體辨識或語意分析都可能受到影響。",
+      "B": "斷詞結果完全不會影響任何下游任務。",
+      "C": "斷詞錯誤只會改變字體大小。",
+      "D": "斷詞錯誤會自動提高模型準確率。"
+    },
+    "correct_answer": "A",
+    "explanation": "前處理錯誤可能一路傳遞到後續分析。",
+    "unit": 7
+  },
+  {
+    "id": 1102,
+    "section": 7,
+    "text": "複習「斷詞錯誤的影響」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "斷詞結果完全不會影響任何下游任務。",
+      "B": "如果詞邊界切錯，後續詞性、實體辨識或語意分析都可能受到影響。",
+      "C": "斷詞錯誤只會改變字體大小。",
+      "D": "斷詞錯誤會自動提高模型準確率。"
+    },
+    "correct_answer": "B",
+    "explanation": "前處理錯誤可能一路傳遞到後續分析。",
+    "unit": 7
+  },
+  {
+    "id": 1103,
+    "section": 7,
+    "text": "關於「NER 與搜尋／問答系統」，下列敘述何者最正確？",
+    "options": {
+      "A": "NER 只能用於圖片生成。",
+      "B": "搜尋系統完全不能使用實體資訊。",
+      "C": "NER 可協助搜尋或問答系統抽出文本中的人物、地點、組織、時間等關鍵資訊。",
+      "D": "NER 的唯一用途是壓縮檔案。"
+    },
+    "correct_answer": "C",
+    "explanation": "實體資訊有助於理解查詢與文件中的關鍵對象。",
+    "unit": 7
+  },
+  {
+    "id": 1104,
+    "section": 7,
+    "text": "複習「NER 與搜尋／問答系統」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "NER 只能用於圖片生成。",
+      "B": "搜尋系統完全不能使用實體資訊。",
+      "C": "NER 的唯一用途是壓縮檔案。",
+      "D": "NER 可協助搜尋或問答系統抽出文本中的人物、地點、組織、時間等關鍵資訊。"
+    },
+    "correct_answer": "D",
+    "explanation": "實體資訊有助於理解查詢與文件中的關鍵對象。",
+    "unit": 7
+  },
+  {
+    "id": 1105,
+    "section": 7,
+    "text": "關於「NER 與智慧客服」，下列敘述何者最正確？",
+    "options": {
+      "A": "智慧客服可用 NER 抽取訂單編號、日期、地點或機構等關鍵實體，再交給後續流程處理。",
+      "B": "NER 在客服中只能改變畫面顏色。",
+      "C": "NER 會直接取代所有客服決策。",
+      "D": "NER 的輸入必須是圖片，不能是文字。"
+    },
+    "correct_answer": "A",
+    "explanation": "NER 常被用於資訊抽取，協助下游工作流程。",
+    "unit": 7
+  },
+  {
+    "id": 1106,
+    "section": 7,
+    "text": "複習「NER 與智慧客服」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "NER 在客服中只能改變畫面顏色。",
+      "B": "智慧客服可用 NER 抽取訂單編號、日期、地點或機構等關鍵實體，再交給後續流程處理。",
+      "C": "NER 會直接取代所有客服決策。",
+      "D": "NER 的輸入必須是圖片，不能是文字。"
+    },
+    "correct_answer": "B",
+    "explanation": "NER 常被用於資訊抽取，協助下游工作流程。",
+    "unit": 7
+  },
+  {
+    "id": 1107,
+    "section": 7,
+    "text": "關於「斷詞、POS、NER 的差異」，下列敘述何者最正確？",
+    "options": {
+      "A": "三者其實是完全相同的演算法名稱。",
+      "B": "POS 只找人名，NER 只找動詞，斷詞只做翻譯。",
+      "C": "斷詞處理詞邊界，POS 處理語法角色，NER 處理具名實體；三者解決的問題不同。",
+      "D": "三者都只用來做情緒分析。"
+    },
+    "correct_answer": "C",
+    "explanation": "這三項是不同層次的文字處理任務。",
+    "unit": 7
+  },
+  {
+    "id": 1108,
+    "section": 7,
+    "text": "複習「斷詞、POS、NER 的差異」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "三者其實是完全相同的演算法名稱。",
+      "B": "POS 只找人名，NER 只找動詞，斷詞只做翻譯。",
+      "C": "三者都只用來做情緒分析。",
+      "D": "斷詞處理詞邊界，POS 處理語法角色，NER 處理具名實體；三者解決的問題不同。"
+    },
+    "correct_answer": "D",
+    "explanation": "這三項是不同層次的文字處理任務。",
+    "unit": 7
+  },
+  {
+    "id": 1109,
+    "section": 7,
+    "text": "關於「NER 與 POS 的差別」，下列敘述何者最正確？",
+    "options": {
+      "A": "「Google」可同時有詞性標記，也可被 NER 標成組織；POS 與 NER 的標註維度不同。",
+      "B": "只要做 POS 就一定等於完成 NER。",
+      "C": "NER 只能標名詞，所以和 POS 完全相同。",
+      "D": "POS 會自動把 Google 判成網址而不是詞。"
+    },
+    "correct_answer": "A",
+    "explanation": "POS 描述語法角色，NER 描述實體類型，兩者可同時套在同一詞上。",
+    "unit": 7
+  },
+  {
+    "id": 1110,
+    "section": 7,
+    "text": "複習「NER 與 POS 的差別」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "只要做 POS 就一定等於完成 NER。",
+      "B": "「Google」可同時有詞性標記，也可被 NER 標成組織；POS 與 NER 的標註維度不同。",
+      "C": "NER 只能標名詞，所以和 POS 完全相同。",
+      "D": "POS 會自動把 Google 判成網址而不是詞。"
+    },
+    "correct_answer": "B",
+    "explanation": "POS 描述語法角色，NER 描述實體類型，兩者可同時套在同一詞上。",
+    "unit": 7
+  },
+  {
+    "id": 1111,
+    "section": 7,
+    "text": "關於「文字前處理後的向量化」，下列敘述何者最正確？",
+    "options": {
+      "A": "文字完成斷詞後就不需要任何數值表示即可直接做矩陣運算。",
+      "B": "詞向量的用途是把圖片切成像素。",
+      "C": "教材式流程可在文字切分與標註後，再把詞彙轉成向量表示供模型使用。",
+      "D": "只有 NER 結果能轉成向量，其他詞不能。"
+    },
+    "correct_answer": "C",
+    "explanation": "神經網路通常需要數值表示，因此文字最終會轉成 token id、embedding 等數值形式。",
+    "unit": 7
+  },
+  {
+    "id": 1112,
+    "section": 7,
+    "text": "複習「文字前處理後的向量化」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "文字完成斷詞後就不需要任何數值表示即可直接做矩陣運算。",
+      "B": "詞向量的用途是把圖片切成像素。",
+      "C": "只有 NER 結果能轉成向量，其他詞不能。",
+      "D": "教材式流程可在文字切分與標註後，再把詞彙轉成向量表示供模型使用。"
+    },
+    "correct_answer": "D",
+    "explanation": "神經網路通常需要數值表示，因此文字最終會轉成 token id、embedding 等數值形式。",
+    "unit": 7
+  },
+  {
+    "id": 1113,
+    "section": 7,
+    "text": "關於「三大步驟是否是所有現代 NLP 的硬性前提」，下列敘述何者最正確？",
+    "options": {
+      "A": "斷詞、POS、NER 是重要的傳統 NLP 任務，但不是所有現代 NLP 模型都必須依序先完成三者才能運作。",
+      "B": "所有 Transformer 都必須先完整做 POS 與 NER 才能接受輸入。",
+      "C": "任何 NLP 系統都不能跳過 NER。",
+      "D": "只要沒先做 POS，就完全不能建立詞向量。"
+    },
+    "correct_answer": "A",
+    "explanation": "現代端到端模型常直接從 token 化後的輸入學習任務；POS、NER 仍是重要任務，但不是一律必做的前置步驟。",
+    "unit": 7
+  },
+  {
+    "id": 1114,
+    "section": 7,
+    "text": "複習「三大步驟是否是所有現代 NLP 的硬性前提」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "所有 Transformer 都必須先完整做 POS 與 NER 才能接受輸入。",
+      "B": "斷詞、POS、NER 是重要的傳統 NLP 任務，但不是所有現代 NLP 模型都必須依序先完成三者才能運作。",
+      "C": "任何 NLP 系統都不能跳過 NER。",
+      "D": "只要沒先做 POS，就完全不能建立詞向量。"
+    },
+    "correct_answer": "B",
+    "explanation": "現代端到端模型常直接從 token 化後的輸入學習任務；POS、NER 仍是重要任務，但不是一律必做的前置步驟。",
+    "unit": 7
+  },
+  {
+    "id": 1115,
+    "section": 7,
+    "text": "關於「Token 與中文斷詞的關係」，下列敘述何者最正確？",
+    "options": {
+      "A": "所有 AI 模型的 token 都一定等於完整中文詞。",
+      "B": "token 一定是英文單字，不能是中文。",
+      "C": "教材中的『詞彙標記』可用來理解斷詞結果；現代模型的 tokenizer 也可能使用字、子詞等單位，不一定等同傳統『詞』。",
+      "D": "token 和文字切分毫無關係。"
+    },
+    "correct_answer": "C",
+    "explanation": "現代 tokenization 的單位取決於 tokenizer 設計，可能是詞、子詞、字元或其他片段。",
+    "unit": 7
+  },
+  {
+    "id": 1116,
+    "section": 7,
+    "text": "複習「Token 與中文斷詞的關係」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "所有 AI 模型的 token 都一定等於完整中文詞。",
+      "B": "token 一定是英文單字，不能是中文。",
+      "C": "token 和文字切分毫無關係。",
+      "D": "教材中的『詞彙標記』可用來理解斷詞結果；現代模型的 tokenizer 也可能使用字、子詞等單位，不一定等同傳統『詞』。"
+    },
+    "correct_answer": "D",
+    "explanation": "現代 tokenization 的單位取決於 tokenizer 設計，可能是詞、子詞、字元或其他片段。",
+    "unit": 7
+  },
+  {
+    "id": 1117,
+    "section": 7,
+    "text": "關於「結構化標籤資料的用途」，下列敘述何者最正確？",
+    "options": {
+      "A": "把詞邊界、詞性、實體類型等資訊結構化，有助於搜尋、資訊抽取、分析或模型訓練。",
+      "B": "結構化標籤只會讓文字變得無法處理。",
+      "C": "標籤資料只能拿來畫 3D 圖。",
+      "D": "POS 與 NER 標籤不能供任何模型使用。"
+    },
+    "correct_answer": "A",
+    "explanation": "結構化標註可作為規則系統、監督式學習或分析流程的輸入。",
+    "unit": 7
+  },
+  {
+    "id": 1118,
+    "section": 7,
+    "text": "複習「結構化標籤資料的用途」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "結構化標籤只會讓文字變得無法處理。",
+      "B": "把詞邊界、詞性、實體類型等資訊結構化，有助於搜尋、資訊抽取、分析或模型訓練。",
+      "C": "標籤資料只能拿來畫 3D 圖。",
+      "D": "POS 與 NER 標籤不能供任何模型使用。"
+    },
+    "correct_answer": "B",
+    "explanation": "結構化標註可作為規則系統、監督式學習或分析流程的輸入。",
+    "unit": 7
+  },
+  {
+    "id": 1119,
+    "section": 7,
+    "text": "關於「NLP 前處理的核心目的」，下列敘述何者最正確？",
+    "options": {
+      "A": "共同目的只是把所有文字刪除。",
+      "B": "共同目的只是在增加檔案大小。",
+      "C": "這些文字處理技術的共同目的，是把原始自然語言整理成較容易被程式分析與建模的表示。",
+      "D": "共同目的在把每句話變成圖片。"
+    },
+    "correct_answer": "C",
+    "explanation": "NLP 前處理與標註幫助系統取得詞界、語法與實體等結構資訊。",
+    "unit": 7
+  },
+  {
+    "id": 1120,
+    "section": 7,
+    "text": "複習「NLP 前處理的核心目的」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "共同目的只是把所有文字刪除。",
+      "B": "共同目的只是在增加檔案大小。",
+      "C": "共同目的在把每句話變成圖片。",
+      "D": "這些文字處理技術的共同目的，是把原始自然語言整理成較容易被程式分析與建模的表示。"
+    },
+    "correct_answer": "D",
+    "explanation": "NLP 前處理與標註幫助系統取得詞界、語法與實體等結構資訊。",
+    "unit": 7
+  },
+  {
+    "id": 1121,
+    "section": 8,
+    "text": "關於「Input→Output 映射的核心概念」，下列敘述何者最正確？",
+    "options": {
+      "A": "可把許多監督式／序列模型抽象為學習某種從輸入 X 到輸出 Y 的映射關係。",
+      "B": "所有模型都只能學 Y 到 X，不能學 X 到 Y。",
+      "C": "映射關係只存在於 GAN，其他模型沒有。",
+      "D": "X 與 Y 一定都只能是單一數字。"
+    },
+    "correct_answer": "A",
+    "explanation": "用 f(X)=Y 是理解機器學習預測關係的一種抽象方式。",
+    "unit": 8
+  },
+  {
+    "id": 1122,
+    "section": 8,
+    "text": "複習「Input→Output 映射的核心概念」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "所有模型都只能學 Y 到 X，不能學 X 到 Y。",
+      "B": "可把許多監督式／序列模型抽象為學習某種從輸入 X 到輸出 Y 的映射關係。",
+      "C": "映射關係只存在於 GAN，其他模型沒有。",
+      "D": "X 與 Y 一定都只能是單一數字。"
+    },
+    "correct_answer": "B",
+    "explanation": "用 f(X)=Y 是理解機器學習預測關係的一種抽象方式。",
+    "unit": 8
+  },
+  {
+    "id": 1123,
+    "section": 8,
+    "text": "關於「One-to-One」，下列敘述何者最正確？",
+    "options": {
+      "A": "One-to-One 表示一個輸入一定產生無限多個輸出。",
+      "B": "One-to-One 只適用於文字生成。",
+      "C": "One-to-One 表示一個輸入樣本對應一個輸出結果。",
+      "D": "One-to-One 要求輸入一定是時間序列。"
+    },
+    "correct_answer": "C",
+    "explanation": "典型例子是單張圖片輸入後輸出一個分類標籤。",
+    "unit": 8
+  },
+  {
+    "id": 1124,
+    "section": 8,
+    "text": "複習「One-to-One」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "One-to-One 表示一個輸入一定產生無限多個輸出。",
+      "B": "One-to-One 只適用於文字生成。",
+      "C": "One-to-One 要求輸入一定是時間序列。",
+      "D": "One-to-One 表示一個輸入樣本對應一個輸出結果。"
+    },
+    "correct_answer": "D",
+    "explanation": "典型例子是單張圖片輸入後輸出一個分類標籤。",
+    "unit": 8
+  },
+  {
+    "id": 1125,
+    "section": 8,
+    "text": "關於「One-to-One 的圖像分類例子」，下列敘述何者最正確？",
+    "options": {
+      "A": "輸入一張貓狗照片，輸出『貓』或『狗』的一個類別，可視為 One-to-One。",
+      "B": "這是 One-to-Many，因為圖片有很多像素。",
+      "C": "這必然是 Many-to-Many。",
+      "D": "只要使用 CNN 就不能稱為 One-to-One。"
+    },
+    "correct_answer": "A",
+    "explanation": "映射類型看的是樣本／序列結構，而不是圖片內有多少像素。",
+    "unit": 8
+  },
+  {
+    "id": 1126,
+    "section": 8,
+    "text": "複習「One-to-One 的圖像分類例子」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "這是 One-to-Many，因為圖片有很多像素。",
+      "B": "輸入一張貓狗照片，輸出『貓』或『狗』的一個類別，可視為 One-to-One。",
+      "C": "這必然是 Many-to-Many。",
+      "D": "只要使用 CNN 就不能稱為 One-to-One。"
+    },
+    "correct_answer": "B",
+    "explanation": "映射類型看的是樣本／序列結構，而不是圖片內有多少像素。",
+    "unit": 8
+  },
+  {
+    "id": 1127,
+    "section": 8,
+    "text": "關於「One-to-One 的回歸例子」，下列敘述何者最正確？",
+    "options": {
+      "A": "房屋有多個欄位就必然是 Many-to-One 序列模型。",
+      "B": "回歸一定是 Many-to-Many。",
+      "C": "一個輸入樣本（例如房屋特徵）對應一個房價預測值，可視為 One-to-One。",
+      "D": "只要輸出是數字就屬於 One-to-Many。"
+    },
+    "correct_answer": "C",
+    "explanation": "一筆特徵向量作為一個樣本輸入，對應一個輸出值，仍是 one sample to one output。",
+    "unit": 8
+  },
+  {
+    "id": 1128,
+    "section": 8,
+    "text": "複習「One-to-One 的回歸例子」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "房屋有多個欄位就必然是 Many-to-One 序列模型。",
+      "B": "回歸一定是 Many-to-Many。",
+      "C": "只要輸出是數字就屬於 One-to-Many。",
+      "D": "一個輸入樣本（例如房屋特徵）對應一個房價預測值，可視為 One-to-One。"
+    },
+    "correct_answer": "D",
+    "explanation": "一筆特徵向量作為一個樣本輸入，對應一個輸出值，仍是 one sample to one output。",
+    "unit": 8
+  },
+  {
+    "id": 1129,
+    "section": 8,
+    "text": "關於「One-to-Many」，下列敘述何者最正確？",
+    "options": {
+      "A": "One-to-Many 表示一個輸入條件／樣本產生一串有順序的輸出。",
+      "B": "One-to-Many 表示很多輸入壓成一個輸出。",
+      "C": "One-to-Many 與 One-to-One 完全相同。",
+      "D": "One-to-Many 的輸出不能具有順序。"
+    },
+    "correct_answer": "A",
+    "explanation": "常見例子是由單張影像逐步生成文字描述。",
+    "unit": 8
+  },
+  {
+    "id": 1130,
+    "section": 8,
+    "text": "複習「One-to-Many」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "One-to-Many 表示很多輸入壓成一個輸出。",
+      "B": "One-to-Many 表示一個輸入條件／樣本產生一串有順序的輸出。",
+      "C": "One-to-Many 與 One-to-One 完全相同。",
+      "D": "One-to-Many 的輸出不能具有順序。"
+    },
+    "correct_answer": "B",
+    "explanation": "常見例子是由單張影像逐步生成文字描述。",
+    "unit": 8
+  },
+  {
+    "id": 1131,
+    "section": 8,
+    "text": "關於「Image Captioning 的映射」，下列敘述何者最正確？",
+    "options": {
+      "A": "它一定是 Many-to-One，因為句子只有一個意思。",
+      "B": "它是 One-to-One，因為整句文字算一個字。",
+      "C": "單張圖片作為輸入，模型生成一串文字描述，可視為 One-to-Many。",
+      "D": "它與序列輸出無關。"
+    },
+    "correct_answer": "C",
+    "explanation": "圖片是單一條件，caption 是由多個 token 組成的序列輸出。",
+    "unit": 8
+  },
+  {
+    "id": 1132,
+    "section": 8,
+    "text": "複習「Image Captioning 的映射」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "它一定是 Many-to-One，因為句子只有一個意思。",
+      "B": "它是 One-to-One，因為整句文字算一個字。",
+      "C": "它與序列輸出無關。",
+      "D": "單張圖片作為輸入，模型生成一串文字描述，可視為 One-to-Many。"
+    },
+    "correct_answer": "D",
+    "explanation": "圖片是單一條件，caption 是由多個 token 組成的序列輸出。",
+    "unit": 8
+  },
+  {
+    "id": 1133,
+    "section": 8,
+    "text": "關於「主題到音樂序列的映射」，下列敘述何者最正確？",
+    "options": {
+      "A": "若輸入一個風格／主題條件，模型產生一串音符序列，可作為 One-to-Many 的例子。",
+      "B": "因為音符很多，所以輸入也一定很多。",
+      "C": "這一定是 One-to-One。",
+      "D": "序列生成不能用 One-to-Many 描述。"
+    },
+    "correct_answer": "A",
+    "explanation": "一個條件展開成有順序的多步輸出符合 one-to-many 的直觀。",
+    "unit": 8
+  },
+  {
+    "id": 1134,
+    "section": 8,
+    "text": "複習「主題到音樂序列的映射」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "因為音符很多，所以輸入也一定很多。",
+      "B": "若輸入一個風格／主題條件，模型產生一串音符序列，可作為 One-to-Many 的例子。",
+      "C": "這一定是 One-to-One。",
+      "D": "序列生成不能用 One-to-Many 描述。"
+    },
+    "correct_answer": "B",
+    "explanation": "一個條件展開成有順序的多步輸出符合 one-to-many 的直觀。",
+    "unit": 8
+  },
+  {
+    "id": 1135,
+    "section": 8,
+    "text": "關於「Many-to-One」，下列敘述何者最正確？",
+    "options": {
+      "A": "Many-to-One 表示一個輸入產生很多輸出。",
+      "B": "Many-to-One 的輸入不能有順序。",
+      "C": "Many-to-One 表示一串有順序的輸入經模型整合後，得到一個最終輸出。",
+      "D": "Many-to-One 只適用於圖片放大。"
+    },
+    "correct_answer": "C",
+    "explanation": "典型例子是讀完整段文字後輸出一個情緒類別。",
+    "unit": 8
+  },
+  {
+    "id": 1136,
+    "section": 8,
+    "text": "複習「Many-to-One」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "Many-to-One 表示一個輸入產生很多輸出。",
+      "B": "Many-to-One 的輸入不能有順序。",
+      "C": "Many-to-One 只適用於圖片放大。",
+      "D": "Many-to-One 表示一串有順序的輸入經模型整合後，得到一個最終輸出。"
+    },
+    "correct_answer": "D",
+    "explanation": "典型例子是讀完整段文字後輸出一個情緒類別。",
+    "unit": 8
+  },
+  {
+    "id": 1137,
+    "section": 8,
+    "text": "關於「情緒分析的映射」，下列敘述何者最正確？",
+    "options": {
+      "A": "把一串詞或 token 的評論輸入模型，最後輸出正面／負面一個標籤，是典型 Many-to-One。",
+      "B": "這是 One-to-Many，因為文字有很多字。",
+      "C": "這是 Many-to-Many，因為輸出有兩個可能類別。",
+      "D": "只要輸出是分類就必然是 One-to-One。"
+    },
+    "correct_answer": "A",
+    "explanation": "序列輸入被整合成單一分類結果，符合 many-to-one。",
+    "unit": 8
+  },
+  {
+    "id": 1138,
+    "section": 8,
+    "text": "複習「情緒分析的映射」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "這是 One-to-Many，因為文字有很多字。",
+      "B": "把一串詞或 token 的評論輸入模型，最後輸出正面／負面一個標籤，是典型 Many-to-One。",
+      "C": "這是 Many-to-Many，因為輸出有兩個可能類別。",
+      "D": "只要輸出是分類就必然是 One-to-One。"
+    },
+    "correct_answer": "B",
+    "explanation": "序列輸入被整合成單一分類結果，符合 many-to-one。",
+    "unit": 8
+  },
+  {
+    "id": 1139,
+    "section": 8,
+    "text": "關於「Many-to-One 與多欄位特徵的差異」，下列敘述何者最正確？",
+    "options": {
+      "A": "只要 X 有兩個欄位以上就一定是 Many-to-One。",
+      "B": "多元線性回歸必然是一種 RNN 序列架構。",
+      "C": "在序列架構語境中，Many-to-One 的『many』通常指多個時間步／token；一筆資料有很多特徵欄位不代表它必然是 Many-to-One。",
+      "D": "『many』只代表模型參數很多。"
+    },
+    "correct_answer": "C",
+    "explanation": "序列 I/O 分類與一般特徵向量的維度是不同概念。",
+    "unit": 8
+  },
+  {
+    "id": 1140,
+    "section": 8,
+    "text": "複習「Many-to-One 與多欄位特徵的差異」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "只要 X 有兩個欄位以上就一定是 Many-to-One。",
+      "B": "多元線性回歸必然是一種 RNN 序列架構。",
+      "C": "『many』只代表模型參數很多。",
+      "D": "在序列架構語境中，Many-to-One 的『many』通常指多個時間步／token；一筆資料有很多特徵欄位不代表它必然是 Many-to-One。"
+    },
+    "correct_answer": "D",
+    "explanation": "序列 I/O 分類與一般特徵向量的維度是不同概念。",
+    "unit": 8
+  },
+  {
+    "id": 1141,
+    "section": 8,
+    "text": "關於「Many-to-Many / Seq2Seq」，下列敘述何者最正確？",
+    "options": {
+      "A": "Many-to-Many 表示序列輸入對應序列輸出；Seq2Seq 翻譯是經典例子。",
+      "B": "Many-to-Many 的輸出只能是一個標籤。",
+      "C": "Many-to-Many 只能處理圖片，不能處理文字。",
+      "D": "Seq2Seq 表示完全沒有輸入序列。"
+    },
+    "correct_answer": "A",
+    "explanation": "機器翻譯會把來源語句序列轉成目標語句序列。",
+    "unit": 8
+  },
+  {
+    "id": 1142,
+    "section": 8,
+    "text": "複習「Many-to-Many / Seq2Seq」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "Many-to-Many 的輸出只能是一個標籤。",
+      "B": "Many-to-Many 表示序列輸入對應序列輸出；Seq2Seq 翻譯是經典例子。",
+      "C": "Many-to-Many 只能處理圖片，不能處理文字。",
+      "D": "Seq2Seq 表示完全沒有輸入序列。"
+    },
+    "correct_answer": "B",
+    "explanation": "機器翻譯會把來源語句序列轉成目標語句序列。",
+    "unit": 8
+  },
+  {
+    "id": 1143,
+    "section": 8,
+    "text": "關於「機器翻譯的映射」，下列敘述何者最正確？",
+    "options": {
+      "A": "因為只有一種翻譯答案，所以是 One-to-One。",
+      "B": "翻譯沒有輸出序列。",
+      "C": "輸入一整句英文並輸出一整句中文，是 Many-to-Many／Seq2Seq 的典型應用。",
+      "D": "翻譯必然屬於 Many-to-One。"
+    },
+    "correct_answer": "C",
+    "explanation": "來源與目標皆為序列，因此適合 many-to-many 的描述。",
+    "unit": 8
+  },
+  {
+    "id": 1144,
+    "section": 8,
+    "text": "複習「機器翻譯的映射」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "因為只有一種翻譯答案，所以是 One-to-One。",
+      "B": "翻譯沒有輸出序列。",
+      "C": "翻譯必然屬於 Many-to-One。",
+      "D": "輸入一整句英文並輸出一整句中文，是 Many-to-Many／Seq2Seq 的典型應用。"
+    },
+    "correct_answer": "D",
+    "explanation": "來源與目標皆為序列，因此適合 many-to-many 的描述。",
+    "unit": 8
+  },
+  {
+    "id": 1145,
+    "section": 8,
+    "text": "關於「Many-to-Many 的長度」，下列敘述何者最正確？",
+    "options": {
+      "A": "Seq2Seq 的輸入與輸出都是序列，但兩者長度不必完全相同。",
+      "B": "輸入 7 個 token 就必須輸出剛好 7 個 token。",
+      "C": "Many-to-Many 不能有變長輸出。",
+      "D": "輸出長度一定比輸入短一半。"
+    },
+    "correct_answer": "A",
+    "explanation": "翻譯等任務常出現不同長度的來源與目標序列。",
+    "unit": 8
+  },
+  {
+    "id": 1146,
+    "section": 8,
+    "text": "複習「Many-to-Many 的長度」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "輸入 7 個 token 就必須輸出剛好 7 個 token。",
+      "B": "Seq2Seq 的輸入與輸出都是序列，但兩者長度不必完全相同。",
+      "C": "Many-to-Many 不能有變長輸出。",
+      "D": "輸出長度一定比輸入短一半。"
+    },
+    "correct_answer": "B",
+    "explanation": "翻譯等任務常出現不同長度的來源與目標序列。",
+    "unit": 8
+  },
+  {
+    "id": 1147,
+    "section": 8,
+    "text": "關於「序列輸出中的順序」，下列敘述何者最正確？",
+    "options": {
+      "A": "序列輸出中的元素可以任意打亂而不影響語意。",
+      "B": "只要輸出有很多數值就一定是序列。",
+      "C": "One-to-Many 或 Many-to-Many 的『多』通常代表有順序的序列步驟，輸出順序會影響語意。",
+      "D": "序列模型完全不考慮前後順序。"
+    },
+    "correct_answer": "C",
+    "explanation": "自然語言與音樂等序列具有前後關係。",
+    "unit": 8
+  },
+  {
+    "id": 1148,
+    "section": 8,
+    "text": "複習「序列輸出中的順序」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "序列輸出中的元素可以任意打亂而不影響語意。",
+      "B": "只要輸出有很多數值就一定是序列。",
+      "C": "序列模型完全不考慮前後順序。",
+      "D": "One-to-Many 或 Many-to-Many 的『多』通常代表有順序的序列步驟，輸出順序會影響語意。"
+    },
+    "correct_answer": "D",
+    "explanation": "自然語言與音樂等序列具有前後關係。",
+    "unit": 8
+  },
+  {
+    "id": 1149,
+    "section": 8,
+    "text": "關於「RNN 與序列映射」，下列敘述何者最正確？",
+    "options": {
+      "A": "RNN 透過隱藏狀態傳遞前序資訊，因此特別適合用來理解 One-to-Many、Many-to-One、Many-to-Many 等序列映射。",
+      "B": "RNN 的隱藏狀態會讓每個時間步完全互不相關。",
+      "C": "RNN 只能做 One-to-One。",
+      "D": "RNN 不能處理文字或時間序列。"
+    },
+    "correct_answer": "A",
+    "explanation": "RNN 的循環連接讓資訊能沿序列步驟傳遞。",
+    "unit": 8
+  },
+  {
+    "id": 1150,
+    "section": 8,
+    "text": "複習「RNN 與序列映射」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "RNN 的隱藏狀態會讓每個時間步完全互不相關。",
+      "B": "RNN 透過隱藏狀態傳遞前序資訊，因此特別適合用來理解 One-to-Many、Many-to-One、Many-to-Many 等序列映射。",
+      "C": "RNN 只能做 One-to-One。",
+      "D": "RNN 不能處理文字或時間序列。"
+    },
+    "correct_answer": "B",
+    "explanation": "RNN 的循環連接讓資訊能沿序列步驟傳遞。",
+    "unit": 8
+  },
+  {
+    "id": 1151,
+    "section": 8,
+    "text": "關於「CNN 與 One-to-One 分類」，下列敘述何者最正確？",
+    "options": {
+      "A": "CNN 只要有很多卷積像素就必然是 Many-to-Many。",
+      "B": "CNN 不能產生單一分類標籤。",
+      "C": "CNN 做單張圖片分類時，常可視為一個圖片樣本輸入、一個標籤輸出的 One-to-One。",
+      "D": "One-to-One 只適用線性回歸，不適用 CNN。"
+    },
+    "correct_answer": "C",
+    "explanation": "映射分類看整體輸入／輸出結構，不由網路內部層數決定。",
+    "unit": 8
+  },
+  {
+    "id": 1152,
+    "section": 8,
+    "text": "複習「CNN 與 One-to-One 分類」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "CNN 只要有很多卷積像素就必然是 Many-to-Many。",
+      "B": "CNN 不能產生單一分類標籤。",
+      "C": "One-to-One 只適用線性回歸，不適用 CNN。",
+      "D": "CNN 做單張圖片分類時，常可視為一個圖片樣本輸入、一個標籤輸出的 One-to-One。"
+    },
+    "correct_answer": "D",
+    "explanation": "映射分類看整體輸入／輸出結構，不由網路內部層數決定。",
+    "unit": 8
+  },
+  {
+    "id": 1153,
+    "section": 8,
+    "text": "關於「CNN 與 Image Captioning 的組合」，下列敘述何者最正確？",
+    "options": {
+      "A": "Image Captioning 可先用視覺模型取得圖片表示，再由序列生成模型輸出文字，因此整體可視為 One-to-Many。",
+      "B": "只要前面用了 CNN，整體就一定只能是 One-to-One。",
+      "C": "圖片描述沒有序列輸出。",
+      "D": "圖片描述必須是 Many-to-One。"
+    },
+    "correct_answer": "A",
+    "explanation": "模型內部可以混合不同架構；整體映射仍由外部輸入與輸出結構決定。",
+    "unit": 8
+  },
+  {
+    "id": 1154,
+    "section": 8,
+    "text": "複習「CNN 與 Image Captioning 的組合」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "只要前面用了 CNN，整體就一定只能是 One-to-One。",
+      "B": "Image Captioning 可先用視覺模型取得圖片表示，再由序列生成模型輸出文字，因此整體可視為 One-to-Many。",
+      "C": "圖片描述沒有序列輸出。",
+      "D": "圖片描述必須是 Many-to-One。"
+    },
+    "correct_answer": "B",
+    "explanation": "模型內部可以混合不同架構；整體映射仍由外部輸入與輸出結構決定。",
+    "unit": 8
+  },
+  {
+    "id": 1155,
+    "section": 8,
+    "text": "關於「文章續寫的映射觀點」，下列敘述何者最正確？",
+    "options": {
+      "A": "前文有很多字，所以輸出一定只能是一個標籤。",
+      "B": "文章續寫必然是 One-to-One。",
+      "C": "若輸入一段前文序列，再生成後續文字序列，從整體任務看可視為序列到序列的 Many-to-Many 類型。",
+      "D": "只要是生成任務就沒有 Input→Output 映射。"
+    },
+    "correct_answer": "C",
+    "explanation": "前文與後續內容都由有順序的 token 構成。",
+    "unit": 8
+  },
+  {
+    "id": 1156,
+    "section": 8,
+    "text": "複習「文章續寫的映射觀點」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "前文有很多字，所以輸出一定只能是一個標籤。",
+      "B": "文章續寫必然是 One-to-One。",
+      "C": "只要是生成任務就沒有 Input→Output 映射。",
+      "D": "若輸入一段前文序列，再生成後續文字序列，從整體任務看可視為序列到序列的 Many-to-Many 類型。"
+    },
+    "correct_answer": "D",
+    "explanation": "前文與後續內容都由有順序的 token 構成。",
+    "unit": 8
+  },
+  {
+    "id": 1157,
+    "section": 8,
+    "text": "關於「四種映射與模型名稱的關係」，下列敘述何者最正確？",
+    "options": {
+      "A": "One-to-One 等描述的是輸入／輸出結構，不是某一個特定演算法的專有名稱。",
+      "B": "One-to-Many 就是 GAN 的另一個正式名稱。",
+      "C": "Many-to-One 就等於 CNN。",
+      "D": "Many-to-Many 只能由 RNN 實作，其他架構都不可能。"
+    },
+    "correct_answer": "A",
+    "explanation": "同一種 I/O 映射可以由不同模型架構實作。",
+    "unit": 8
+  },
+  {
+    "id": 1158,
+    "section": 8,
+    "text": "複習「四種映射與模型名稱的關係」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "One-to-Many 就是 GAN 的另一個正式名稱。",
+      "B": "One-to-One 等描述的是輸入／輸出結構，不是某一個特定演算法的專有名稱。",
+      "C": "Many-to-One 就等於 CNN。",
+      "D": "Many-to-Many 只能由 RNN 實作，其他架構都不可能。"
+    },
+    "correct_answer": "B",
+    "explanation": "同一種 I/O 映射可以由不同模型架構實作。",
+    "unit": 8
+  },
+  {
+    "id": 1159,
+    "section": 8,
+    "text": "關於「判斷映射類型的方法」，下列敘述何者最正確？",
+    "options": {
+      "A": "只要輸入向量維度大於 1 就一律是 Many-to-One。",
+      "B": "只要模型有很多層就一律是 Many-to-Many。",
+      "C": "判斷 One/Many 時應看整體樣本或序列在輸入與輸出端的結構，而不是單純數有幾個特徵欄位或神經元。",
+      "D": "只要輸出有兩個類別選項就算 Many。"
+    },
+    "correct_answer": "C",
+    "explanation": "I/O mapping 的 one/many 主要描述序列／樣本層級的關係。",
+    "unit": 8
+  },
+  {
+    "id": 1160,
+    "section": 8,
+    "text": "複習「判斷映射類型的方法」時，哪一項筆記最適合保留下來？",
+    "options": {
+      "A": "只要輸入向量維度大於 1 就一律是 Many-to-One。",
+      "B": "只要模型有很多層就一律是 Many-to-Many。",
+      "C": "只要輸出有兩個類別選項就算 Many。",
+      "D": "判斷 One/Many 時應看整體樣本或序列在輸入與輸出端的結構，而不是單純數有幾個特徵欄位或神經元。"
+    },
+    "correct_answer": "D",
+    "explanation": "I/O mapping 的 one/many 主要描述序列／樣本層級的關係。",
+    "unit": 8
+  }
+]
