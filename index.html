@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 認證練習系統 - 10 單元 1000 題</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #F9F8F6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", sans-serif;
+            color: #2C2C2C;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #3D3D3D 0%, #4A4A4A 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .tabs-container {
+            display: flex;
+            gap: 10px;
+            padding: 20px;
+            background: #FEFDFB;
+            border-bottom: 1px solid #E8E6E1;
+            flex-wrap: wrap;
+            justify-content: center;
+            overflow-x: auto;
+        }
+
+        .tab-button {
+            padding: 12px 16px;
+            border: 2px solid #D4CECA;
+            background: white;
+            color: #3D3D3D;
+            cursor: pointer;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s;
+            white-space: nowrap;
+            font-size: 13px;
+        }
+
+        .tab-button:hover {
+            border-color: #B8956A;
+            background: #FFF8F0;
+        }
+
+        .tab-button.active {
+            background: linear-gradient(135deg, #3D3D3D 0%, #4A4A4A 100%);
+            color: white;
+            border-color: #3D3D3D;
+        }
+
+        .tab-info {
+            font-size: 11px;
+            opacity: 0.7;
+            display: block;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .content {
+            display: none;
+        }
+
+        .content.active {
+            display: block;
+        }
+
+        .exam-summary {
+            background: #FFF3E0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #B8956A;
+            color: #3D3D3D;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .controls label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 8px;
+            width: 100%;
+        }
+
+        select, button {
+            padding: 12px 16px;
+            border: 1px solid #D4CECA;
+            border-radius: 8px;
+            background: white;
+            color: #2C2C2C;
+            cursor: pointer;
+            font-size: 15px;
+            transition: all 0.3s;
+        }
+
+        select:hover, button:hover {
+            border-color: #B8956A;
+            background: #FFF8F0;
+        }
+
+        button {
+            font-weight: 500;
+        }
+
+        .progress-info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .info-item {
+            background: #FEFDFB;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #E8E6E1;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .progress-bar {
+            background: #E8E6E1;
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #B8956A 0%, #D4A76A 100%);
+            height: 100%;
+            transition: width 0.3s;
+        }
+
+        .question-box {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #E8E6E1;
+            margin-bottom: 20px;
+        }
+
+        .question-text {
+            font-size: 18px;
+            line-height: 1.8;
+            margin: 20px 0;
+            color: #2C2C2C;
+        }
+
+        .options {
+            margin: 25px 0;
+        }
+
+        .option-item {
+            padding: 16px;
+            margin: 12px 0;
+            border: 2px solid #E8E6E1;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .option-item:hover {
+            border-color: #B8956A;
+            background: #FFF8F0;
+        }
+
+        .option-item input {
+            margin-top: 3px;
+        }
+
+        .option-item.selected {
+            border-color: #3D3D3D;
+            background: #FFF3E0;
+        }
+
+        .option-item.correct {
+            border-color: #4CAF50;
+            background: #F1F8F4;
+            color: #2E7D32;
+        }
+
+        .option-item.incorrect {
+            border-color: #F44336;
+            background: #FDF1F0;
+            color: #C62828;
+        }
+
+        .answer-reveal {
+            background: #F1F8F4;
+            border-left: 4px solid #4CAF50;
+            padding: 20px;
+            border-radius: 6px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .answer-reveal.show {
+            display: block;
+        }
+
+        .answer-label {
+            font-weight: 600;
+            color: #2E7D32;
+            margin-bottom: 10px;
+        }
+
+        .explanation {
+            color: #2C2C2C;
+            line-height: 1.8;
+            font-size: 15px;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .nav-btn {
+            flex: 1;
+            max-width: 200px;
+            padding: 14px 20px;
+        }
+
+        @media (max-width: 768px) {
+            .tabs-container {
+                gap: 5px;
+                padding: 15px;
+            }
+
+            .tab-button {
+                padding: 10px 12px;
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 22px;
+            }
+
+            .tabs-container {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .tab-button {
+                width: 100%;
+                text-align: center;
+                padding: 12px 16px;
+                font-size: 14px;
+            }
+
+            .question-box {
+                padding: 16px;
+            }
+
+            .option-item {
+                padding: 12px;
+                font-size: 14px;
+            }
+
+            .nav-btn {
+                max-width: none;
+                padding: 12px 16px;
+                font-size: 14px;
+            }
+
+            .progress-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🐕 AI 認證練習系統</h1>
+        <p>1000 題完整題庫 | 10 單元完整版</p>
+    </div>
+
+    <div class="container">
+        <div class="tabs-container" id="tabsContainer">
+            <!-- 標籤會由 JavaScript 動態生成 -->
+        </div>
+
+        <!-- 10 個單元的內容區域 -->
+        <div id="unit1" class="content active">
+            <div class="exam-summary">
+                <strong>單元 1：基礎概念</strong><br>
+                涵蓋 AI、ML、DL 的核心概念，以及深度學習的發展史與硬體基礎
+            </div>
+            <div class="controls">
+                <button onclick="shuffleQuestions('unit1')">🐕 隨機</button>
+                <button onclick="resetTest('unit1')">🐶 重置</button>
+            </div>
+            <div class="progress-info">
+                <div class="info-item">
+                    <div>題目：<span id="current_unit1">1</span>/60</div>
+                </div>
+                <div class="info-item">
+                    <div>正確率：<span id="accuracy_unit1">0%</span></div>
+                </div>
+                <div class="info-item">
+                    <div>進度：<span id="progress_unit1">0%</span></div>
+                </div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="bar_unit1" style="width: 0%"></div>
+            </div>
+            <div id="questions_unit1"></div>
+            <div class="navigation">
+                <button class="nav-btn" onclick="prevQuestion('unit1')">⬅️ 上一題</button>
+                <button class="nav-btn" style="background: linear-gradient(135deg, #4A4A4A 0%, #3D3D3D 100%); color: white;" onclick="revealAnswer('unit1')">🦴 顯示答案</button>
+                <button class="nav-btn" onclick="nextQuestion('unit1')">下一題 ➡️</button>
+            </div>
+        </div>
+
+        <!-- 其他 9 個單元會由 JavaScript 動態生成 -->
+        <div id="dynamicUnits"></div>
+    </div>
+
+    <script>
+        const units = [
+            { id: 'unit1', name: '基礎概念', file: 'advanced_questions.json', filter: 1, count: 60 },
+            { id: 'unit2', name: '線性回歸與梯度下降', file: 'advanced_questions.json', filter: 2, count: 80 },
+            { id: 'unit3', name: '數據預處理與特徵工程', file: 'advanced_questions.json', filter: 3, count: 60 },
+            { id: 'unit4', name: '邏輯迴歸與模型評估', file: 'advanced_questions.json', filter: 4, count: 40 },
+            { id: 'unit5', name: '神經網路基礎與硬體', file: 'advanced_questions.json', filter: 5, count: 110 },
+            { id: 'unit6', name: '深度學習與計算機視覺', file: 'advanced_questions.json', filter: 6, count: 200 },
+            { id: 'unit7', name: '自然語言處理基礎', file: 'advanced_questions.json', filter: 7, count: 120 },
+            { id: 'unit8', name: 'RNN 與序列模型', file: 'advanced_questions.json', filter: 8, count: 80 },
+            { id: 'unit9', name: '綜合應用案例', file: 'advanced_questions.json', filter: 9, count: 100 },
+            { id: 'unit10', name: '進階理論與優化', file: 'advanced_questions.json', filter: 10, count: 150 }
+        ];
+
+        const state = {};
+        const allData = {};
+
+        // 初始化狀態
+        units.forEach(unit => {
+            state[unit.id] = {
+                currentIndex: 0,
+                questions: [],
+                shuffled: false,
+                answered: {},
+                correct: 0
+            };
+        });
+
+        // 生成標籤頁
+        function generateTabs() {
+            const container = document.getElementById('tabsContainer');
+            units.forEach(unit => {
+                const btn = document.createElement('button');
+                btn.className = unit.id === 'unit1' ? 'tab-button active' : 'tab-button';
+                btn.onclick = () => switchUnit(unit.id);
+                btn.innerHTML = `${unit.name}<span class="tab-info">${unit.count}題</span>`;
+                container.appendChild(btn);
+            });
+        }
+
+        // 生成其他 9 個單元的 HTML
+        function generateDynamicUnits() {
+            const container = document.getElementById('dynamicUnits');
+            for (let i = 1; i < units.length; i++) {
+                const unit = units[i];
+                const unitDiv = document.createElement('div');
+                unitDiv.id = unit.id;
+                unitDiv.className = 'content';
+                unitDiv.innerHTML = `
+                    <div class="exam-summary">
+                        <strong>單元 ${i + 1}：${unit.name}</strong><br>
+                        共 ${unit.count} 題
+                    </div>
+                    <div class="controls">
+                        <button onclick="shuffleQuestions('${unit.id}')">🐕 隨機</button>
+                        <button onclick="resetTest('${unit.id}')">🐶 重置</button>
+                    </div>
+                    <div class="progress-info">
+                        <div class="info-item">
+                            <div>題目：<span id="current_${unit.id}">1</span>/${unit.count}</div>
+                        </div>
+                        <div class="info-item">
+                            <div>正確率：<span id="accuracy_${unit.id}">0%</span></div>
+                        </div>
+                        <div class="info-item">
+                            <div>進度：<span id="progress_${unit.id}">0%</span></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="bar_${unit.id}" style="width: 0%"></div>
+                    </div>
+                    <div id="questions_${unit.id}"></div>
+                    <div class="navigation">
+                        <button class="nav-btn" onclick="prevQuestion('${unit.id}')">⬅️ 上一題</button>
+                        <button class="nav-btn" style="background: linear-gradient(135deg, #4A4A4A 0%, #3D3D3D 100%); color: white;" onclick="revealAnswer('${unit.id}')">🦴 顯示答案</button>
+                        <button class="nav-btn" onclick="nextQuestion('${unit.id}')">下一題 ➡️</button>
+                    </div>
+                `;
+                container.appendChild(unitDiv);
+            }
+        }
+
+        // 載入題目
+        async function loadQuestions() {
+            try {
+                const response = await fetch('advanced_questions.json');
+                const data = await response.json();
+                allData['advanced_questions.json'] = data;
+
+                units.forEach(unit => {
+                    const filtered = data.filter(q => q.unit === unit.filter);
+                    state[unit.id].questions = filtered;
+                    displayQuestion(unit.id);
+                });
+            } catch (error) {
+                console.error('載入題目失敗:', error);
+                document.getElementById('questions_unit1').innerHTML = '<p>載入題目失敗，請檢查網路連接</p>';
+            }
+        }
+
+        // 顯示題目
+        function displayQuestion(unitId) {
+            const s = state[unitId];
+            const unit = units.find(u => u.id === unitId);
+            if (!s.questions.length) return;
+
+            const q = s.questions[s.currentIndex];
+            const container = document.getElementById('questions_' + unitId);
+            const isAnswered = unitId in s.answered;
+            const isCorrect = s.answered[unitId]?.correct;
+
+            let html = `
+                <div class="question-box">
+                    <div style="color: #999;">第 ${s.currentIndex + 1} 題</div>
+                    <div class="question-text">${q.text}</div>
+                    <div class="options">
+            `;
+
+            ['A', 'B', 'C', 'D'].forEach(opt => {
+                const selected = isAnswered && s.answered[unitId].answer === opt;
+                const correct = opt === q.correct_answer;
+                let className = 'option-item';
+                if (selected && !isCorrect) className += ' incorrect';
+                if (correct && isAnswered) className += ' correct';
+                if (selected && isCorrect) className += ' correct';
+
+                html += `
+                    <label class="${className}">
+                        <input type="radio" name="option_${unitId}" value="${opt}" 
+                            ${selected ? 'checked' : ''} 
+                            ${isAnswered ? 'disabled' : 'onchange="selectAnswer(\'' + unitId + '\', \'' + opt + '\')"'}>
+                        <span><strong>${opt}.</strong> ${q.options[opt]}</span>
+                    </label>
+                `;
+            });
+
+            html += `</div></div>`;
+
+            if (isAnswered) {
+                html += `
+                    <div class="answer-reveal show">
+                        <div class="answer-label">✓ 正確答案：${q.correct_answer}</div>
+                        <div class="explanation">${q.explanation}</div>
+                    </div>
+                `;
+            }
+
+            container.innerHTML = html;
+
+            // 更新進度
+            updateProgress(unitId);
+        }
+
+        // 選擇答案
+        function selectAnswer(unitId, answer) {
+            const s = state[unitId];
+            const unit = units.find(u => u.id === unitId);
+            const q = s.questions[s.currentIndex];
+            const isCorrect = answer === q.correct_answer;
+
+            s.answered[unitId] = { answer, correct: isCorrect };
+            if (isCorrect) s.correct++;
+
+            // 禁用所有選項
+            document.querySelectorAll(`input[name="option_${unitId}"]`).forEach(r => r.disabled = true);
+
+            displayQuestion(unitId);
+        }
+
+        // 下一題
+        function nextQuestion(unitId) {
+            const s = state[unitId];
+            const unit = units.find(u => u.id === unitId);
+            if (s.currentIndex < s.questions.length - 1) {
+                s.currentIndex++;
+                displayQuestion(unitId);
+                setTimeout(() => {
+                    document.querySelector('.question-box')?.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
+
+        // 上一題
+        function prevQuestion(unitId) {
+            const s = state[unitId];
+            if (s.currentIndex > 0) {
+                s.currentIndex--;
+                displayQuestion(unitId);
+                setTimeout(() => {
+                    document.querySelector('.question-box')?.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
+
+        // 顯示答案
+        function revealAnswer(unitId) {
+            const s = state[unitId];
+            const unit = units.find(u => u.id === unitId);
+            const q = s.questions[s.currentIndex];
+            if (!(unitId in s.answered)) {
+                // 自動選擇正確答案
+                s.answered[unitId] = { answer: q.correct_answer, correct: true };
+                s.correct++;
+            }
+            displayQuestion(unitId);
+        }
+
+        // 隨機題目
+        function shuffleQuestions(unitId) {
+            const s = state[unitId];
+            if (s.shuffled) {
+                alert('已經是隨機順序');
+                return;
+            }
+            s.questions.sort(() => Math.random() - 0.5);
+            s.currentIndex = 0;
+            s.answered = {};
+            s.correct = 0;
+            s.shuffled = true;
+            displayQuestion(unitId);
+        }
+
+        // 重置測試
+        function resetTest(unitId) {
+            const s = state[unitId];
+            const unit = units.find(u => u.id === unitId);
+            const confirmed = confirm('確定要重置此單元嗎？');
+            if (confirmed) {
+                s.currentIndex = 0;
+                s.answered = {};
+                s.correct = 0;
+                s.shuffled = false;
+                // 重新排序回原始順序
+                loadQuestions();
+            }
+        }
+
+        // 更新進度
+        function updateProgress(unitId) {
+            const s = state[unitId];
+            const total = s.questions.length;
+            const answered = Object.keys(s.answered).length;
+            const correct = s.correct;
+
+            const progressPercent = total > 0 ? Math.round((answered / total) * 100) : 0;
+            const accuracyPercent = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+
+            document.getElementById('current_' + unitId).textContent = s.currentIndex + 1;
+            document.getElementById('progress_' + unitId).textContent = progressPercent + '%';
+            document.getElementById('accuracy_' + unitId).textContent = accuracyPercent + '%';
+            document.getElementById('bar_' + unitId).style.width = progressPercent + '%';
+        }
+
+        // 切換單元
+        function switchUnit(unitId) {
+            // 隱藏所有內容
+            document.querySelectorAll('.content').forEach(c => c.classList.remove('active'));
+            document.getElementById(unitId).classList.add('active');
+
+            // 更新標籤按鈕
+            document.querySelectorAll('.tab-button').forEach((btn, idx) => {
+                btn.classList.toggle('active', units[idx].id === unitId);
+            });
+
+            // 滾動到頂部
+            window.scrollTo(0, 0);
+        }
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            generateTabs();
+            generateDynamicUnits();
+            loadQuestions();
+        });
+    </script>
+</body>
+</html>
