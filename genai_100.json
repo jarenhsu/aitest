@@ -9,7 +9,7 @@
       "D": "只能搜尋網頁"
     },
     "correct_answer": "B",
-    "explanation": "生成式 AI"
+    "explanation": "生成式 AI 能依據輸入產生文字、圖片、聲音、程式碼等新內容，而不只是儲存或查詢既有資料。"
   },
   {
     "id": 2,
@@ -141,7 +141,7 @@
       "D": "完全停止"
     },
     "correct_answer": "B",
-    "explanation": "較高 Temperature"
+    "explanation": "較高 Temperature 會讓模型取樣時的機率分布更分散，輸出因此更多樣、隨機性也更高。"
   },
   {
     "id": 13,
@@ -213,7 +213,7 @@
       "D": "改變使用者密碼"
     },
     "correct_answer": "A",
-    "explanation": "Fine-tuning"
+    "explanation": "Fine-tuning 是在預訓練模型的基礎上，再用特定資料或任務繼續訓練，讓模型更適合該用途。"
   },
   {
     "id": 19,
@@ -237,7 +237,7 @@
       "D": "AI 登入機制"
     },
     "correct_answer": "A",
-    "explanation": "Embedding"
+    "explanation": "Embedding 把文字、圖片等資訊轉成向量，語意相近的內容在向量空間中會比較接近，方便比較與檢索。"
   },
   {
     "id": 21,
@@ -273,7 +273,7 @@
       "D": "完全隨機選字"
     },
     "correct_answer": "A",
-    "explanation": "LLM 會根據上下文估計下一個 Token"
+    "explanation": "LLM 會根據上下文估計下一個 Token 出現的機率，再一個一個接續產生文字。"
   },
   {
     "id": 24,
@@ -309,7 +309,7 @@
       "D": "使用越多專有名詞越好"
     },
     "correct_answer": "B",
-    "explanation": "好 Prompt"
+    "explanation": "好 Prompt 的重點是任務清楚、要求具體，並提供足夠的背景資訊，而不是越長越好。"
   },
   {
     "id": 27,
@@ -609,7 +609,7 @@
       "D": "自動保證法律判決結果"
     },
     "correct_answer": "A",
-    "explanation": "AI"
+    "explanation": "AI 很適合產生初稿、整理資料等輔助工作；投資、判決、重大醫療等高風險決策仍需由專業人員負責。"
   },
   {
     "id": 52,
@@ -681,7 +681,7 @@
       "D": "不需資安檢查"
     },
     "correct_answer": "A",
-    "explanation": "AI"
+    "explanation": "AI 產生的程式碼可能有錯誤或安全漏洞，上線前應經過測試與 Code Review。"
   },
   {
     "id": 58,
@@ -705,7 +705,7 @@
       "D": "刪掉資料庫"
     },
     "correct_answer": "A",
-    "explanation": "SQL"
+    "explanation": "SQL 可能修改或刪除資料，執行前應先確認語法正確，並評估會影響哪些資料。"
   },
   {
     "id": 60,
@@ -873,7 +873,7 @@
       "D": "法律責任主體"
     },
     "correct_answer": "A",
-    "explanation": "AI"
+    "explanation": "AI 最適合作為提升效率的輔助工具，重要判斷與最終責任仍在人身上。"
   },
   {
     "id": 74,
@@ -945,7 +945,7 @@
       "D": "所有國家都完全相同"
     },
     "correct_answer": "B",
-    "explanation": "AI"
+    "explanation": "AI 生成圖片仍可能涉及著作權、商標或肖像權等問題，各國法規也不盡相同，不能一概認定沒問題。"
   },
   {
     "id": 80,
@@ -1017,7 +1017,7 @@
       "D": "AI 一定公開原始碼"
     },
     "correct_answer": "A",
-    "explanation": "透明度通常涉及揭露 AI"
+    "explanation": "透明度通常涉及揭露 AI 的使用方式、能力限制與重要決策依據，讓使用者知道自己面對的是什麼。"
   },
   {
     "id": 86,
@@ -1041,7 +1041,7 @@
       "D": "只要 AI 免費就可以"
     },
     "correct_answer": "B",
-    "explanation": "使用與採納 AI"
+    "explanation": "使用與採納 AI 輸出的人仍需為結果負責，不能把錯誤一律推給 AI。"
   },
   {
     "id": 88,

@@ -45,7 +45,7 @@
       "D": "使用者帳號"
     },
     "correct_answer": "B",
-    "explanation": "文字會先被切分成 token，再由模型進行運算。Token"
+    "explanation": "文字會先被切分成 token，再由模型進行運算。Token 可能是一個字、一個詞或詞的一部分，是模型處理文字的基本單位。"
   },
   {
     "id": 5,
@@ -69,7 +69,7 @@
       "D": "帳號權限"
     },
     "correct_answer": "B",
-    "explanation": "Context"
+    "explanation": "Context 指模型回答時能參考的上下文，包含對話內容、提供的文件與指令等。"
   },
   {
     "id": 7,
@@ -105,7 +105,7 @@
       "D": "自動刪除資料"
     },
     "correct_answer": "A",
-    "explanation": "Attention"
+    "explanation": "Attention 讓模型在處理每個 token 時，判斷輸入中哪些部分與它最相關，並給予較高權重。"
   },
   {
     "id": 10,
@@ -153,7 +153,7 @@
       "D": "一定更短"
     },
     "correct_answer": "B",
-    "explanation": "較高 temperature"
+    "explanation": "較高 temperature 會讓取樣分布更分散，輸出更多樣，但也可能更不穩定。"
   },
   {
     "id": 14,
@@ -165,7 +165,7 @@
       "D": "AI 回答太慢"
     },
     "correct_answer": "B",
-    "explanation": "生成式 AI"
+    "explanation": "生成式 AI 可能產生語句流暢、看似合理，但事實錯誤或根本不存在的資訊，這種現象稱為幻覺。"
   },
   {
     "id": 15,
@@ -189,7 +189,7 @@
       "D": "帳號驗證"
     },
     "correct_answer": "A",
-    "explanation": "Embedding"
+    "explanation": "Embedding 把資訊轉成向量表示，語意相近的內容向量距離較近，可用來比較語意或做相似度搜尋。"
   },
   {
     "id": 17,
@@ -201,7 +201,7 @@
       "D": "刪除資料"
     },
     "correct_answer": "A",
-    "explanation": "RAG 是 Retrieval-Augmented"
+    "explanation": "RAG 是 Retrieval-Augmented Generation，先從外部資料檢索相關內容，再交給模型生成回答。"
   },
   {
     "id": 18,
@@ -345,7 +345,7 @@
       "D": "Prompt 會自動消失"
     },
     "correct_answer": "A",
-    "explanation": "生成式模型常以機率分布選擇後續"
+    "explanation": "生成式模型常以機率分布選擇後續 token，因此同一個 Prompt 每次的輸出可能不完全相同。"
   },
   {
     "id": 30,
@@ -489,7 +489,7 @@
       "D": "不需要權限管理"
     },
     "correct_answer": "A",
-    "explanation": "Agent"
+    "explanation": "Agent 除了對話，還能規劃步驟並呼叫工具（如搜尋、程式、API）執行動作，因此更需要權限控管。"
   },
   {
     "id": 42,
@@ -525,7 +525,7 @@
       "D": "生成式 AI 不能處理文字"
     },
     "correct_answer": "A",
-    "explanation": "OCR 是光學字元辨識；生成式 AI"
+    "explanation": "OCR 是光學字元辨識；生成式 AI 則著重理解內容並產生新的文字、圖片等輸出。"
   },
   {
     "id": 45,
@@ -573,7 +573,7 @@
       "D": "會停止輸出"
     },
     "correct_answer": "B",
-    "explanation": "低 temperature"
+    "explanation": "低 temperature 能讓輸出較穩定，但系統實作、平行運算等因素仍可能造成細微差異，無法保證 100% 相同。"
   },
   {
     "id": 49,
@@ -597,7 +597,7 @@
       "D": "AI 一定比所有專家更可靠"
     },
     "correct_answer": "A",
-    "explanation": "生成式 AI"
+    "explanation": "生成式 AI 可以大幅協助工作，但可能出錯，重要內容仍需由人判斷與驗證。"
   },
   {
     "id": 51,
@@ -609,7 +609,7 @@
       "D": "專有名詞越多越好"
     },
     "correct_answer": "B",
-    "explanation": "有效 Prompt"
+    "explanation": "有效 Prompt 的關鍵是清楚、具體，並提供完成任務所需的相關資訊。"
   },
   {
     "id": 53,
@@ -1197,7 +1197,7 @@
       "D": "無人工審查直接做重大醫療決策"
     },
     "correct_answer": "A",
-    "explanation": "生成式 AI"
+    "explanation": "生成式 AI 適合產生報告初稿等輔助性工作；法院判決、重大醫療等決策不應交由 AI 自動完成。"
   },
   {
     "id": 102,
@@ -1221,7 +1221,7 @@
       "D": "取代所有管理者"
     },
     "correct_answer": "A",
-    "explanation": "會議逐字稿可由 AI"
+    "explanation": "會議逐字稿可由 AI 整理成摘要、決議與待辦事項，但仍應由與會者確認內容。"
   },
   {
     "id": 104,
@@ -1713,7 +1713,7 @@
       "D": "刪除錄音"
     },
     "correct_answer": "A",
-    "explanation": "轉錄後可利用生成式 AI"
+    "explanation": "轉錄後可利用生成式 AI 做摘要、章節整理與關鍵字標記，但說話者身分等細節仍需人工確認。"
   },
   {
     "id": 145,
@@ -2109,7 +2109,7 @@
       "D": "完全沒有差異"
     },
     "correct_answer": "A",
-    "explanation": "Misinformation 可是不實但未必故意；disinformation"
+    "explanation": "Misinformation 可是不實但未必故意；disinformation 則是刻意製造或散布不實資訊，帶有誤導意圖。"
   },
   {
     "id": 178,
@@ -2385,6 +2385,6 @@
       "D": "只要模型夠大就不用治理"
     },
     "correct_answer": "A",
-    "explanation": "成熟的 AI"
+    "explanation": "成熟的 AI 應用需要在效益、準確性、隱私、安全、公平、透明與責任之間取得平衡，而不是只追求單一指標。"
   }
 ]

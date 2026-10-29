@@ -845,9 +845,9 @@
             const q = mockState.questions[mockState.currentIndex];
             const ans = mockState.answers[mockState.currentIndex];
             const names = {1:'AI倫理',2:'Python',3:'AI理論',4:'AI技術應用'};
-            let h = `<div class="question-box"><div class="domain-badge">${names[q.section]}</div><div style="color:#999;">第 ${mockState.currentIndex+1} 題</div><div class="question-text">${q.text}</div><div class="options">`;
+            let h = `<div class="question-box"><div class="domain-badge">${names[q.section]}</div><div style="color:#999;">第 ${mockState.currentIndex+1} 題</div><div class="question-text">${formatPythonText(q.text)}</div><div class="options">`;
             ['A','B','C','D'].forEach(opt => {
-                h += `<label class="option-item"><input type="radio" name="mockOpt" value="${opt}" ${ans===opt?'checked':''} ${mockState.submitted?'disabled':''} onchange="selectMockAnswer('${opt}')"><span><strong>${opt}.</strong> ${q.options[opt]}</span></label>`;
+                h += `<label class="option-item"><input type="radio" name="mockOpt" value="${opt}" ${ans===opt?'checked':''} ${mockState.submitted?'disabled':''} onchange="selectMockAnswer('${opt}')"><span><strong>${opt}.</strong> ${formatPythonText(q.options[opt])}</span></label>`;
             });
             h += '</div></div>';
             document.getElementById('mockQuestion').innerHTML = h;
@@ -883,7 +883,7 @@
             mockState.questions.forEach((q,i)=>{
                 if(mockState.answers[i]!==q.correct_answer){
                     wrong++;
-                    review += `<div class="answer-reveal show" style="margin-bottom:10px;"><strong>第 ${i+1} 題：</strong>${q.text}<br>你的答案：${mockState.answers[i]||'未作答'}｜正確：${q.correct_answer}<div class="explanation">${q.explanation}</div></div>`;
+                    review += `<div class="answer-reveal show" style="margin-bottom:10px;"><strong>第 ${i+1} 題：</strong>${formatPythonText(q.text)}<br>你的答案：${mockState.answers[i]||'未作答'}｜正確：${q.correct_answer}<div class="explanation">${formatPythonText(q.explanation)}</div></div>`;
                 }
             });
             if(!wrong) review += '<p>🎉 全部答對。</p>';
@@ -1214,7 +1214,7 @@
             const isAnswered = answerKey in s.answered;
             const isCorrect = s.answered[answerKey]?.correct;
 
-            let html = `<div class="question-box"><div style="color: #999;">第 ${s.currentIndex + 1} 題</div><div class="question-text">${q.text}</div><div class="options">`;
+            let html = `<div class="question-box"><div style="color: #999;">第 ${s.currentIndex + 1} 題</div><div class="question-text">${formatPythonText(q.text)}</div><div class="options">`;
 
             ['A', 'B', 'C', 'D'].forEach(opt => {
                 const selected = isAnswered && s.answered[answerKey].answer === opt;
@@ -1224,12 +1224,12 @@
                 if (correct && isAnswered) className += ' correct';
                 if (selected && isCorrect) className += ' correct';
 
-                html += `<label class="${className}"><input type="radio" name="option_${id}_${s.currentIndex}" value="${opt}" ${selected ? 'checked' : ''} ${isAnswered ? 'disabled' : `onchange="selectAnswer('${id}', '${opt}')"`}><span><strong>${opt}.</strong> ${q.options[opt]}</span></label>`;
+                html += `<label class="${className}"><input type="radio" name="option_${id}_${s.currentIndex}" value="${opt}" ${selected ? 'checked' : ''} ${isAnswered ? 'disabled' : `onchange="selectAnswer('${id}', '${opt}')"`}><span><strong>${opt}.</strong> ${formatPythonText(q.options[opt])}</span></label>`;
             });
 
             html += `</div></div>`;
             if (isAnswered) {
-                html += `<div class="answer-reveal show"><div class="answer-label">✓ 正確答案：${q.correct_answer}</div><div class="explanation">${q.explanation}</div></div>`;
+                html += `<div class="answer-reveal show"><div class="answer-label">✓ 正確答案：${q.correct_answer}</div><div class="explanation">${formatPythonText(q.explanation)}</div></div>`;
             }
 
             container.innerHTML = html;
